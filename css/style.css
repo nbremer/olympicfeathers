@@ -1,8 +1,18 @@
 body {
-	/*background-color: #d2d2d2;*/
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
+}
+
+a, a:link, a:visited, a:active {
+  color: black;
+  border-bottom: 1px dotted rgba(0, 0, 0, .5);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 #olympic-wrapper {
@@ -65,6 +75,22 @@ body {
 	font-style: italic;
 	color: #a2a2a2;
 	font-weight: 300;
+}
+
+#credits {
+	font-size: 12px;
+	font-weight: 400;
+	color: #656565;
+}
+.credit-bold {
+	font-weight: 500;
+	font-size: 14px;
+	color: #191919;
+}
+.credit-divider {
+	color: #b7b7b7;
+	font-weight: 500;
+	padding: 0px 10px;
 }
 
 /* tooltip */
