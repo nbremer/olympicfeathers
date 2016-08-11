@@ -1,0 +1,301 @@
+body {
+	/*background-color: #d2d2d2;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+#olympic-wrapper {
+	padding: 50px 25px;
+	width: 2000px;
+}
+
+.top-section-wrapper {
+	display: inline-block;
+	margin-right: 25px;
+	vertical-align: top;
+}
+
+.top-title-wrapper {
+	padding-left: 100px;
+}
+
+#olympic-top-title {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 32px;
+	width: 200px;
+	text-align: right;
+	color: #191919;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+#olympic-top-subtitle {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 24px;
+	width: 175px;
+	text-align: right;
+	color: #17a554;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+
+#olympic-introduction {
+	width: 900px;
+	line-height: 22px;
+}
+
+#olympic-introduction p {
+	font-weight: 400;
+	font-size: 13px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: #171717;
+}
+
+#olympic-introduction .bold-start {
+	font-weight: 500;
+	color: black;
+}
+
+#olympic-introduction .visual-note {
+	font-style: italic;
+	color: #a2a2a2;
+	font-weight: 300;
+}
+
+/* tooltip */
+#tooltip {
+  text-align: center;  
+  z-index: 1000;
+  position: absolute;
+  opacity: 0;
+}
+
+#tooltip-container {
+  position: absolute;
+  bottom: 0;
+  width: 250px;
+  left: -125px; /* 250/2 */
+  line-height: 16px;
+  padding: 10px;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2);  
+  border: 1px solid rgba(200,200,200,0.5);
+  cursor: default;
+  pointer-events: none;
+}
+
+#tooltip .tooltip-event {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: #333333;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 500;  
+}
+
+#tooltip .tooltip-rule {
+  height: 1px;
+  margin: 1px auto 3px;
+  background: #d1d1d1;
+  width: 200px;
+}
+
+#tooltip .tooltip-discipline {
+  color: #a2a2a2;
+  font-size: 12px;   
+  margin-bottom: 6px;  
+  font-weight: 300;
+}
+
+#tooltip-athlete {
+  margin-top: 15px;
+  color: #171717;
+  font-size: 14px;
+}
+
+#tooltip-country {
+  margin-top: 1px;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#tooltip-edition {
+  margin-top: 5px;
+  color: #5f5f5f;
+  font-size: 11px;
+}
+
+/* chart */ 
+
+#olympic-chart {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.discipline-title {
+	font-size: 11px;
+	font-weight: 400;
+}
+
+.time-line {
+	stroke: white;
+	stroke-width: 2px;
+	pointer-events: none;
+}
+
+.year-outline {
+	fill: white;
+	pointer-events: none;
+}
+
+.feather-background {
+	fill: #e8eef3;
+}
+
+.war-arc {
+	fill: white;
+	pointer-events: none;
+}
+
+.feather-outline {
+	stroke: #949494;
+	stroke-width: 1px;
+	fill: none;
+}
+
+/* chart axis */
+
+.time-axis-outer-years {
+	font-size: 13px;
+	fill: #191919;
+	text-anchor: middle;
+}
+
+.time-axis-small-year {
+	font-size: 8px;
+	fill: #9b9b9b;
+	text-anchor: middle;
+}
+
+.time-axis-marker {
+	stroke: #9e9e9e; /*#9e9e9e;*/
+	stroke-width: 1px;
+}
+
+/* chart annotations */
+
+.annotation-circle {
+	fill: white;
+	stroke: black;
+	stroke-width: 2px;
+	pointer-events: none;
+}
+
+.annotation-text-title {
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	pointer-events: none;
+}
+
+.annotation-text {
+	font-size: 12px;
+	pointer-events: none;
+}
+
+.annotation-line {
+	pointer-events: none;
+}
+
+/* the other sports chart */
+
+.other-sports-title {
+	font-size: 18px;
+	margin-top: 15px;
+	fill: #191919;
+	font-weight: 500;
+}
+
+.discipline-other-label {
+	text-anchor: end;
+	font-size: 11px;
+	font-weight: 400;
+}
+
+.edition-other-label {
+	text-anchor: start;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.other-sports-note {
+	fill: #979797;
+	font-size: 11px;
+	font-weight: 400;
+}
+
+/* legend */
+
+#olympic-top-section-wrapper {
+	width: 2400px;
+}
+
+.olympic-chart-legend-wrapper {
+	float: left;
+	width: 750px;
+	padding-right: 20px;
+}
+
+.olympic-legend {
+	float: left;
+}
+
+#olympic-chart-legend-explanation {
+	width: 200px;
+}
+
+/* legend charts */
+
+.gender-sign {
+	font-size: 24px;
+	cursor: default;
+	fill: #808080;
+}
+
+.legend-annotation-line {
+	stroke: #acacac;
+	stroke-width: 1px;
+}
+
+.legend-annotation-text {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.legend-annotation-year {
+	font-size: 13px;
+	text-anchor: start;
+}
+
+.olympic-circle {
+	stroke-width: 6px;
+	fill: none;
+	mix-blend-mode: multiply;
+}
+
+.olympic-circle-invisible-path {
+	fill: none;
+}
+
+.olympic-circle-text {
+	font-size: 14px;
+	text-anchor: middle;
+}

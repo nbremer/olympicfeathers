@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <title>Olympic Feathers</title>
+	    <meta name="author" content="Nadieh Bremer">
+	    <meta name="description" content="Olympics - Nadieh - Olympic Feathers">
+	    <meta name="keywords" content="data, visualization, visualisation, data visualization, data visualisation, information, information visualization, information visualisation, dataviz, datavis, infoviz, infovis, collaboration, data art">
+		
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500" rel="stylesheet">
+
+		<!-- Styling -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="js/createOtherSportsChart.js"></script>
+		<script src="js/createAnnotations.js"></script>
+		<script src="js/createFeatherLegend.js"></script>
+		<script src="js/createColorLegend.js"></script>
+		
+	</head>
+	<body>
+		
+		<div id="olympic-wrapper">
+			
+			<div class="top-section-wrapper top-title-wrapper">
+				<h1 id="olympic-top-title">All Olympic Gold Medal Winners</h1>
+				<h3 id="olympic-top-subtitle">summer editions since 1896</h3>
+			</div>
+			
+			<div class="top-section-wrapper">
+				<div id="olympic-introduction">
+				<p class="bold-start">More than 5000 Olympic events have had a winner, rewarded with a gold medal from 1904 onwards, in the Summer Olympics since the first games of 1896. Investigate the visuals below to see how each of these medals has been won in the 56 different sporting disciplines that have competed at the games, of which 41 are still held at Rio 2016.</p>
+				<p>Most of the Olympic sports started out being a men only event. Thankfully this started to change during the 2nd half of the last century. Even the number of medals that can be won for one discipline is slowly becoming the same for both genders. Today at Rio there are 3 disciplines left in which only one gender can compete; the Greco-Roman wrestling, already at the games since the very first edition, is done solely by men. Rhythmic gymnastics & synchronized swimming on the other hand, both at the Olympics since 1984, are only performed by women.</p>
+				<p>Although Rio could have been celebrating the 31st Olympic Games, 3 editions have been cancelled, due to WW I in 1916 and WW II in 1940 & 1944. And yes, Tug of war has truly been part of 5 Olympic Games, from 1900 to 1920.</p>
+				<p class="visual-note">Instead of a medal being represented by a specific width, in these visuals 1 medal always has the same arc length. This makes sure that the more recent the edition of the games, the more emphasis it gets due to the increasing size of the ring.</p>
+				</div>
+			</div>
+
+			<div id="olympic-chart"></div>
+
+		</div>
+		
+		<div class="olympic-chart-legend-wrapper">
+			<div id="olympic-chart-legend-explanation" class="olympic-legend">
+				<p>Each circle represents a grouping of approximately similar themed sports, such as water or ball sports.Within a circle we find arcs, but let's call them feathers, where each feather represents one Olympic discipline.</p>
+				<p>Each feather is split up into 30 sections radiating outward, starting from the first Olympic Games in 1896 at the center to the current Olympic Games in Rio in 2016 at the other end. Each discipline is twice as wide (men and women get the same width in total) as the maximum number of medals that could ever be won during one edition for a gender.</p>
+				<p>The next split is by gender. For the example feather to the left, the small radial bars going to the top are gold medals won by women. You can also recognize the women's side by the light pink-red background. The bars going towards the bottom, with the light blue background are gold medals won by men.</p>
+				<p>Finally, the length of a radial bar represents the number of medals won during one Olympic edition and for one specific gender (for medals won by a men+woman team each gender gets 0.5 medal assigned). The bars are colored according to the continent in which the country of the winning athlete or team lies.</p>
+				<p>For each Olympic edition and gender, the bars are stacked from the continent that won the most medals to the continent that won the least (for that particular discipline, edition & gender combination).</p>
+			</div>
+			<div id="olympic-chart-legend" class="olympic-legend"></div>
+		</div>
+
+		<div class="olympic-chart-legend-wrapper">
+			<div id="olympic-color-legend"></div>
+		</div>
+
+		<!-- Create div structure for tooltip -->
+		<div id="tooltip">
+			<div id="tooltip-container">
+				<div class="tooltip-event"></div>
+				<div class="tooltip-rule"></div>
+				<div class="tooltip-discipline"></div>
+				
+				<div id="tooltip-athlete"></div>
+				<div id="tooltip-country"></div>
+				<div id="tooltip-edition"></div>
+			</div>
+		</div>
+		
+		<script src="js/script.js"></script>
+		
+	</body>
+</html>

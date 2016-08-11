@@ -1,0 +1,27 @@
+"discipline","edition","eventName","continent","country","city","athlete","startValue","value"
+"Basque Pelota",1900,"cesta punta","Europe","Spain","Paris","",0,1
+"Cricket",1900,"cricket","Europe","United Kingdom","Paris","",0,1
+"Croquet",1900,"double","Europe","France","Paris","",0,1
+"Croquet",1900,"individual 1 ball","Europe","France","Paris","AUMOITTE",1,1
+"Croquet",1900,"individual 2 balls","Europe","France","Paris","WAYDELICH",2,1
+"Figure skating",1908,"pairs","Europe","Germany","London","BURGER, Heinrich",0,0.5
+"Figure skating",1908,"pairs","Europe","Germany","London","HÜBLER, Anna",0.5,0.5
+"Figure skating",1908,"special figures","Europe","Russian Empire","London","PANIN, Nikolay",1,1
+"Figure skating",1908,"individual","Europe","Sweden","London","SALCHOW, Ulrich",2,1
+"Figure skating",1908,"individual","Europe","United Kingdom","London","SYERS, Florence",3,1
+"Figure skating",1920,"individual","Europe","Sweden","Antwerp","GRAFSTRÖM, Gillis",0,1
+"Figure skating",1920,"pairs","Europe","Finland","Antwerp","JAKOBSSON, Ludowika",1,0.5
+"Figure skating",1920,"pairs","Europe","Finland","Antwerp","JAKOBSSON, Walter",1.5,0.5
+"Figure skating",1920,"individual","Europe","Sweden","Antwerp","JULIN-MAUROY, Magda",2,1
+"Ice Hockey",1920,"ice hockey","Americas","Canada","Antwerp","",0,1
+"Jeu de Paume",1908,"individual","Americas","United States","London","GOULD, Jay",0,1
+"Lacrosse",1904,"lacrosse","Americas","Canada","St Louis","",0,1
+"Lacrosse",1908,"lacrosse","Americas","Canada","London","",0,1
+"Rackets",1908,"double","Europe","United Kingdom","London","",0,1
+"Rackets",1908,"individual","Europe","United Kingdom","London","NOEL, Evan Baille",1,1
+"Roque",1904,"individual","Americas","United States","St Louis","JACOBUS, Charles",0,1
+"Vaulting",1920,"figure riding team","Europe","Belgium","Antwerp","",0,1
+"Vaulting",1920,"figure riding individual","Europe","Belgium","Antwerp","BOUCKAERT, T.",1,1
+"Water Motorspor",1908,"class B up to 60 feet","Europe","United Kingdom","London","",0,1
+"Water Motorspor",1908,"8m class C","Europe","United Kingdom","London","",1,1
+"Water Motorspor",1908,"open class A","Europe","France","London","THUBRON, Emile",2,1
