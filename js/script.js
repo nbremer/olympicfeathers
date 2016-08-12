@@ -180,7 +180,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 	////////////////////////////////////////////////////////////
 
 	//Locations of each circle
-	circleLocations = [
+	var circleLocations = [
 		{id: 1, x: outerRadius * 1, y: outerRadius},
 		{id: 2, x: outerRadius * 2.5, y: height - outerRadius},
 		{id: 3, x: outerRadius * 4, y: outerRadius},
@@ -357,7 +357,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 
 	createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDegree, timeScale, startYear, endYear, color, arcColors, warYears, groupYears);
 
-	createColorLegend(color);
+	createColorLegend(color, outerRadius);
 
 });//d3.csv
 

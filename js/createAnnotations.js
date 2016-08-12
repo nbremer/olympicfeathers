@@ -242,7 +242,7 @@ function createAnnotations(annotationGroup, timeScale, color, circleLocations) {
 		.attr("dy", "0em")
 		.style("text-anchor", "end")
 		.text("Although taking home half of the gold cycling track medals in 2004, Australia didn't get any gold 4 years later " +
-			  " after Great Britain discovered its love for, and talents in track cycling.")
+			  " after Great Britain discovered its love for, and talents in, track cycling.")
 		.call(wrap, 180);
 
 	////////////////////////////////////////////////////////////

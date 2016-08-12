@@ -4,15 +4,15 @@
 
 function createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDegree, timeScale, startYear, endYear, color, arcColors, warYears, groupYears) {
 	
-	var margin = {top: 10, right: 30, bottom: 40, left: 30},
-		legendWidth = outerRadius * 1.5,
-		legendHeight = 300 - margin.top - margin.bottom; 
+	var margin = {top: 50, right: 30, bottom: 40, left: 10},
+		legendW = outerRadius * 1.35,
+		legendH = 200 - margin.top - margin.bottom; 
 
 	var svgLegend = d3.select("#olympic-chart-legend").append("svg")
-	    .attr("width", legendWidth + margin.left + margin.right)
-	    .attr("height", legendHeight + margin.top + margin.bottom)
+	    .attr("width", legendW + margin.left + margin.right)
+	    .attr("height", legendH + margin.top + margin.bottom)
 	    .append("g")
-	    .attr("transform", "translate(" + margin.left + "," + (margin.top + legendHeight/2) + ")");
+	    .attr("transform", "translate(" + margin.left + "," + (margin.top + legendH/2) + ")");
 
 	var legendYears = d3.range(startYear, endYear + 4, 4);
 	legendYears = legendYears.filter(function(d) { return warYears.indexOf(d) === -1; });
@@ -118,68 +118,75 @@ function createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDe
 		.attr("class", "war-arc")
 		.attr("d", warLegendArc);
 
+	//Title
+	svgLegend.append("text")
+		.attr("class", "legend-title")
+		.attr("x", timeScale(1896) )
+		.attr("y", -legendH/2 - (margin.top-10) )
+		.attr("dy", "0.5em")
+		.text("A feather = One discipline");
+
+	//Label
+	svgLegend.append("text")
+		.attr("class", "discipline-label-legend")
+		.attr("x", timeScale(2028) )
+		.attr("y", 0 )
+		.attr("dy", "0.5em")
+		.text("Discipline name");
+
 	//Add gender info to the end
-	featherLegend.selectAll(".gender-sign")
-		.data(["&#9794;","&#9792;"])
+	svgLegend.selectAll(".gender-text")
+		.data(["Women","Men"])
 		.enter().append("text")
-		.attr("class", "gender-sign")
-		.attr("transform", function(d, i) { 
-			var sign = i === 0 ? 1 : -1;
-			var rotation = 90 + sign * legendWidth * medalDegree;
-			return "rotate(" + rotation + ")translate(" + -timeScale(2028) + ")rotate(180)";
+		.attr("class", "gender-text")
+		.attr("x", function(d, i) { return timeScale(2028); })
+		.attr("y", function(d) {
+			var sign = d === "Men" ? -1 : 1;
+			return timeScale(2028) * Math.sin(sign * (legendWidth+2) * medalDegree);
 		})
+		.attr("dy", "0.5em")
 		.html(function(d) { return d; });
 
 	////////////////////////////////////////////////////////////
 	/////////////// Annotations for the legend /////////////////
 	////////////////////////////////////////////////////////////
 
-	//Explain the widht of 1 medal
-	var oneMedalOffset = 12;
-	var oneMedalWidth = svgLegend.append("g")
-		.attr("class", "one-medal-width-annotation")
-		.attr("transform", "translate(" + 0 + "," + oneMedalOffset + ")");
-	//The line
-	oneMedalWidth.append("line")
-		.attr("class", "legend-annotation-line")
-		.attr("x1", timeScale(2024))
-		.attr("x2", timeScale(2044));
-	//The text
-	oneMedalWidth.append("text")
-		.attr("class", "legend-annotation-text")
-		.attr("x", timeScale(2048))
-		.attr("dy", "0.35em")
-		.text("width of 1 medal");
+
 
 	//Time
-	var timeLineStartWrapper = svgLegend.append("g")
+	var timeLineWrapper = svgLegend.append("g")
 		.attr("class", "time-axis-annotation")
-		.attr("transform", "translate(" + timeScale(1896) + "," + 10 + ")");
+		.attr("transform", "translate(" + 0 + "," + 70 + ")");
 	//The line
-	timeLineStartWrapper.append("line")
+	timeLineWrapper.append("line")
 		.attr("class", "legend-annotation-line")
-		.attr("y2", 100);
-	//The text
-	timeLineStartWrapper.append("text")
+		.attr("x1", timeScale(startYear) )
+		.attr("x2", timeScale(endYear) );
+	timeLineWrapper.append("line")
+		.attr("class", "legend-annotation-start-line")
+		.attr("x1", timeScale(startYear) )
+		.attr("x2", timeScale(startYear) )
+		.attr("y1", -2 )
+		.attr("y2", 2 );
+	timeLineWrapper.append("line")
+		.attr("class", "legend-annotation-start-line")
+		.attr("x1", timeScale(endYear) )
+		.attr("x2", timeScale(endYear) )
+		.attr("y1", -2 )
+		.attr("y2", 2 );
+	//1896
+	timeLineWrapper.append("text")
 		.attr("class", "legend-annotation-year")
-		.attr("y", 120)
+		.attr("x", timeScale(startYear) )
+		.attr("dy", "1.5em")
+		.style("text-anchor", "start")
 		.text(startYear);
-
-	var timeLineEndWrapper = svgLegend.append("g")
-		.attr("class", "time-axis-annotation")
-		.attr("transform", "translate(" + timeScale(2016) + "," + 10 + ")");
-	//The line
-	timeLineEndWrapper.append("line")
-		.attr("class", "legend-annotation-line")
-		.attr("y1", 75)
-		.attr("y2", 100);
-	//The text
-	timeLineEndWrapper.append("text")
+	//2016
+	timeLineWrapper.append("text")
 		.attr("class", "legend-annotation-year")
-		.attr("y", 120)
+		.attr("x", timeScale(endYear) )
+		.attr("dy", "1.5em")
+		.style("text-anchor", "end")
 		.text(endYear);
-
-	//Show war years in legend?
-
 
 }//createFeatherLegend

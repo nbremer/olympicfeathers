@@ -2,17 +2,19 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
+	/*transform: scale(0.6);*/
+   	/*transform-origin: 0% 0%;*/
 }
 
 a, a:link, a:visited, a:active {
-  color: black;
-  border-bottom: 1px dotted rgba(0, 0, 0, .5);
+  color: #17a554;
+  border-bottom: 1px dotted rgba(23, 165, 84, .5);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #17a554;
 }
 
 #olympic-wrapper {
@@ -20,17 +22,17 @@ a:hover {
 	width: 2000px;
 }
 
-.top-section-wrapper {
+.olympic-section-wrapper {
 	display: inline-block;
 	margin-right: 25px;
 	vertical-align: top;
 }
 
-.top-title-wrapper {
-	padding-left: 100px;
-}
+/*.head-title-wrapper {
+	padding-left: 0px;
+}*/
 
-#olympic-top-title {
+#olympic-head-title {
 	font-weight: 400;
 	font-size: 30px;
 	line-height: 32px;
@@ -54,19 +56,26 @@ a:hover {
 }
 
 #olympic-introduction {
-	width: 900px;
-	line-height: 22px;
+	width: 950px;
+	line-height: 20px;
 }
 
-#olympic-introduction p {
+#olympic-feather-legend {
+	width: 600px;
+	line-height: 20px;
+}
+
+#olympic-introduction p,
+#olympic-feather-legend p {
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 12px;
 	margin-top: 0px;
 	margin-bottom: 10px;
 	color: #171717;
 }
 
-#olympic-introduction .bold-start {
+#olympic-introduction .bold-start,
+#olympic-feather-legend .bold-start {
 	font-weight: 500;
 	color: black;
 }
@@ -77,21 +86,40 @@ a:hover {
 	font-weight: 300;
 }
 
+/* legend divs */
+
+#olympic-legend-visual-wrapper {
+	display: inline-block;
+}
+
+#olympic-chart-legend {
+	width: 400px;
+}
+
+/* credits */
+
 #credits {
-	font-size: 12px;
-	font-weight: 400;
-	color: #656565;
 	margin-top: 25px;
 }
+
 .credit-bold {
 	font-weight: 500;
 	font-size: 14px;
 	color: #191919;
 }
+
 .credit-divider {
 	color: #b7b7b7;
 	font-weight: 500;
+	font-size: 14px;
 	padding: 0px 10px;
+}
+
+.credit-note {
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #656565;
 }
 
 /* tooltip */
@@ -164,7 +192,9 @@ a:hover {
 
 #olympic-chart {
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 75px;
+	/*transform: scale(0.7);*/
+   	/*transform-origin: 0% 0%;*/
 }
 
 .discipline-title {
@@ -269,60 +299,48 @@ a:hover {
 	font-weight: 400;
 }
 
-/* legend */
-
-#olympic-top-section-wrapper {
-	width: 2400px;
-}
-
-.olympic-chart-legend-wrapper {
-	float: left;
-	width: 750px;
-	padding-right: 20px;
-}
-
-.olympic-legend {
-	float: left;
-}
-
-#olympic-chart-legend-explanation {
-	width: 200px;
-}
-
 /* legend charts */
 
-.gender-sign {
-	font-size: 24px;
-	cursor: default;
-	fill: #808080;
+.legend-title {
+	/*text-anchor: middle;*/
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.discipline-label-legend {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.gender-text {
+	font-size: 11px;
+	fill: #9a9a9a;
+}
+
+.legend-annotation-year {
+	font-size: 11px;
+	fill: #9a9a9a;
 }
 
 .legend-annotation-line {
 	stroke: #acacac;
 	stroke-width: 1px;
+	stroke-dasharray: 3 3;
 }
 
-.legend-annotation-text {
-	font-size: 14px;
-	font-weight: 400;
-}
-
-.legend-annotation-year {
-	font-size: 13px;
-	text-anchor: start;
+.legend-annotation-start-line {
+	stroke: #acacac;
+	stroke-width: 2px;
 }
 
 .olympic-circle {
-	stroke-width: 6px;
+	stroke-width: 4px;
 	fill: none;
 	mix-blend-mode: multiply;
 }
 
-.olympic-circle-invisible-path {
-	fill: none;
-}
-
 .olympic-circle-text {
-	font-size: 14px;
+	font-size: 11px;
 	text-anchor: middle;
 }

@@ -2,32 +2,33 @@
 //////////////// Create color legend ///////////////////////
 ////////////////////////////////////////////////////////////
 
-function createColorLegend(color) {
+function createColorLegend(color, outerRadius) {
 	
-	var olympicRadius = 50;
+	var olympicRadius = 25;
 
-	var margin = {top: olympicRadius*1.2, right: olympicRadius*2, bottom: olympicRadius*1.2, left: olympicRadius*2},
-		width = olympicRadius*10*0.85 - margin.left - margin.right,
-		height = olympicRadius*10*0.4 - margin.top - margin.bottom; 
+	var margin = {top: olympicRadius*2 + 20, right: 10, bottom: olympicRadius*2, left: 10},
+		width = outerRadius * 1.25,
+		height = olympicRadius*6 - margin.top - margin.bottom; 
 
 	var svg = d3.select("#olympic-color-legend").append("svg")
 	    .attr("width", width + margin.left + margin.right)
 	    .attr("height", height + margin.top + margin.bottom)
 	    .append("g")
-	    .attr("transform", "translate(" + margin.left + "," + (margin.top + height/2) + ")");
+	    .attr("transform", "translate(" + (margin.left + width/2) + "," + (margin.top + height/2) + ")");
 
 	////////////////////////////////////////////////////////////
 	//////////////////// Create circles ////////////////////////
 	////////////////////////////////////////////////////////////
 
 	//Locations of each circle
-	var circleOffset = 1/3;
+	var circleHeightOffset = olympicRadius * 7/13,
+		circleWidthOffset = olympicRadius * 1.2;
 	var circleLocations = [
-		{id: 1, offset: 75, x: 0, y: -height*circleOffset},
-		{id: 2, offset: 25, x: width/4, y: height*circleOffset},
-		{id: 3, offset: 75, x: width*2/4, y: -height*circleOffset},
-		{id: 4, offset: 25, x: width*3/4, y: height*circleOffset},
-		{id: 5, offset: 75, x: width, y: -height*circleOffset}
+		{id: 1, x: -2*circleWidthOffset, y: -circleHeightOffset},
+		{id: 2, x: -1*circleWidthOffset, y: circleHeightOffset},
+		{id: 3, x: 0, y: -circleHeightOffset},
+		{id: 4, x: 1*circleWidthOffset, y: circleHeightOffset},
+		{id: 5, x: 2*circleWidthOffset, y: -circleHeightOffset}
 	];
 
 	//Wrapper for the rings
@@ -75,9 +76,10 @@ function createColorLegend(color) {
 
 	rings.append("text")
 		.attr("class", "olympic-circle-text")
-		.attr("dy", function(d,i) { 
-			return i === 1 || i === 3 ? 10 : -2; 
+		.attr("y", function(d,i) { 
+			return (i === 1 || i === 3 ? 1 : -1) * 37; 
 		})
+		.attr("dy", "0.5em")
 		.style("fill", function(d,i) { return color.range()[i]; })
 		.text(function(d,i){ return color.domain()[i]; });
 
