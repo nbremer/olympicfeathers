@@ -2,11 +2,22 @@
 /////////////////// Create legend //////////////////////////
 ////////////////////////////////////////////////////////////
 
-function createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDegree, timeScale, startYear, endYear, color, arcColors, warYears, groupYears) {
-	
-	var margin = {top: 50, right: 30, bottom: 40, left: 10},
+function createFeatherLegend(innerRadius, outerRadius, arcHeight, medalDegree, startYear, endYear, color, arcColors, warYears, groupYears, chartScale) {
+
+	var legendWidth = 5;
+
+	//Undo the scaling for this legend
+	var innerRadius = innerRadius/chartScale,
+		outerRadius = outerRadius/chartScale,
+		arcHeight = arcHeight/chartScale;
+
+	var timeScale = d3.scaleLinear()
+    	.domain([startYear, endYear])
+    	.range([innerRadius, outerRadius]);
+
+	var margin = {top: 40, right: 10, bottom: 50, left: 10},
 		legendW = outerRadius * 1.35,
-		legendH = 200 - margin.top - margin.bottom; 
+		legendH = 2 * (timeScale(2028) * Math.sin(legendWidth * medalDegree * Math.PI/180)); 
 
 	var svgLegend = d3.select("#olympic-chart-legend").append("svg")
 	    .attr("width", legendW + margin.left + margin.right)
@@ -16,8 +27,6 @@ function createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDe
 
 	var legendYears = d3.range(startYear, endYear + 4, 4);
 	legendYears = legendYears.filter(function(d) { return warYears.indexOf(d) === -1; });
-
-	var legendWidth = 5;
 
 	////////////////////////////////////////////////////////////
 	///////////////// Set-up arc functions /////////////////////
@@ -132,7 +141,7 @@ function createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDe
 		.attr("x", timeScale(2028) )
 		.attr("y", 0 )
 		.attr("dy", "0.5em")
-		.text("Discipline name");
+		.text("Discipline");
 
 	//Add gender info to the end
 	svgLegend.selectAll(".gender-text")
@@ -141,8 +150,8 @@ function createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDe
 		.attr("class", "gender-text")
 		.attr("x", function(d, i) { return timeScale(2028); })
 		.attr("y", function(d) {
-			var sign = d === "Men" ? -1 : 1;
-			return timeScale(2028) * Math.sin(sign * (legendWidth+2) * medalDegree);
+			var sign = d === "Men" ? 1 : -1;
+			return timeScale(2028) * Math.sin(sign * legendWidth * 0.8 * medalDegree * Math.PI/180);
 		})
 		.attr("dy", "0.5em")
 		.html(function(d) { return d; });
@@ -151,12 +160,10 @@ function createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDe
 	/////////////// Annotations for the legend /////////////////
 	////////////////////////////////////////////////////////////
 
-
-
 	//Time
 	var timeLineWrapper = svgLegend.append("g")
 		.attr("class", "time-axis-annotation")
-		.attr("transform", "translate(" + 0 + "," + 70 + ")");
+		.attr("transform", "translate(" + 0 + "," + (legendH/2 + 10) + ")");
 	//The line
 	timeLineWrapper.append("line")
 		.attr("class", "legend-annotation-line")
@@ -179,14 +186,14 @@ function createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDe
 		.attr("class", "legend-annotation-year")
 		.attr("x", timeScale(startYear) )
 		.attr("dy", "1.5em")
-		.style("text-anchor", "start")
+		.style("text-anchor", "middle")
 		.text(startYear);
 	//2016
 	timeLineWrapper.append("text")
 		.attr("class", "legend-annotation-year")
 		.attr("x", timeScale(endYear) )
 		.attr("dy", "1.5em")
-		.style("text-anchor", "end")
+		.style("text-anchor", "middle")
 		.text(endYear);
 
 }//createFeatherLegend

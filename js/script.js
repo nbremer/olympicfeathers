@@ -6,11 +6,17 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 
 	if (error) throw error;
 
-	var outerRadius = 220,
-		innerRadius = 40,
+	var chartScale = Math.max( Math.min( window.innerWidth/2100, 1), 0.6 );
+	var chartScaleFont = Math.max(chartScale, 0.9);
+
+	d3.select("#olympic-wrapper").style("width", 2000*chartScale + "px");
+	d3.select("#olympic-chart-legend").style("width", 500*chartScale + "px");
+
+	var outerRadius = 220 * chartScale,
+		innerRadius = 40 * chartScale,
 		featherPadding = 1.5,
 		medalDegree = 320/(50.5*2),
-		arcHeight = 5;
+		arcHeight = 5 * chartScale;
 
 	var startYear = 1896,
 		endYear = 2016;
@@ -18,7 +24,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 	var warYears = [1916, 1940, 1944];
 	
 	//Size
-	var margin = {top: 300, right: 100, bottom: 375, left: 100}
+	var margin = {top: 300*chartScaleFont, right: 100*chartScale, bottom: 350*chartScaleFont, left: 100*chartScale}
 	var width = 8*outerRadius,
 	    height = 4.5*outerRadius;
 
@@ -163,8 +169,8 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 
     //Small arcs to make it easier to see the years
     var yearArc = d3.arc()
-		.outerRadius(function(d) { return timeScale(d) + 1; })
-		.innerRadius(function(d) { return timeScale(d) - 1;} )
+		.outerRadius(function(d) { return timeScale(d) + 1*chartScale; })
+		.innerRadius(function(d) { return timeScale(d) - 1*chartScale;} )
 		.startAngle(function(d) { return -this.parentNode.__data__.maxMedals * medalDegree * Math.PI/180; })
 		.endAngle(function(d) { return this.parentNode.__data__.maxMedals * medalDegree * Math.PI/180; }); 
 
@@ -216,6 +222,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 		.attr("x", 0)
 		.attr("y", 0)
 		.attr("dy", "0.35em")
+		.style("font-size", 13*chartScale + "px")
 		.text("1896");
 
 	timeAxes.append("text")
@@ -223,6 +230,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 		.attr("x", 0)
 		.attr("y", timeScale(2040))
 		.attr("dy", "0.35em")
+		.style("font-size", 13*chartScale + "px")
 		.text("2016");
 
 	// //Create the small tick markers
@@ -246,6 +254,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 		.attr("x", 0)
 		.attr("y", function(d) { return timeScale(d) + arcHeight/2; })
 		.attr("dy", "0.35em")
+		.style("font-size", 8*chartScale + "px")
 		.text(function(d) { return d; });
 
 	////////////////////////////////////////////////////////////
@@ -272,6 +281,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 			return "rotate(90)translate(" + -timeScale(2028) + ")"
 			+ ((d.angle + this.parentNode.parentNode.__data__.circleRotation) > 360 ? "rotate(180)" : "");
 	  	})
+	  	.style("font-size", 12*chartScale + "px")
 	  	.text(function(d,i) { return d.discipline; });
 
 	//Create section behind each gender to fill with gradient
@@ -316,7 +326,8 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 	feathers.append("line")
 		.attr("class", "time-line")
 		.attr("y1", -timeScale(startYear))
-		.attr("y2", -timeScale(endYear) - arcHeight);
+		.attr("y2", -timeScale(endYear) - arcHeight)
+		.style("stroke-width", 2*chartScale);
 
 	//Create small rings to siginify 20 years
 	feathers.selectAll(".year-outline")
@@ -336,11 +347,12 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 	////// Create other sports chart in lower right corner /////
 	////////////////////////////////////////////////////////////
 
+	var offsetX = width - 160*chartScale,
+		offsetY = height + margin.bottom;
 	var otherSports = svg.append("g")
-		.attr("class", "other-sports-wrapper")
-		.attr("transform", "translate(" + (width-160)+ "," + (height + 150) + ")");
+		.attr("class", "other-sports-wrapper");
 
-	createOtherSportsChart(otherSports, color);
+	createOtherSportsChart(otherSports, color, chartScale, offsetX, offsetY);
 
 	////////////////////////////////////////////////////////////
 	/////////////////// Create annotations /////////////////////
@@ -349,15 +361,15 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 	var annotationGroup = svg.append("g")
 		.attr("class", "annotation-wrapper");
 
-	createAnnotations(annotationGroup, timeScale, color, circleLocations);
+	createAnnotations(annotationGroup, timeScale, color, circleLocations, chartScale);
 
 	////////////////////////////////////////////////////////////
 	///////////////////// Create legend ////////////////////////
 	////////////////////////////////////////////////////////////
 
-	createFeatherLegend(width, innerRadius, outerRadius, arcHeight, medalDegree, timeScale, startYear, endYear, color, arcColors, warYears, groupYears);
+	createFeatherLegend(innerRadius, outerRadius, arcHeight, medalDegree, startYear, endYear, color, arcColors, warYears, groupYears, chartScale);
 
-	createColorLegend(color, outerRadius);
+	createColorLegend(color, outerRadius, chartScale, chartScale);
 
 });//d3.csv
 

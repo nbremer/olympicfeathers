@@ -1,11 +1,13 @@
 //Create a small chart that shows the 11 sports that are not in the circles
 //because they had too few games in which to compete 
 //(otherwise they just take up space in the circles)
-function createOtherSportsChart(svg, color) {
+function createOtherSportsChart(svg, color, chartScale, offsetX, offsetY) {
 
 	////////////////////////////////////////////////////////////
 	///////////////////// Read in data /////////////////////////
 	////////////////////////////////////////////////////////////
+
+	var chartScale = Math.max(chartScale, 0.75);
 
 	d3.csv('data/olympic_sports_other.csv', function (error, data) {
 
@@ -17,9 +19,13 @@ function createOtherSportsChart(svg, color) {
 		});
 
 		//Size
-		var margin = {top: 50, right: 0, left: 105, bottom: 40},
-			width = 300 - margin.left - margin.right,
-		    height = 275 - margin.top - margin.bottom;
+		var margin = {top: 50*chartScale, right: 0, left: 105*chartScale, bottom: 10*chartScale},
+			width = 300*chartScale - margin.left - margin.right,
+		    height = 275*chartScale - margin.top - margin.bottom;
+
+		d3.select(".other-sports-wrapper")
+			.attr("transform", "translate(" + offsetX + "," + 
+				(offsetY - (height + margin.top + margin.bottom) ) + ")");
 
 		////////////////////////////////////////////////////////////
 		////////////////////////// Scales //////////////////////////
@@ -34,7 +40,7 @@ function createOtherSportsChart(svg, color) {
 	    	.range([0, height])
 	    	.padding(0.4);
 
-	    var medalWidth = 6;
+	    var medalWidth = 6*chartScale;
 
 		////////////////////////////////////////////////////////////
 		/////////////////// Create the bar chart ///////////////////
@@ -62,9 +68,10 @@ function createOtherSportsChart(svg, color) {
 			.data(sportLocation.domain())
 			.enter().append("text")
 			.attr("class", "discipline-other-label")
-			.attr("x", -15)
+			.attr("x", -15*chartScale)
 			.attr("y", function(d) { return sportLocation(d); })
 			.attr("dy", "0.7em")
+			.style("font-size", 11*chartScale + "px")
 			.text(function(d) { return d; });
 
 		//The edition titles on top
@@ -74,6 +81,7 @@ function createOtherSportsChart(svg, color) {
 			.attr("class", "edition-other-label")
 			.attr("x", function(d) { return timeLocation(d); })
 			.attr("y", height + sportLocation.bandwidth() + 3 )
+			.style("font-size", 12*chartScale + "px")
 			.text(function(d) { return d; });
 
 		////////////////////////////////////////////////////////////
@@ -83,10 +91,11 @@ function createOtherSportsChart(svg, color) {
 		svg.append("text")
 			.attr("class", "other-sports-title")
 			.attr("x", -margin.left)
-			.attr("y", -margin.top + 5)
+			.attr("y", -margin.top + 5*chartScale)
 			.attr("dy", "0.5em")
 			.text("Winners of the 11 sports that competed in less than 2 editions")
-			.call(wrap, 300, 1.3);
+			.style("font-size", 18*chartScale + "px")
+			.call(wrap, 300*chartScale, 1.3);
 
 		////////////////////////////////////////////////////////////
 		///////////////////// Add note at bottom ///////////////////
@@ -95,31 +104,10 @@ function createOtherSportsChart(svg, color) {
 		svg.append("text")
 			.attr("class", "other-sports-note")
 			.attr("x", -margin.left)
-			.attr("y", height + 30)
+			.attr("y", height + 30*chartScale)
 			.attr("dy", "0.5em")
+			.style("font-size", 11*chartScale + "px")
 			.text("*and aren't part of the current 41 disciplines");
-
-		////////////////////////////////////////////////////////////
-		///////////////////////// Add legend ///////////////////////
-		////////////////////////////////////////////////////////////
-
-		// var legend = svg.append("g")
-		// 	.attr("class", "other-sports-legend")
-		// 	.attr("transform", "translate(" + 0 + "," + (height + 25) + ")");
-
-		// legend.append("text")
-		// 	.attr("class", "other-sports-legend-text")
-		// 	.attr("x", -15)
-		// 	.attr("y", sportLocation.bandwidth())
-		// 	.attr("dy", -0.5)
-		// 	.text("Width of 1 medal: ");
-
-		// legend.append("rect")
-		// 	.attr("class", "other-sports-legend-rect")
-		// 	.attr("width", medalWidth)
-		// 	.attr("height", sportLocation.bandwidth() )
-		// 	.attr("x", 0)
-		// 	.attr("y", 0);
 
 	});//d3.csv
 

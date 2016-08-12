@@ -24,24 +24,34 @@ a:hover {
 
 .olympic-section-wrapper {
 	display: inline-block;
-	margin-right: 25px;
 	vertical-align: top;
 }
 
-/*.head-title-wrapper {
-	padding-left: 0px;
-}*/
+.head-title-wrapper {
+	margin-right: 25px;
+}
 
-#olympic-head-title {
+#olympic-top-title,
+#olympic-legend-title {
 	font-weight: 400;
-	font-size: 30px;
-	line-height: 32px;
-	width: 200px;
 	text-align: right;
 	color: #191919;
 	margin-top: 0px;
 	margin-bottom: 5px;
 	text-transform: uppercase;
+}
+
+#olympic-top-title {
+	font-size: 30px;
+	line-height: 32px;
+	width: 200px;
+}
+
+#olympic-legend-title {
+	font-size: 24px;
+	line-height: 26px;
+	width: 175px;
+    margin-left: 25px;
 }
 
 #olympic-top-subtitle {
@@ -90,6 +100,7 @@ a:hover {
 
 #olympic-legend-visual-wrapper {
 	display: inline-block;
+	text-align: center;
 }
 
 #olympic-chart-legend {
@@ -123,6 +134,7 @@ a:hover {
 }
 
 /* tooltip */
+
 #tooltip {
   text-align: center;  
   z-index: 1000;
@@ -198,7 +210,7 @@ a:hover {
 }
 
 .discipline-title {
-	font-size: 11px;
+	/*font-size: 11px;*/
 	font-weight: 400;
 }
 
@@ -231,13 +243,13 @@ a:hover {
 /* chart axis */
 
 .time-axis-outer-years {
-	font-size: 13px;
+	/*font-size: 13px;*/
 	fill: #191919;
 	text-anchor: middle;
 }
 
 .time-axis-small-year {
-	font-size: 8px;
+	/*font-size: 8px;*/
 	fill: #9b9b9b;
 	text-anchor: middle;
 }
@@ -249,27 +261,24 @@ a:hover {
 
 /* chart annotations */
 
+.annotation-wrapper {
+	pointer-events: none;
+}
+
 .annotation-circle {
 	fill: white;
 	stroke: black;
 	stroke-width: 2px;
-	pointer-events: none;
 }
 
 .annotation-text-title {
 	font-size: 16px;
 	font-weight: 400;
 	text-transform: uppercase;
-	pointer-events: none;
 }
 
 .annotation-text {
 	font-size: 12px;
-	pointer-events: none;
-}
-
-.annotation-line {
-	pointer-events: none;
 }
 
 /* the other sports chart */
@@ -331,7 +340,7 @@ a:hover {
 
 .legend-annotation-start-line {
 	stroke: #acacac;
-	stroke-width: 2px;
+	stroke-width: 1.5px;
 }
 
 .olympic-circle {

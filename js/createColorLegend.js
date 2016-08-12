@@ -2,9 +2,12 @@
 //////////////// Create color legend ///////////////////////
 ////////////////////////////////////////////////////////////
 
-function createColorLegend(color, outerRadius) {
+function createColorLegend(color, outerRadius, chartScale) {
 	
 	var olympicRadius = 25;
+
+	//Undo the scaling for this legend
+	var outerRadius = outerRadius/chartScale;
 
 	var margin = {top: olympicRadius*2 + 20, right: 10, bottom: olympicRadius*2, left: 10},
 		width = outerRadius * 1.25,
