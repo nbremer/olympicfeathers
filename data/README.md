@@ -19,7 +19,7 @@ Although most events are contested by one gender, there are a few events in whic
 ##Visualization data preparation
 
 ####Mapping to continents
-In R there's a useful package called [countrycode](https://github.com/vincentarelbundock/countrycode) that can convert between ISO codes and regions / continents. Most people think of the 5 colors in the olympic symbol as 5 continents, so it made sense to recode all of the NOC (olympic) country codes to ISO codes and on to continents. A handful of countries that no longer exist had to be manually mapped to their current counterpart (note, I only really needed a correct continent for the colors, not exact country).
+In R there's a useful package called [countrycode](https://github.com/vincentarelbundock/countrycode) that can convert between ISO codes and regions / continents. Most people think of the 5 colors in the Olympic symbol as 5 continents, so it made sense to recode all of the NOC (Olympic) country codes to ISO codes and on to continents. A handful of countries that no longer exist had to be manually mapped to their current counterpart (note, I only really needed a correct continent for the colors, not exact country).
 
 ####Data grouping
 With 56 different disciplines and thousands of medals I knew that I could never fit it in one circle. With the Olympic symbol 5 circles seemed the next logical choice. I looked up the maximum number of medals that were ever won for one gender for each discipline. This would tell me how wide each discipline would have to get. I could then combine the sporting disciplines in such a way to get the same number of "maximum medals" in each ring.
