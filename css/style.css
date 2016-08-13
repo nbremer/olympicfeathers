@@ -2,8 +2,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
-	/*transform: scale(0.6);*/
-   	/*transform-origin: 0% 0%;*/
 }
 
 a, a:link, a:visited, a:active {
@@ -71,7 +69,7 @@ a:hover {
 }
 
 #olympic-feather-legend {
-	width: 600px;
+	width: 575px;
 	line-height: 20px;
 }
 

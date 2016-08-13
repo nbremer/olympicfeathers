@@ -196,7 +196,7 @@ function createAnnotations(annotationGroup, timeScale, color, circleLocations, c
 		.attr("y", archeryLength + annotationTitlePadding)
 		.attr("dy", "1em")
 		.style("font-size", fontsizeText + "px")
-		.text("During the last 9 Olympic Games all medals in the women's events have been won by South Korea and the South Korean men aren't doing to bad either.")
+		.text("During the last 9 Olympic Games all medals in the women's events have been won by South Korea and the South Korean men aren't doing too bad either.")
 		.call(wrap, 200*chartScaleFont, lineHeight);
 
 	////////////////////////////////////////////////////////////
