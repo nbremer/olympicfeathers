@@ -315,8 +315,33 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
     		return d.continent === "Mixed" ? "url(#mixed-gradient-" + d.edition + ")" : color(d.continent); 
     	})
     	.attr("d", arc)
-    	.on("mouseover", function(d) { showTooltip(d, color); })
-    	.on("mouseout", hideTooltip);
+		.style("stroke-width", 2*chartScale)
+    	.on("mouseover", function(d) { 
+			//Highlight the hovered over medal
+			//Append it on top so it lies over all the axis lines
+			d3.select(this.parentNode.parentNode.parentNode).append("path")
+				.attr("class", "hover-medal")
+				.attr("d", arc(d))
+				.style("stroke-width", 2*chartScale)
+				.style("fill", "none")
+				.style("stroke", "#212121")
+				//.style("stroke", arcColors[(continents.indexOf(d.continent)+1)%continents.length] )
+				.style("pointer-events","none")
+				.style("opacity", 0)
+				.transition().duration(0)
+				.style("opacity", 1);
+			//Show tooltip
+			showTooltip(d, color); 
+		})
+    	.on("mouseout", function() {
+			//Remove hovered over border
+			d3.selectAll(".hover-medal")
+				.transition().duration(100)
+				.style("opacity", 0)
+				.remove();
+			//Hide the tooltip
+			hideTooltip()
+		});
 
 	////////////////////////////////////////////////////////////
 	//////////////////// Append Grid Lines /////////////////////
@@ -378,7 +403,8 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 ////////////////////////////////////////////////////////////
 
 //Show the tooltip on hover
-function showTooltip(d, color) {	
+function showTooltip(d, color) {
+		
 	//Find location of mouse on page
 	var xpos =  d3.event.pageX - 15;
 	var ypos =  d3.event.pageY - 15;
@@ -425,7 +451,7 @@ function showTooltip(d, color) {
 }//showTooltip	
 
 //Hide the tooltip
-function hideTooltip() {	
+function hideTooltip() {		
 	d3.select("#tooltip")
 		.transition().duration(100)
 		.style("opacity", 0);	
