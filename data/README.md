@@ -10,7 +10,7 @@ Thinking I had two nice datasets I started by combining them. I decided to make 
 ####Checking the 1896 - 2008 dataset
 This heavy discrepancy made me worry quite a bit about that other dataset that I took from the Guardian, the one with all medallists between 1896 and 2008. I therefore aggregated the dataset to see how many unique gold medals it contained and in how many unique sports and disciplines these were won per edition. I then went through [the wiki pages on each Olympic edition](https://en.wikipedia.org/wiki/2012_Summer_Olympics#Sports) to see if the numbers matched those from my file. Of course this wasn't always the case, but there was a good reason to be found for each. In several years the names of horses were included in the file, for example. And in some events no gold medal was rewarded due to differing circumstances. Happy that it appeared that I had a winner for each event since 1896 in my file I went on to the next step. (You can see these results in the file [extra data/Number of events per Olympic game.xlsx](extra\ data/Number\ of\ events per\ Olympic\ game.xlsx))
 
-####Preparing a 2106 medal file
+####Preparing a 2016 medal file
 Using the events from 2012 and a very useful [site from the Olympics](https://www.olympic.org/news/discover-the-changes-in-the-sports-programme-for-rio) that outlined the differences between the 2012 and 2016 Olympics I could prepare a file for 2016. That way I could take all of the eventual medals into account, even though for 2016 I didn't know who won them. I then started filling in the 2016 winners at the start of each day.
 
 ####Medal value
