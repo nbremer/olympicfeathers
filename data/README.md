@@ -14,7 +14,7 @@ This heavy discrepancy made me worry quite a bit about that other dataset that I
 Using the events from 2012 and a very useful [site from the Olympics](https://www.olympic.org/news/discover-the-changes-in-the-sports-programme-for-rio) that outlined the differences between the 2012 and 2016 Olympics I could prepare a file for 2016. That way I could take all of the eventual medals into account, even though for 2016 I didn't know who won them. I then started filling in the 2016 winners at the start of each day.
 
 ####Medal value
-Although most events are contested by one gender, there are a few events in which both can compete. This can either happen as a couple/team, in tennis doubles for example. But in dressage the individual events there is one winner, but this can be a mon or a women. In this last instance I assigned the medal to the winning gender. However in the double instances that wasn't an option. I therefore split the medal in half and counted a half towards each gender.
+Although most events are contested by one gender, there are a few events in which both can compete. This can either happen as a couple/team, in tennis doubles for example. But in dressage the individual events there is one winner, but this can be a man or a women. In this last instance I assigned the medal to the winning gender. However in the double instances that wasn't an option. I therefore split the medal in half and counted a half towards each gender.
 
 ##Visualization data preparation
 
