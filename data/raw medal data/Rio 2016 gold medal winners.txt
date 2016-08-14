@@ -16,7 +16,7 @@ Penny Oleksiak	Canada	CAN	Women	Aquatics	Swimming	100m Freestyle	W
 Simone Manuel	United States of America	USA	Women	Aquatics	Swimming	100m Freestyle	W
 			Women	Aquatics	Swimming	10km Marathon	W
 Maya DiRado	United States of America	USA	Women	Aquatics	Swimming	200m Backstroke	W
-			Men	Aquatics	Swimming	4x100m Medley Relay	M
+	United States of America	USA	Men	Aquatics	Swimming	4x100m Medley Relay	M
 Rie Kaneto	Japan	JPN	Women	Aquatics	Swimming	200m Breaststroke	W
 Mireia Belmonte Garcia	Spain	ESP	Women	Aquatics	Swimming	200m Butterfly	W
 Katie Ledecky	United States of America	USA	Women	Aquatics	Swimming	200m Freestyle	W
@@ -29,18 +29,18 @@ Kosuke Hagino	Japan	JPN	Men	Aquatics	Swimming	400m Individual Medley	M
 Mack Horton	Australia	AUS	Men	Aquatics	Swimming	400m Freestyle	M
 Michael Phelps	United States of America	USA	Men	Aquatics	Swimming	200m Individual Medley	M
 Sun Yang	China	CHN	Men	Aquatics	Swimming	200m Freestyle	M
-			Women	Aquatics	Swimming	4x100m Medley Relay	W
+	United States of America	USA	Women	Aquatics	Swimming	4x100m Medley Relay	W
 Michael Phelps	United States of America	USA	Men	Aquatics	Swimming	200m Butterfly	M
 Dmitriy Balandin	Kazakhstan	KAZ	Men	Aquatics	Swimming	200m Breaststroke	M
 Ryan Murphy	United States of America	USA	Men	Aquatics	Swimming	200m Backstroke	M
 	United States of America	USA	Women	Aquatics	Swimming	4x200m Freestyle Relay	W
-			Men	Aquatics	Swimming	1500m Freestyle	M
+Gregorio Paltrinieri	Italy	ITA	Men	Aquatics	Swimming	1500m Freestyle	M
 Kyle Chalmers	Australia	AUS	Men	Aquatics	Swimming	100m Freestyle	M
 Joseph Schooling	Singapore	SIN	Men	Aquatics	Swimming	100m Butterfly	M
 Adam Peaty	Great Britain	GBR	Men	Aquatics	Swimming	100m Breaststroke	M
 			Men	Aquatics	Swimming	10km Marathon	M
 Ryan Murphy	United States of America	USA	Men	Aquatics	Swimming	100m Backstroke	M
-			Women	Aquatics	Swimming	50m Freestyle	W
+Pernille Blume	Denmark	DEN	Women	Aquatics	Swimming	50m Freestyle	W
 Katie Ledecky	United States of America	USA	Women	Aquatics	Swimming	800m Freestyle	W
 			Women	Aquatics	Synchronized S.	Duets	W
 			Women	Aquatics	Synchronized S.	Teams	W
@@ -49,9 +49,9 @@ Chang Hye-jin	South Korea	KOR	Women	Archery	Archery	Individual	W
 Ku Bonchan	South Korea	KOR	Men	Archery	Archery	Individual	M
 	South Korea	KOR	Women	Archery	Archery	Team	W
 	South Korea	KOR	Men	Archery	Archery	Team	M
-			Men	Athletics	Athletics	10000m	M
+Mohamed Farah	Great Britain	GBR	Men	Athletics	Athletics	10000m	M
 Almaz Ayana	Ethiopia	ETH	Women	Athletics	Athletics	10000m	W
-			Women	Athletics	Athletics	100m	W
+Elaine Thompson	Jamaica	JAM	Women	Athletics	Athletics	100m	W
 			Men	Athletics	Athletics	100m	M
 			Women	Athletics	Athletics	100m Hurdles	W
 			Men	Athletics	Athletics	110m Hurdles	M
@@ -78,7 +78,7 @@ Wang Zhen	China	CHN	Men	Athletics	Athletics	20km Race Walk	M
 			Men	Athletics	Athletics	800m	M
 			Men	Athletics	Athletics	Marathon	M
 			Men	Athletics	Athletics	Decathlon	M
-			Men	Athletics	Athletics	Discus Throw	M
+Christoph Harting	Germany	GER	Men	Athletics	Athletics	Discus Throw	M
 			Women	Athletics	Athletics	Discus Throw	W
 			Men	Athletics	Athletics	Hammer Throw	M
 			Women	Athletics	Athletics	Hammer Throw	W
@@ -88,7 +88,7 @@ Wang Zhen	China	CHN	Men	Athletics	Athletics	20km Race Walk	M
 			Men	Athletics	Athletics	Javelin Throw	M
 			Women	Athletics	Athletics	Javelin Throw	W
 			Women	Athletics	Athletics	Long Jump	W
-			Men	Athletics	Athletics	Long Jump	M
+Jeff Henderson	United States of America	USA	Men	Athletics	Athletics	Long Jump	M
 			Women	Athletics	Athletics	Marathon	W
 			Women	Athletics	Athletics	Pole Vault	W
 			Men	Athletics	Athletics	Pole Vault	M
@@ -140,12 +140,12 @@ Kristin Armstrong	United States of America	USA	Women	Cycling	Cycling Road	Indivi
 Greg van Avermaet	Belgium	BEL	Men	Cycling	Cycling Road	Road Race	M
 Anna van der Breggen	Netherlands	NED	Women	Cycling	Cycling Road	Road Race	W
 			Men	Cycling	Cycling Track	Keirin	M
-			Women	Cycling	Cycling Track	Keirin	W
+Elis Ligtlee	Netherlands	NED	Women	Cycling	Cycling Track	Keirin	W
 			Men	Cycling	Cycling Track	Omnium	M
 			Women	Cycling	Cycling Track	Omnium	W
 			Women	Cycling	Cycling Track	Sprint	W
 			Men	Cycling	Cycling Track	Sprint	M
-			Women	Cycling	Cycling Track	Team Pursuit	W
+	Great Britain	GBR	Women	Cycling	Cycling Track	Team Pursuit	W
 	Great Britain	GBR	Men	Cycling	Cycling Track	Team Pursuit	M
 	Great Britain	GBR	Men	Cycling	Cycling Track	Team Sprint	M
 	China	CHN	Women	Cycling	Cycling Track	Team Sprint	W
@@ -167,7 +167,7 @@ Aron Szilagyi	Hungary	HUN	Men	Fencing	Fencing	Individual Sabre	M
 Yana Egorian	Russia	RUS	Women	Fencing	Fencing	Individual Sabre	W
 	Romania	ROU	Women	Fencing	Fencing	Team Epee	W
 	Russia	RUS	Men	Fencing	Fencing	Team Foil	M
-			Women	Fencing	Fencing	Team Sabre	W
+	Russia	RUS	Women	Fencing	Fencing	Team Sabre	W
 			Men	Fencing	Fencing	Team Epee	M
 			Men	Hockey	Hockey	hockey	M
 			Women	Hockey	Hockey	hockey	W
@@ -189,7 +189,7 @@ Kohei Uchimura	Japan	JPN	Men	Gymnastics	Artistic G.	Individual All-Around	M
 			Women	Gymnastics	Artistic G.	uneven bars	W
 			Men	Gymnastics	Artistic G.	Vault	M
 			Women	Gymnastics	Artistic G.	Vault	W
-			Men	Gymnastics	Trampoline	Trampoline	M
+Uladzislau Hancharou	Belarus	BLR	Men	Gymnastics	Trampoline	Trampoline	M
 Rosannagh MacLennan	Canada	CAN	Women	Gymnastics	Trampoline	Trampoline	W
 			Women	Gymnastics	Rhythmic G.	group competition	W
 			Women	Gymnastics	Rhythmic G.	individual all-round	W
@@ -213,8 +213,8 @@ Emilie Andeol	France	FRA	Women	Judo	Judo	+78kg	W
 			Women	Modern Pentathlon	Modern Pentath.	Individual competition	W
 	Poland	POL	Women	Rowing	Rowing	Double Sculls	W
 	Croatia	CRO	Men	Rowing	Rowing	Double Sculls	M
-			Men	Rowing	Rowing	Eight	M
-			Women	Rowing	Rowing	Eight	W
+	Great Britain	GBR	Men	Rowing	Rowing	Eight	M
+	United States of America	USA	Women	Rowing	Rowing	Eight	W
 	Great Britain	GBR	Men	Rowing	Rowing	Four	M
 	Netherlands	NED	Women	Rowing	Rowing	Lightweight Double Sculls	W
 	France	FRA	Men	Rowing	Rowing	Lightweight Double Sculls	M
@@ -223,8 +223,8 @@ Emilie Andeol	France	FRA	Women	Judo	Judo	+78kg	W
 	Great Britain	GBR	Women	Rowing	Rowing	Pair	W
 	Germany	GER	Women	Rowing	Rowing	Quadruple Sculls	W
 	Germany	GER	Men	Rowing	Rowing	Quadruple Sculls	M
-			Men	Rowing	Rowing	Single Sculls	M
-			Women	Rowing	Rowing	Single Sculls	W
+Mahe Drysdale	New Zealand	NZL	Men	Rowing	Rowing	Single Sculls	M
+Kim Crow	Australia	AUS	Women	Rowing	Rowing	Single Sculls	W
 	Fiji	FIJ	Men	Rugby	Rugby Sevens	team	M
 	Australia	AUS	Women	Rugby	Rugby Sevens	team	W
 			Men	Sailing	Sailing	470 - Two Person Dinghy	M
@@ -243,14 +243,14 @@ Mengxue Zhang	China	CHN	Women	Shooting	Shooting	10m Air Pistol	W
 Niccolo Campriani	Italy	ITA	Men	Shooting	Shooting	10m Air Rifle	M
 Ginny Thrasher	United States of America	USA	Women	Shooting	Shooting	10m Air Rifle	W
 Anna Korakaki	Greece	GRE	Women	Shooting	Shooting	25m Pistol	W
-			Men	Shooting	Shooting	25m Rapid Fire Pistol	M
+Christian Reitz	Germany	GER	Men	Shooting	Shooting	25m Rapid Fire Pistol	M
 Jin Jongoh	South Korea	KOR	Men	Shooting	Shooting	50m Pistol	M
 Barbara Engleder	Germany	GER	Women	Shooting	Shooting	50m Rifle 3 Positions	W
 			Men	Shooting	Shooting	50m Rifle 3 Positions	M
 Henri Junghaenel	Germany	GER	Men	Shooting	Shooting	50m Rifle Prone	M
 Fehaid Aldeehani	Independent Olympic Athlete	KUW	Men	Shooting	Shooting	Double Trap	M
 Diana Bacosi	Italy	ITA	Women	Shooting	Shooting	Skeet	W
-			Men	Shooting	Shooting	Skeet	M
+Gabriele Rossetti	Italy	ITA	Men	Shooting	Shooting	Skeet	M
 Josip Glasnovic	Croatia	CRO	Men	Shooting	Shooting	Trap	M
 Catherine Skinner	Australia	AUS	Women	Shooting	Shooting	Trap	W
 Ma Long	China	CHN	Men	Table Tennis	Table Tennis	Singles	M
@@ -270,7 +270,7 @@ Ding Ning	China	CHN	Women	Table Tennis	Table Tennis	Singles	W
 			Men	Tennis	Tennis	Mixed Doubles	X
 			Women	Tennis	Tennis	Mixed Doubles	X
 			Men	Tennis	Tennis	Singles	M
-			Women	Tennis	Tennis	Singles	W
+Mónica Puig	Puerto Rico	PUR	Women	Tennis	Tennis	Singles	W
 			Men	Triathlon	Triathlon	Triathlon	M
 			Women	Triathlon	Triathlon	Triathlon	W
 			Men	Volleyball	Beach volley.	beach volleyball	M
@@ -292,7 +292,7 @@ Xiang Yanmei	China	CHN	Women	Weightlifting	Weightlifting	69kg	W
 Shi Zhiyong	China	CHN	Men	Weightlifting	Weightlifting	69kg	M
 Rim Jong Sim	North Korea	PRK	Women	Weightlifting	Weightlifting	75kg	W
 Nijat Rahimov	Kazakhstan	KAZ	Men	Weightlifting	Weightlifting	77kg	M
-			Men	Weightlifting	Weightlifting	94kg	M
+Sohrab Moradi	Iran	IRI	Men	Weightlifting	Weightlifting	94kg	M
 			Men	Wrestling	Wrestling Free.	57kg Freestyle	M
 			Men	Wrestling	Wrestling Free.	65kg Freestyle	M
 			Men	Wrestling	Wrestling Free.	74kg Freestyle	M
