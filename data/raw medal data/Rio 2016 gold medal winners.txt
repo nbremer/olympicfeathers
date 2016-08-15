@@ -2,7 +2,7 @@ Athlete	Country	NOC	Gender	Sport	Discipline	Event	Event_gender
 			Women	Aquatics	Diving	10m Platform	W
 			Men	Aquatics	Diving	10m Platform	M
 			Men	Aquatics	Diving	3m Springboard	M
-			Women	Aquatics	Diving	3m Springboard	W
+Tingmao Shi	China	CHN	Women	Aquatics	Diving	3m Springboard	W
 	China	CHN	Women	Aquatics	Diving	Synchronised 10m Platform	W
 	China	CHN	Men	Aquatics	Diving	Synchronised 10m Platform	M
 	Great Britain	GBR	Men	Aquatics	Diving	Synchronised 3m Springboard	M
@@ -52,7 +52,7 @@ Ku Bonchan	South Korea	KOR	Men	Archery	Archery	Individual	M
 Mohamed Farah	Great Britain	GBR	Men	Athletics	Athletics	10000m	M
 Almaz Ayana	Ethiopia	ETH	Women	Athletics	Athletics	10000m	W
 Elaine Thompson	Jamaica	JAM	Women	Athletics	Athletics	100m	W
-			Men	Athletics	Athletics	100m	M
+Usain Bolt	Jamaica	JAM	Men	Athletics	Athletics	100m	M
 			Women	Athletics	Athletics	100m Hurdles	W
 			Men	Athletics	Athletics	110m Hurdles	M
 			Men	Athletics	Athletics	1500m	M
@@ -67,7 +67,7 @@ Wang Zhen	China	CHN	Men	Athletics	Athletics	20km Race Walk	M
 			Men	Athletics	Athletics	4 x 100m Relay	M
 			Women	Athletics	Athletics	4 x 400m Relay	W
 			Men	Athletics	Athletics	4 x 400m Relay	M
-			Men	Athletics	Athletics	400m	M
+Wayde van Niekerk 	South Afrika	RSA	Men	Athletics	Athletics	400m	M
 			Women	Athletics	Athletics	400m	W
 			Men	Athletics	Athletics	400m Hurdles	M
 			Women	Athletics	Athletics	400m Hurdles	W
@@ -89,13 +89,13 @@ Christoph Harting	Germany	GER	Men	Athletics	Athletics	Discus Throw	M
 			Women	Athletics	Athletics	Javelin Throw	W
 			Women	Athletics	Athletics	Long Jump	W
 Jeff Henderson	United States of America	USA	Men	Athletics	Athletics	Long Jump	M
-			Women	Athletics	Athletics	Marathon	W
+Jemima Jelagat Sumgong	Kenya	KEN	Women	Athletics	Athletics	Marathon	W
 			Women	Athletics	Athletics	Pole Vault	W
 			Men	Athletics	Athletics	Pole Vault	M
 Michelle Carter	United States of America	USA	Women	Athletics	Athletics	Shot Put	W
 			Men	Athletics	Athletics	Shot Put	M
 			Men	Athletics	Athletics	Triple Jump	M
-			Women	Athletics	Athletics	Triple Jump	W
+Caterine Ibarguen 	Colombia	COL	Women	Athletics	Athletics	Triple Jump	W
 			Men	Badminton	Badminton	Doubles	M
 			Women	Badminton	Badminton	Doubles	W
 			Men	Badminton	Badminton	Mixed Doubles	X
@@ -110,7 +110,7 @@ Michelle Carter	United States of America	USA	Women	Athletics	Athletics	Shot Put	
 			Men	Boxing	Boxing	Heavy (91kg)	M
 			Men	Boxing	Boxing	Light (60kg)	M
 			Women	Boxing	Boxing	Light 60kg	W
-			Men	Boxing	Boxing	Light Fly (49kg)	M
+Hasanboy Dusmatov	Uzbekistan	UZB	Men	Boxing	Boxing	Light Fly (49kg)	M
 			Men	Boxing	Boxing	Light Heavy (81kg)	M
 			Men	Boxing	Boxing	Light Welter (64kg)	M
 			Women	Boxing	Boxing	Middle (75kg)	W
@@ -144,7 +144,7 @@ Elis Ligtlee	Netherlands	NED	Women	Cycling	Cycling Track	Keirin	W
 			Men	Cycling	Cycling Track	Omnium	M
 			Women	Cycling	Cycling Track	Omnium	W
 			Women	Cycling	Cycling Track	Sprint	W
-			Men	Cycling	Cycling Track	Sprint	M
+Kenny Jason	Great Britain	GBR	Men	Cycling	Cycling Track	Sprint	M
 	Great Britain	GBR	Women	Cycling	Cycling Track	Team Pursuit	W
 	Great Britain	GBR	Men	Cycling	Cycling Track	Team Pursuit	M
 	Great Britain	GBR	Men	Cycling	Cycling Track	Team Sprint	M
@@ -168,27 +168,27 @@ Yana Egorian	Russia	RUS	Women	Fencing	Fencing	Individual Sabre	W
 	Romania	ROU	Women	Fencing	Fencing	Team Epee	W
 	Russia	RUS	Men	Fencing	Fencing	Team Foil	M
 	Russia	RUS	Women	Fencing	Fencing	Team Sabre	W
-			Men	Fencing	Fencing	Team Epee	M
+	France	FRA	Men	Fencing	Fencing	Team Epee	M
 			Men	Hockey	Hockey	hockey	M
 			Women	Hockey	Hockey	hockey	W
 			Men	Football	Football	football	M
 			Women	Football	Football	football	W
-			Men	Golf	Golf	stroke-play tournament	M
+Justin Rose	Great Britain	GBR	Men	Golf	Golf	stroke-play tournament	M
 			Women	Golf	Golf	stroke-play tournament	W
 			Women	Gymnastics	Artistic G.	Balance Beam	W
-			Men	Gymnastics	Artistic G.	Floor	M
+Max Whitlock	Great Britain	GBR	Men	Gymnastics	Artistic G.	Floor	M
 			Women	Gymnastics	Artistic G.	Floor Exercise	W
 			Men	Gymnastics	Artistic G.	Horizontal Bar	M
 Simone Biles	United States of America	USA	Women	Gymnastics	Artistic G.	Individual All-Around	W
 Kohei Uchimura	Japan	JPN	Men	Gymnastics	Artistic G.	Individual All-Around	M
 			Men	Gymnastics	Artistic G.	Parallel Bars	M
-			Men	Gymnastics	Artistic G.	Pommel Horse	M
+Max Whitlock	Great Britain	GBR	Men	Gymnastics	Artistic G.	Pommel Horse	M
 			Men	Gymnastics	Artistic G.	Rings	M
 	United States of America	USA	Women	Gymnastics	Artistic G.	Team	W
 	Japan	JPN	Men	Gymnastics	Artistic G.	Team	M
-			Women	Gymnastics	Artistic G.	uneven bars	W
+Aliya Mustafina	Russia	RUS	Women	Gymnastics	Artistic G.	uneven bars	W
 			Men	Gymnastics	Artistic G.	Vault	M
-			Women	Gymnastics	Artistic G.	Vault	W
+Simone Biles	United States of America	USA	Women	Gymnastics	Artistic G.	Vault	W
 Uladzislau Hancharou	Belarus	BLR	Men	Gymnastics	Trampoline	Trampoline	M
 Rosannagh MacLennan	Canada	CAN	Women	Gymnastics	Trampoline	Trampoline	W
 			Women	Gymnastics	Rhythmic G.	group competition	W
@@ -234,8 +234,8 @@ Kim Crow	Australia	AUS	Women	Rowing	Rowing	Single Sculls	W
 			Men	Sailing	Sailing	Finn - Heavyweight Dinghy	M
 			Men	Sailing	Sailing	Laser - One Person Dinghy	M
 			Women	Sailing	Sailing	Laser Radial - One Person Dinghy	W
-			Men	Sailing	Sailing	RS:X - Windsurfer	M
-			Women	Sailing	Sailing	RS:X - Windsurfer	W
+Dorian van Rijsselberghe	Netherlands	NED	Men	Sailing	Sailing	RS:X - Windsurfer	M
+Charline Picon	France	FRA	Women	Sailing	Sailing	RS:X - Windsurfer	W
 			Men	Sailing	Sailing	Nacra 17 - Multihull	X
 			Women	Sailing	Sailing	Nacra 17 - Multihull	X
 Hoang Xuan Vinh	Vietnam	VIE	Men	Shooting	Shooting	10m Air Pistol	M
@@ -246,7 +246,7 @@ Anna Korakaki	Greece	GRE	Women	Shooting	Shooting	25m Pistol	W
 Christian Reitz	Germany	GER	Men	Shooting	Shooting	25m Rapid Fire Pistol	M
 Jin Jongoh	South Korea	KOR	Men	Shooting	Shooting	50m Pistol	M
 Barbara Engleder	Germany	GER	Women	Shooting	Shooting	50m Rifle 3 Positions	W
-			Men	Shooting	Shooting	50m Rifle 3 Positions	M
+Niccolo Campriani 	Italy	ITA	Men	Shooting	Shooting	50m Rifle 3 Positions	M
 Henri Junghaenel	Germany	GER	Men	Shooting	Shooting	50m Rifle Prone	M
 Fehaid Aldeehani	Independent Olympic Athlete	KUW	Men	Shooting	Shooting	Double Trap	M
 Diana Bacosi	Italy	ITA	Women	Shooting	Shooting	Skeet	W
@@ -266,10 +266,10 @@ Ding Ning	China	CHN	Women	Table Tennis	Table Tennis	Singles	W
 			Men	Taekwondo	Taekwondo	-58kg	M
 			Men	Taekwondo	Taekwondo	-68kg	M
 	Spain	ESP	Men	Tennis	Tennis	Doubles	M
-			Women	Tennis	Tennis	Doubles	W
-			Men	Tennis	Tennis	Mixed Doubles	X
-			Women	Tennis	Tennis	Mixed Doubles	X
-			Men	Tennis	Tennis	Singles	M
+	Russia	RUS	Women	Tennis	Tennis	Doubles	W
+	United States of America	USA	Men	Tennis	Tennis	Mixed Doubles	X
+	United States of America	USA	Women	Tennis	Tennis	Mixed Doubles	X
+Andy Murray	Great Britain	GBR	Men	Tennis	Tennis	Singles	M
 Mónica Puig	Puerto Rico	PUR	Women	Tennis	Tennis	Singles	W
 			Men	Triathlon	Triathlon	Triathlon	M
 			Women	Triathlon	Triathlon	Triathlon	W
@@ -279,7 +279,7 @@ Mónica Puig	Puerto Rico	PUR	Women	Tennis	Tennis	Singles	W
 			Women	Volleyball	Volleyball	volleyball	W
 			Men	Aquatics	Water polo	water polo	M
 			Men	Weightlifting	Weightlifting	+105kg	M
-			Women	Weightlifting	Weightlifting	+75kg	W
+Meng Suping	China	CHN	Women	Weightlifting	Weightlifting	+75kg	W
 Kianoush Rostami	Iran	IRI	Men	Weightlifting	Weightlifting	85kg	M
 			Men	Weightlifting	Weightlifting	105kg	M
 Sopita Tanasan	Thailand	THA	Women	Weightlifting	Weightlifting	48kg	W
@@ -306,8 +306,8 @@ Sohrab Moradi	Iran	IRI	Men	Weightlifting	Weightlifting	94kg	M
 			Women	Wrestling	Wrestling Free.	69kg Freestyle	W
 			Women	Wrestling	Wrestling Free.	75kg Freestyle	W
 			Men	Wrestling	Wrestling Gre-R	130kg Greco-Roman	M
-			Men	Wrestling	Wrestling Gre-R	59kg Greco-Roman	M
+Ismael Borrero Molina	Cuba	CUB	Men	Wrestling	Wrestling Gre-R	59kg Greco-Roman	M
 			Men	Wrestling	Wrestling Gre-R	66kg Greco-Roman	M
-			Men	Wrestling	Wrestling Gre-R	75kg Greco-Roman	M
+Roman Vlasov	Russia	RUS	Men	Wrestling	Wrestling Gre-R	75kg Greco-Roman	M
 			Men	Wrestling	Wrestling Gre-R	85kg Greco-Roman	M
 			Men	Wrestling	Wrestling Gre-R	98kg Greco-Roman	M

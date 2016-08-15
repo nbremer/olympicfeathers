@@ -196,8 +196,8 @@
 1904,"Fencing","sabre individual","M","CUB","St Louis","Fencing","DIAZ, Manuel","Men","Cuba","CU","Americas",1,1
 1904,"Fencing","stick, single","M","CUB","St Louis","Fencing","VAN ZO POST, Albertson","Men","Cuba","CU","Americas",1,1
 1904,"Fencing","épée individual","M","CUB","St Louis","Fencing","FONST, Ramon","Men","Cuba","CU","Americas",1,1
-1904,"Football","football","M","CAN","St Louis","Football","","Men","Canada","CA","Americas",2,0.5
 1904,"Football","football","M","USA","St Louis","Football","","Men","United States","US","Americas",2,0.5
+1904,"Football","football","M","CAN","St Louis","Football","","Men","Canada","CA","Americas",2,0.5
 1904,"Golf","individual","M","CAN","St Louis","Golf","LYON, George Seymour","Men","Canada","CA","Americas",1,1
 1904,"Golf","team","M","USA","St Louis","Golf","","Men","United States","US","Americas",1,1
 1904,"Lacrosse","lacrosse","M","CAN","St Louis","Lacrosse","","Men","Canada","CA","Americas",1,1
@@ -278,8 +278,8 @@
 1908,"Fencing","épée team","M","FRA","London","Fencing","","Men","France","FR","Europe",1,1
 1908,"Figure skating","individual","M","SWE","London","Skating","SALCHOW, Ulrich","Men","Sweden","SE","Europe",1,1
 1908,"Figure skating","individual","W","GBR","London","Skating","SYERS, Florence","Women","United Kingdom","GB","Europe",1,1
-1908,"Figure skating","pairs","X","GER","London","Skating","HÜBLER, Anna","Women","Germany","DE","Europe",2,0.5
 1908,"Figure skating","pairs","X","GER","London","Skating","BURGER, Heinrich","Men","Germany","DE","Europe",2,0.5
+1908,"Figure skating","pairs","X","GER","London","Skating","HÜBLER, Anna","Women","Germany","DE","Europe",2,0.5
 1908,"Figure skating","special figures","M","RU1","London","Skating","PANIN, Nikolay","Men","Russian Empire","RU","Europe",1,1
 1908,"Football","football","M","GBR","London","Football","","Men","United Kingdom","GB","Europe",1,1
 1908,"Hockey","hockey","M","GBR","London","Hockey","","Men","United Kingdom","GB","Europe",1,1
@@ -356,8 +356,8 @@
 1912,"Athletics","800m","M","USA","Stockholm","Athletics","MEREDITH, James Edwin","Men","United States","US","Americas",1,1
 1912,"Athletics","cross country individual","M","FIN","Stockholm","Athletics","KOLEHMAINEN, Hannes","Men","Finland","FI","Europe",1,1
 1912,"Athletics","cross country team","M","SWE","Stockholm","Athletics","","Men","Sweden","SE","Europe",1,1
-1912,"Athletics","decathlon","M","USA","Stockholm","Athletics","THORPE, Jim","Men","United States","US","Americas",2,0.5
 1912,"Athletics","decathlon","M","SWE","Stockholm","Athletics","WIESLANDER, Hugo K.","Men","Sweden","SE","Europe",2,0.5
+1912,"Athletics","decathlon","M","USA","Stockholm","Athletics","THORPE, Jim","Men","United States","US","Americas",2,0.5
 1912,"Athletics","discus throw","M","FIN","Stockholm","Athletics","TAIPALE, Armas Rudolf","Men","Finland","FI","Europe",1,1
 1912,"Athletics","discus throw, both hands","M","FIN","Stockholm","Athletics","TAIPALE, Armas Rudolf","Men","Finland","FI","Europe",1,1
 1912,"Athletics","hammer throw","M","USA","Stockholm","Athletics","MCGRATH, Matthew J.","Men","United States","US","Americas",1,1
@@ -368,8 +368,8 @@
 1912,"Athletics","long jump","M","USA","Stockholm","Athletics","GUTTERSON, Albert Lovejoy","Men","United States","US","Americas",1,1
 1912,"Athletics","long jump, standing","M","GRE","Stockholm","Athletics","TSICLITIRAS, Konstantinos","Men","Greece","GR","Europe",1,1
 1912,"Athletics","marathon","M","RSA","Stockholm","Athletics","MCARTHUR, Kennedy Kane","Men","South Africa","ZA","Africa",1,1
-1912,"Athletics","pentathlon","M","NOR","Stockholm","Athletics","BIE, Ferdinand Reinhardt","Men","Norway","NO","Europe",2,0.5
 1912,"Athletics","pentathlon","M","USA","Stockholm","Athletics","THORPE, Jim","Men","United States","US","Americas",2,0.5
+1912,"Athletics","pentathlon","M","NOR","Stockholm","Athletics","BIE, Ferdinand Reinhardt","Men","Norway","NO","Europe",2,0.5
 1912,"Athletics","pole vault","M","USA","Stockholm","Athletics","BABCOCK, Harry Stoddard","Men","United States","US","Americas",1,1
 1912,"Athletics","shot put","M","USA","Stockholm","Athletics","MCDONALD, Patrick","Men","United States","US","Americas",1,1
 1912,"Athletics","shot put, both hands","M","USA","Stockholm","Athletics","ROSE, Ralph","Men","United States","US","Americas",1,1
@@ -429,8 +429,8 @@
 1912,"Swimming","4x200m freestyle relay","M","ANZ","Stockholm","Aquatics","","Men","Australasia","AU","Oceania",1,1
 1912,"Tennis","doubles","M","RSA","Stockholm","Tennis","","Men","South Africa","ZA","Africa",1,1
 1912,"Tennis","doubles indoor","M","FRA","Stockholm","Tennis","","Men","France","FR","Europe",1,1
-1912,"Tennis","mixed doubles","X","GER","Stockholm","Tennis","SCHOMBURGK, Heinrich","Men","Germany","DE","Europe",2,0.5
 1912,"Tennis","mixed doubles","X","GER","Stockholm","Tennis","KÖRING, Dora","Women","Germany","DE","Europe",2,0.5
+1912,"Tennis","mixed doubles","X","GER","Stockholm","Tennis","SCHOMBURGK, Heinrich","Men","Germany","DE","Europe",2,0.5
 1912,"Tennis","mixed doubles indoor","X","GBR","Stockholm","Tennis","HANNAM, Edith Margaret","Women","United Kingdom","GB","Europe",2,0.5
 1912,"Tennis","mixed doubles indoor","X","GBR","Stockholm","Tennis","DIXON, Charles Percy","Men","United Kingdom","GB","Europe",2,0.5
 1912,"Tennis","singles","M","RSA","Stockholm","Tennis","WINSLOW, Charles Lyndhurst","Men","South Africa","ZA","Africa",1,1
@@ -542,8 +542,8 @@
 1920,"Sailing","6.5m (rating 1919)","X","NED","Antwerp","Sailing","","Men","Netherlands","NL","Europe",1,1
 1920,"Sailing","6m (rating 1907)","X","BEL","Antwerp","Sailing","","Men","Belgium","BE","Europe",1,1
 1920,"Sailing","6m (rating 1919)","M","NOR","Antwerp","Sailing","","Men","Norway","NO","Europe",1,1
-1920,"Sailing","7m","X","GBR","Antwerp","Sailing","","Men","United Kingdom","GB","Europe",2,0.5
 1920,"Sailing","7m","X","GBR","Antwerp","Sailing","WRIGHT, Dorothy","Women","United Kingdom","GB","Europe",2,0.5
+1920,"Sailing","7m","X","GBR","Antwerp","Sailing","","Men","United Kingdom","GB","Europe",2,0.5
 1920,"Sailing","8m (rating 1907)","X","NOR","Antwerp","Sailing","","Men","Norway","NO","Europe",1,1
 1920,"Sailing","8m (rating 1919)","M","NOR","Antwerp","Sailing","","Men","Norway","NO","Europe",1,1
 1920,"Shooting","100m running deer, double shots","M","NOR","Antwerp","Shooting","LILLOE-OLSEN, Ole Andreas","Men","Norway","NO","Europe",1,1
@@ -706,8 +706,8 @@
 1924,"Swimming","4x200m freestyle relay","M","USA","Paris","Aquatics","","Men","United States","US","Americas",1,1
 1924,"Tennis","doubles","M","USA","Paris","Tennis","","Men","United States","US","Americas",1,1
 1924,"Tennis","doubles","W","USA","Paris","Tennis","","Women","United States","US","Americas",1,1
-1924,"Tennis","mixed doubles","X","USA","Paris","Tennis","WIGHTMAN, Hazel Virginia","Women","United States","US","Americas",2,0.5
 1924,"Tennis","mixed doubles","X","USA","Paris","Tennis","WILLIAMS, Richard Norris III","Men","United States","US","Americas",2,0.5
+1924,"Tennis","mixed doubles","X","USA","Paris","Tennis","WIGHTMAN, Hazel Virginia","Women","United States","US","Americas",2,0.5
 1924,"Tennis","singles","M","USA","Paris","Tennis","RICHARDS, Vincent","Men","United States","US","Americas",1,1
 1924,"Tennis","singles","W","USA","Paris","Tennis","WILLS-MOODY, Helen","Women","United States","US","Americas",1,1
 1924,"Water polo","water polo","M","FRA","Paris","Aquatics","","Men","France","FR","Europe",1,1
@@ -1324,8 +1324,8 @@
 1952,"Rowing","pair-oared shell with coxswain (2+)","M","FRA","Helsinki","Rowing","","Men","France","FR","Europe",1,1
 1952,"Rowing","single sculls (1x)","M","URS","Helsinki","Rowing","TYUKALOV, Yuri","Men","Soviet Union","RU","Europe",1,1
 1952,"Sailing","5.5m","X","USA","Helsinki","Sailing","","Men","United States","US","Americas",1,1
-1952,"Sailing","6m","X","USA","Helsinki","Sailing","WHITON, Emelyn Thatcher Leonard","Women","United States","US","Americas",2,0.5
 1952,"Sailing","6m","X","USA","Helsinki","Sailing","","Men","United States","US","Americas",2,0.5
+1952,"Sailing","6m","X","USA","Helsinki","Sailing","WHITON, Emelyn Thatcher Leonard","Women","United States","US","Americas",2,0.5
 1952,"Sailing","dragon","X","NOR","Helsinki","Sailing","","Men","Norway","NO","Europe",1,1
 1952,"Sailing","single-handed dinghy (Finn)","M","DEN","Helsinki","Sailing","ELVSTROM, Paul","Men","Denmark","DK","Europe",1,1
 1952,"Sailing","two-person keelboat open (Star)","X","ITA","Helsinki","Sailing","","Men","Italy","IT","Europe",1,1
@@ -1373,8 +1373,8 @@
 1952,"Wrestling Gre-R","79 - 87kg (light-heavyweight)","M","FIN","Helsinki","Wrestling","GRÖNDAHL, Kelpo Olavi","Men","Finland","FI","Europe",1,1
 1956,"Artistic G.","balance beam","W","HUN","Melbourne / Stockholm","Gymnastics","KELETI, Agnes","Women","Hungary","HU","Europe",1,1
 1956,"Artistic G.","floor exercises","M","URS","Melbourne / Stockholm","Gymnastics","MURATOV, Valentin","Men","Soviet Union","RU","Europe",1,1
-1956,"Artistic G.","floor exercises","W","URS","Melbourne / Stockholm","Gymnastics","LATYNINA, Larisa","Women","Soviet Union","RU","Europe",2,0.5
 1956,"Artistic G.","floor exercises","W","HUN","Melbourne / Stockholm","Gymnastics","KELETI, Agnes","Women","Hungary","HU","Europe",2,0.5
+1956,"Artistic G.","floor exercises","W","URS","Melbourne / Stockholm","Gymnastics","LATYNINA, Larisa","Women","Soviet Union","RU","Europe",2,0.5
 1956,"Artistic G.","horizontal bar","M","JPN","Melbourne / Stockholm","Gymnastics","ONO, Takashi","Men","Japan","JP","Asia",1,1
 1956,"Artistic G.","individual all-round","M","URS","Melbourne / Stockholm","Gymnastics","CHUKARIN, Viktor Ivanovich","Men","Soviet Union","RU","Europe",1,1
 1956,"Artistic G.","individual all-round","W","URS","Melbourne / Stockholm","Gymnastics","LATYNINA, Larisa","Women","Soviet Union","RU","Europe",1,1
@@ -1385,8 +1385,8 @@
 1956,"Artistic G.","team competition","W","URS","Melbourne / Stockholm","Gymnastics","","Women","Soviet Union","RU","Europe",1,1
 1956,"Artistic G.","team, portable apparatus","W","HUN","Melbourne / Stockholm","Gymnastics","","Women","Hungary","HU","Europe",1,1
 1956,"Artistic G.","uneven bars","W","HUN","Melbourne / Stockholm","Gymnastics","KELETI, Agnes","Women","Hungary","HU","Europe",1,1
-1956,"Artistic G.","vault","M","EUA","Melbourne / Stockholm","Gymnastics","BANTZ, Helmut","Men","United Team of Germany","DE","Europe",2,0.5
 1956,"Artistic G.","vault","M","URS","Melbourne / Stockholm","Gymnastics","MURATOV, Valentin","Men","Soviet Union","RU","Europe",2,0.5
+1956,"Artistic G.","vault","M","EUA","Melbourne / Stockholm","Gymnastics","BANTZ, Helmut","Men","United Team of Germany","DE","Europe",2,0.5
 1956,"Artistic G.","vault","W","URS","Melbourne / Stockholm","Gymnastics","LATYNINA, Larisa","Women","Soviet Union","RU","Europe",1,1
 1956,"Athletics","10000m","M","URS","Melbourne / Stockholm","Athletics","KUTS, Vladimir","Men","Soviet Union","RU","Europe",1,1
 1956,"Athletics","100m","M","USA","Melbourne / Stockholm","Athletics","MORROW, Robert Joseph","Men","United States","US","Americas",1,1
@@ -1531,14 +1531,14 @@
 1960,"Artistic G.","individual all-round","M","URS","Rome","Gymnastics","SHAKHLIN, Boris","Men","Soviet Union","RU","Europe",1,1
 1960,"Artistic G.","individual all-round","W","URS","Rome","Gymnastics","LATYNINA, Larisa","Women","Soviet Union","RU","Europe",1,1
 1960,"Artistic G.","parallel bars","M","URS","Rome","Gymnastics","SHAKHLIN, Boris","Men","Soviet Union","RU","Europe",1,1
-1960,"Artistic G.","pommel horse","M","URS","Rome","Gymnastics","SHAKHLIN, Boris","Men","Soviet Union","RU","Europe",2,0.5
 1960,"Artistic G.","pommel horse","M","FIN","Rome","Gymnastics","EKMAN, Eugen Georg Oskar","Men","Finland","FI","Europe",2,0.5
+1960,"Artistic G.","pommel horse","M","URS","Rome","Gymnastics","SHAKHLIN, Boris","Men","Soviet Union","RU","Europe",2,0.5
 1960,"Artistic G.","rings","M","URS","Rome","Gymnastics","AZARYAN, Albert","Men","Soviet Union","RU","Europe",1,1
 1960,"Artistic G.","team competition","M","JPN","Rome","Gymnastics","","Men","Japan","JP","Asia",1,1
 1960,"Artistic G.","team competition","W","URS","Rome","Gymnastics","","Women","Soviet Union","RU","Europe",1,1
 1960,"Artistic G.","uneven bars","W","URS","Rome","Gymnastics","ASTAKHOVA, Polina","Women","Soviet Union","RU","Europe",1,1
-1960,"Artistic G.","vault","M","URS","Rome","Gymnastics","SHAKHLIN, Boris","Men","Soviet Union","RU","Europe",2,0.5
 1960,"Artistic G.","vault","M","JPN","Rome","Gymnastics","ONO, Takashi","Men","Japan","JP","Asia",2,0.5
+1960,"Artistic G.","vault","M","URS","Rome","Gymnastics","SHAKHLIN, Boris","Men","Soviet Union","RU","Europe",2,0.5
 1960,"Artistic G.","vault","W","URS","Rome","Gymnastics","NIKOLAEVA, Margarita","Women","Soviet Union","RU","Europe",1,1
 1960,"Athletics","10000m","M","URS","Rome","Athletics","BOLOTNIKOV, Pyotr","Men","Soviet Union","RU","Europe",1,1
 1960,"Athletics","100m","M","EUA","Rome","Athletics","HARY, Armin","Men","United Team of Germany","DE","Europe",1,1
@@ -1922,8 +1922,8 @@
 1968,"Diving","3m springboard","M","USA","Mexico","Aquatics","WRIGHTSON, Bernard Charles","Men","United States","US","Americas",1,1
 1968,"Diving","3m springboard","W","USA","Mexico","Aquatics","GOSSICK, Susanne","Women","United States","US","Americas",1,1
 1968,"Dressage","individual","X","URS","Mexico","Equestrian","KIZIMOV, Ivan","Men","Soviet Union","RU","Europe",1,1
-1968,"Dressage","team","X","FRG","Mexico","Equestrian","","Men","West Germany","DE","Europe",2,0.5
 1968,"Dressage","team","X","FRG","Mexico","Equestrian","LINSENHOFF, Liselott","Women","West Germany","DE","Europe",2,0.5
+1968,"Dressage","team","X","FRG","Mexico","Equestrian","","Men","West Germany","DE","Europe",2,0.5
 1968,"Eventing","individual","X","FRA","Mexico","Equestrian","GUYON, Jean Jacques","Men","France","FR","Europe",1,1
 1968,"Eventing","team","X","GBR","Mexico","Equestrian","","Men","United Kingdom","GB","Europe",1,1
 1968,"Fencing","foil individual","M","ROU","Mexico","Fencing","DRIMBA, Ion","Men","Romania","RO","Europe",1,1
@@ -2103,11 +2103,11 @@
 1972,"Diving","3m springboard","M","URS","Munich","Aquatics","VASIN, Vladimir","Men","Soviet Union","RU","Europe",1,1
 1972,"Diving","3m springboard","W","USA","Munich","Aquatics","KING, Maxine Joyce","Women","United States","US","Americas",1,1
 1972,"Dressage","individual","X","FRG","Munich","Equestrian","LINSENHOFF, Liselott","Women","West Germany","DE","Europe",1,1
-1972,"Dressage","team","X","URS","Munich","Equestrian","","Men","Soviet Union","RU","Europe",2,0.5
 1972,"Dressage","team","X","URS","Munich","Equestrian","PETUSHKOVA, Elena","Women","Soviet Union","RU","Europe",2,0.5
+1972,"Dressage","team","X","URS","Munich","Equestrian","","Men","Soviet Union","RU","Europe",2,0.5
 1972,"Eventing","individual","X","GBR","Munich","Equestrian","MEADE, Richard John Hanray","Men","United Kingdom","GB","Europe",1,1
-1972,"Eventing","team","X","GBR","Munich","Equestrian","","Men","United Kingdom","GB","Europe",2,0.5
 1972,"Eventing","team","X","GBR","Munich","Equestrian","","Women","United Kingdom","GB","Europe",2,0.5
+1972,"Eventing","team","X","GBR","Munich","Equestrian","","Men","United Kingdom","GB","Europe",2,0.5
 1972,"Fencing","foil individual","M","POL","Munich","Fencing","WOYDA, Witold","Men","Poland","PL","Europe",1,1
 1972,"Fencing","foil individual","W","ITA","Munich","Fencing","RAGNO-LONZI, Antonella","Women","Italy","IT","Europe",1,1
 1972,"Fencing","foil team","M","POL","Munich","Fencing","","Men","Poland","PL","Europe",1,1
@@ -2302,8 +2302,8 @@
 1976,"Dressage","team","X","FRG","Montreal","Equestrian","GRILLO, Gabriela","Women","West Germany","DE","Europe",2,0.5
 1976,"Dressage","team","X","FRG","Montreal","Equestrian","","Men","West Germany","DE","Europe",2,0.5
 1976,"Eventing","individual","X","USA","Montreal","Equestrian","COFFIN, Edmund Sloane","Men","United States","US","Americas",1,1
-1976,"Eventing","team","X","USA","Montreal","Equestrian","TAUSKEY, Mary Anne","Women","United States","US","Americas",2,0.5
 1976,"Eventing","team","X","USA","Montreal","Equestrian","","Men","United States","US","Americas",2,0.5
+1976,"Eventing","team","X","USA","Montreal","Equestrian","TAUSKEY, Mary Anne","Women","United States","US","Americas",2,0.5
 1976,"Fencing","foil individual","M","ITA","Montreal","Fencing","DAL ZOTTO, Fabio","Men","Italy","IT","Europe",1,1
 1976,"Fencing","foil individual","W","HUN","Montreal","Fencing","SCHWARCZENBERGER, Ildiko","Women","Hungary","HU","Europe",1,1
 1976,"Fencing","foil team","M","FRG","Montreal","Fencing","","Men","West Germany","DE","Europe",1,1
@@ -2415,8 +2415,8 @@
 1980,"Archery","individual FITA round","W","URS","Moscow","Archery","LOSABERIDZE, Keto","Women","Soviet Union","RU","Europe",1,1
 1980,"Artistic G.","balance beam","W","ROU","Moscow","Gymnastics","COMANECI, Nadia","Women","Romania","RO","Europe",1,1
 1980,"Artistic G.","floor exercises","M","GDR","Moscow","Gymnastics","BRÜCKNER, Roland","Men","East Germany","DE","Europe",1,1
-1980,"Artistic G.","floor exercises","W","ROU","Moscow","Gymnastics","COMANECI, Nadia","Women","Romania","RO","Europe",2,0.5
 1980,"Artistic G.","floor exercises","W","URS","Moscow","Gymnastics","KIM, Nelli","Women","Soviet Union","RU","Europe",2,0.5
+1980,"Artistic G.","floor exercises","W","ROU","Moscow","Gymnastics","COMANECI, Nadia","Women","Romania","RO","Europe",2,0.5
 1980,"Artistic G.","horizontal bar","M","BUL","Moscow","Gymnastics","DELTCHEV, Stoyan","Men","Bulgaria","BG","Europe",1,1
 1980,"Artistic G.","individual all-round","M","URS","Moscow","Gymnastics","DITYATIN, Aleksandr","Men","Soviet Union","RU","Europe",1,1
 1980,"Artistic G.","individual all-round","W","URS","Moscow","Gymnastics","DAVYDOVA, Elena","Women","Soviet Union","RU","Europe",1,1
@@ -2631,8 +2631,8 @@
 1984,"Artistic G.","rings","M","CHN","Los Angeles","Gymnastics","LI, Ning","Men","China","CN","Asia",2,0.5
 1984,"Artistic G.","team competition","M","USA","Los Angeles","Gymnastics","","Men","United States","US","Americas",1,1
 1984,"Artistic G.","team competition","W","ROU","Los Angeles","Gymnastics","","Women","Romania","RO","Europe",1,1
-1984,"Artistic G.","uneven bars","W","CHN","Los Angeles","Gymnastics","MA, Yan-Hong","Women","China","CN","Asia",2,0.5
 1984,"Artistic G.","uneven bars","W","USA","Los Angeles","Gymnastics","MCNAMARA, Julianne Lyn","Women","United States","US","Americas",2,0.5
+1984,"Artistic G.","uneven bars","W","CHN","Los Angeles","Gymnastics","MA, Yan-Hong","Women","China","CN","Asia",2,0.5
 1984,"Artistic G.","vault","M","CHN","Los Angeles","Gymnastics","LOU, Yun","Men","China","CN","Asia",1,1
 1984,"Artistic G.","vault","W","ROU","Los Angeles","Gymnastics","SZABO, Ecaterina","Women","Romania","RO","Europe",1,1
 1984,"Athletics","10000m","M","ITA","Los Angeles","Athletics","COVA, Alberto","Men","Italy","IT","Europe",1,1
@@ -2717,8 +2717,8 @@
 1984,"Dressage","individual","X","FRG","Los Angeles","Equestrian","KLIMKE, Reiner","Men","West Germany","DE","Europe",1,1
 1984,"Dressage","team","X","FRG","Los Angeles","Equestrian","","Men","West Germany","DE","Europe",1,1
 1984,"Eventing","individual","X","NZL","Los Angeles","Equestrian","TODD, Mark","Men","New Zealand","NZ","Oceania",1,1
-1984,"Eventing","team","X","USA","Los Angeles","Equestrian","STIVES-LENDE, Karen Elizabeth","Women","United States","US","Americas",2,0.5
 1984,"Eventing","team","X","USA","Los Angeles","Equestrian","","Men","United States","US","Americas",2,0.5
+1984,"Eventing","team","X","USA","Los Angeles","Equestrian","STIVES-LENDE, Karen Elizabeth","Women","United States","US","Americas",2,0.5
 1984,"Fencing","foil individual","M","ITA","Los Angeles","Fencing","NUMA, Mauro","Men","Italy","IT","Europe",1,1
 1984,"Fencing","foil individual","W","CHN","Los Angeles","Fencing","LUAN, Ju-Jie","Women","China","CN","Asia",1,1
 1984,"Fencing","foil team","M","ITA","Los Angeles","Fencing","","Men","Italy","IT","Europe",1,1
@@ -2853,11 +2853,11 @@
 1988,"Artistic G.","individual all-round","M","URS","Seoul","Gymnastics","ARTEMOV, Vladimir","Men","Soviet Union","RU","Europe",1,1
 1988,"Artistic G.","individual all-round","W","URS","Seoul","Gymnastics","SHUSHUNOVA, Elena","Women","Soviet Union","RU","Europe",1,1
 1988,"Artistic G.","parallel bars","M","URS","Seoul","Gymnastics","ARTEMOV, Vladimir","Men","Soviet Union","RU","Europe",1,1
-1988,"Artistic G.","pommel horse","M","HUN","Seoul","Gymnastics","BORKAI, Zsolt","Men","Hungary","HU","Europe",3,0.333333333333333
 1988,"Artistic G.","pommel horse","M","BUL","Seoul","Gymnastics","GERASKOV, Lubomir","Men","Bulgaria","BG","Europe",3,0.333333333333333
+1988,"Artistic G.","pommel horse","M","HUN","Seoul","Gymnastics","BORKAI, Zsolt","Men","Hungary","HU","Europe",3,0.333333333333333
 1988,"Artistic G.","pommel horse","M","URS","Seoul","Gymnastics","BILOZERCHEV, Dmitri","Men","Soviet Union","RU","Europe",3,0.333333333333333
-1988,"Artistic G.","rings","M","GDR","Seoul","Gymnastics","BEHRENDT, Holger","Men","East Germany","DE","Europe",2,0.5
 1988,"Artistic G.","rings","M","URS","Seoul","Gymnastics","BILOZERCHEV, Dmitri","Men","Soviet Union","RU","Europe",2,0.5
+1988,"Artistic G.","rings","M","GDR","Seoul","Gymnastics","BEHRENDT, Holger","Men","East Germany","DE","Europe",2,0.5
 1988,"Artistic G.","team competition","M","URS","Seoul","Gymnastics","","Men","Soviet Union","RU","Europe",1,1
 1988,"Artistic G.","team competition","W","URS","Seoul","Gymnastics","","Women","Soviet Union","RU","Europe",1,1
 1988,"Artistic G.","uneven bars","W","ROU","Seoul","Gymnastics","SILIVAS, Daniela","Women","Romania","RO","Europe",1,1
@@ -3094,8 +3094,8 @@
 1992,"Artistic G.","individual all-round","M","EUN","Barcelona","Gymnastics","SCHERBO, Vitaly","Men","Unified Team","RU","Europe",1,1
 1992,"Artistic G.","individual all-round","W","EUN","Barcelona","Gymnastics","GOUTSOU, Tatiana","Women","Unified Team","RU","Europe",1,1
 1992,"Artistic G.","parallel bars","M","EUN","Barcelona","Gymnastics","SCHERBO, Vitaly","Men","Unified Team","RU","Europe",1,1
-1992,"Artistic G.","pommel horse","M","PRK","Barcelona","Gymnastics","PAE, Gil-Su","Men","North Korea","KP","Asia",2,0.5
 1992,"Artistic G.","pommel horse","M","EUN","Barcelona","Gymnastics","SCHERBO, Vitaly","Men","Unified Team","RU","Europe",2,0.5
+1992,"Artistic G.","pommel horse","M","PRK","Barcelona","Gymnastics","PAE, Gil-Su","Men","North Korea","KP","Asia",2,0.5
 1992,"Artistic G.","rings","M","EUN","Barcelona","Gymnastics","SCHERBO, Vitaly","Men","Unified Team","RU","Europe",1,1
 1992,"Artistic G.","team competition","M","EUN","Barcelona","Gymnastics","","Men","Unified Team","RU","Europe",1,1
 1992,"Artistic G.","team competition","W","EUN","Barcelona","Gymnastics","","Women","Unified Team","RU","Europe",1,1
@@ -3985,8 +3985,8 @@
 2004,"Athletics","triple jump","W","CMR","Athens","Athletics","MBANGO ETONE, Francoise","Women","Cameroon","CM","Africa",1,1
 2004,"Badminton","doubles","M","KOR","Athens","Badminton","","Men","South Korea","KR","Asia",1,1
 2004,"Badminton","doubles","W","CHN","Athens","Badminton","","Women","China","CN","Asia",1,1
-2004,"Badminton","doubles","X","CHN","Athens","Badminton","GAO, Ling","Women","China","CN","Asia",2,0.5
 2004,"Badminton","doubles","X","CHN","Athens","Badminton","ZHANG, Jun","Men","China","CN","Asia",2,0.5
+2004,"Badminton","doubles","X","CHN","Athens","Badminton","GAO, Ling","Women","China","CN","Asia",2,0.5
 2004,"Badminton","singles","M","INA","Athens","Badminton","HIDAYAT, Taufik","Men","Indonesia","ID","Asia",1,1
 2004,"Badminton","singles","W","CHN","Athens","Badminton","ZHANG, Ning","Women","China","CN","Asia",1,1
 2004,"Baseball","baseball","M","CUB","Athens","Baseball","","Men","Cuba","CU","Americas",1,1
@@ -4353,8 +4353,8 @@
 2008,"Dressage","individual","X","NED","Beijing","Equestrian","VAN GRUNSVEN, Anky","Women","Netherlands","NL","Europe",1,1
 2008,"Dressage","team","X","GER","Beijing","Equestrian","","Women","Germany","DE","Europe",1,1
 2008,"Eventing","individual","X","GER","Beijing","Equestrian","ROMEIKE, Hinrich","Men","Germany","DE","Europe",1,1
-2008,"Eventing","team","X","GER","Beijing","Equestrian","KLIMKE, Ingrid","Women","Germany","DE","Europe",2,0.5
 2008,"Eventing","team","X","GER","Beijing","Equestrian","","Men","Germany","DE","Europe",2,0.5
+2008,"Eventing","team","X","GER","Beijing","Equestrian","KLIMKE, Ingrid","Women","Germany","DE","Europe",2,0.5
 2008,"Fencing","foil individual","M","GER","Beijing","Fencing","KLEIBRINK, Benjamin","Men","Germany","DE","Europe",1,1
 2008,"Fencing","foil individual","W","ITA","Beijing","Fencing","VEZZALI, Valentina","Women","Italy","IT","Europe",1,1
 2008,"Fencing","foil team","W","RUS","Beijing","Fencing","","Women","Russia","RU","Europe",1,1
@@ -4597,8 +4597,8 @@
 2012,"BMX","BMX","W","COL","London","Cycling","Mariana Pajon","Women","Colombia","CO","Americas",1,1
 2012,"Badminton","Doubles","M","CHN","London","Badminton","","Men","China","CN","Asia",1,1
 2012,"Badminton","Doubles","W","CHN","London","Badminton","","Women","China","CN","Asia",1,1
-2012,"Badminton","Mixed Doubles","X","CHN","London","Badminton","Yunlei Zhao","Women","China","CN","Asia",2,0.5
 2012,"Badminton","Mixed Doubles","X","CHN","London","Badminton","Nan Zhang","Men","China","CN","Asia",2,0.5
+2012,"Badminton","Mixed Doubles","X","CHN","London","Badminton","Yunlei Zhao","Women","China","CN","Asia",2,0.5
 2012,"Badminton","Singles","M","CHN","London","Badminton","Dan Lin","Men","China","CN","Asia",1,1
 2012,"Badminton","Singles","W","CHN","London","Badminton","Xuerui Li","Women","China","CN","Asia",1,1
 2012,"Basketball","basketball","M","USA","London","Basketball","","Men","United States","US","Americas",1,1
@@ -4789,8 +4789,8 @@
 2012,"Taekwondo","-80kg","M","ARG","London","Taekwondo","Sebastian Crismanich","Men","Argentina","AR","Americas",1,1
 2012,"Tennis","Doubles","M","USA","London","Tennis","","Men","United States","US","Americas",1,1
 2012,"Tennis","Doubles","W","USA","London","Tennis","","Women","United States","US","Americas",1,1
-2012,"Tennis","Mixed Doubles","X","BLR","London","Tennis","Victoria Azarenka","Women","Belarus","BY","Europe",2,0.5
 2012,"Tennis","Mixed Doubles","X","BLR","London","Tennis","Max Mirnyi","Men","Belarus","BY","Europe",2,0.5
+2012,"Tennis","Mixed Doubles","X","BLR","London","Tennis","Victoria Azarenka","Women","Belarus","BY","Europe",2,0.5
 2012,"Tennis","Singles","M","GBR","London","Tennis","Andy Murray","Men","United Kingdom","GB","Europe",1,1
 2012,"Tennis","Singles","W","USA","London","Tennis","Serena Williams","Women","United States","US","Americas",1,1
 2012,"Trampoline","Trampoline","M","CHN","London","Gymnastics","Dong Dong","Men","China","CN","Asia",1,1
@@ -4834,35 +4834,35 @@
 2012,"Wrestling Gre-R","74kg Greco-Roman","M","RUS","London","Wrestling","Roman Vlasov","Men","Russia","RU","Europe",1,1
 2012,"Wrestling Gre-R","84kg Greco-Roman","M","RUS","London","Wrestling","Alan Khugaev","Men","Russia","RU","Europe",1,1
 2012,"Wrestling Gre-R","96kg Greco-Roman","M","IRI","London","Wrestling","Ghasem Rezaei","Men","Iran","IR","Asia",1,1
-2016,"Archery","Individual","M","","Rio de Janeiro","Archery","","Men",,,,1,1
-2016,"Archery","Individual","W","","Rio de Janeiro","Archery","","Women",,,,1,1
+2016,"Archery","Individual","M","KOR","Rio de Janeiro","Archery","Ku Bonchan","Men","South Korea","KR","Asia",1,1
+2016,"Archery","Individual","W","KOR","Rio de Janeiro","Archery","Chang Hye-jin","Women","South Korea","KR","Asia",1,1
 2016,"Archery","Team","M","KOR","Rio de Janeiro","Archery","","Men","South Korea","KR","Asia",1,1
 2016,"Archery","Team","W","KOR","Rio de Janeiro","Archery","","Women","South Korea","KR","Asia",1,1
 2016,"Artistic G.","Balance Beam","W","","Rio de Janeiro","Gymnastics","","Women",,,,1,1
-2016,"Artistic G.","Floor","M","","Rio de Janeiro","Gymnastics","","Men",,,,1,1
+2016,"Artistic G.","Floor","M","GBR","Rio de Janeiro","Gymnastics","Max Whitlock","Men","United Kingdom","GB","Europe",1,1
 2016,"Artistic G.","Floor Exercise","W","","Rio de Janeiro","Gymnastics","","Women",,,,1,1
 2016,"Artistic G.","Horizontal Bar","M","","Rio de Janeiro","Gymnastics","","Men",,,,1,1
 2016,"Artistic G.","Individual All-Around","M","JPN","Rio de Janeiro","Gymnastics","Kohei Uchimura","Men","Japan","JP","Asia",1,1
-2016,"Artistic G.","Individual All-Around","W","","Rio de Janeiro","Gymnastics","","Women",,,,1,1
+2016,"Artistic G.","Individual All-Around","W","USA","Rio de Janeiro","Gymnastics","Simone Biles","Women","United States","US","Americas",1,1
 2016,"Artistic G.","Parallel Bars","M","","Rio de Janeiro","Gymnastics","","Men",,,,1,1
-2016,"Artistic G.","Pommel Horse","M","","Rio de Janeiro","Gymnastics","","Men",,,,1,1
+2016,"Artistic G.","Pommel Horse","M","GBR","Rio de Janeiro","Gymnastics","Max Whitlock","Men","United Kingdom","GB","Europe",1,1
 2016,"Artistic G.","Rings","M","","Rio de Janeiro","Gymnastics","","Men",,,,1,1
 2016,"Artistic G.","Team","M","JPN","Rio de Janeiro","Gymnastics","","Men","Japan","JP","Asia",1,1
 2016,"Artistic G.","Team","W","USA","Rio de Janeiro","Gymnastics","","Women","United States","US","Americas",1,1
 2016,"Artistic G.","Vault","M","","Rio de Janeiro","Gymnastics","","Men",,,,1,1
-2016,"Artistic G.","Vault","W","","Rio de Janeiro","Gymnastics","","Women",,,,1,1
-2016,"Artistic G.","uneven bars","W","","Rio de Janeiro","Gymnastics","","Women",,,,1,1
-2016,"Athletics","10000m","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
-2016,"Athletics","10000m","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
-2016,"Athletics","100m","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
-2016,"Athletics","100m","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
+2016,"Artistic G.","Vault","W","USA","Rio de Janeiro","Gymnastics","Simone Biles","Women","United States","US","Americas",1,1
+2016,"Artistic G.","uneven bars","W","RUS","Rio de Janeiro","Gymnastics","Aliya Mustafina","Women","Russia","RU","Europe",1,1
+2016,"Athletics","10000m","M","GBR","Rio de Janeiro","Athletics","Mohamed Farah","Men","United Kingdom","GB","Europe",1,1
+2016,"Athletics","10000m","W","ETH","Rio de Janeiro","Athletics","Almaz Ayana","Women","Ethiopia","ET","Africa",1,1
+2016,"Athletics","100m","M","JAM","Rio de Janeiro","Athletics","Usain Bolt","Men","Jamaica","JM","Americas",1,1
+2016,"Athletics","100m","W","JAM","Rio de Janeiro","Athletics","Elaine Thompson","Women","Jamaica","JM","Americas",1,1
 2016,"Athletics","100m Hurdles","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","110m Hurdles","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","1500m","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","1500m","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","200m","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","200m","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
-2016,"Athletics","20km Race Walk","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
+2016,"Athletics","20km Race Walk","M","CHN","Rio de Janeiro","Athletics","Wang Zhen","Men","China","CN","Asia",1,1
 2016,"Athletics","20km Race Walk","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","3000m Steeplechase","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","3000m Steeplechase","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
@@ -4870,7 +4870,7 @@
 2016,"Athletics","4 x 100m Relay","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","4 x 400m Relay","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","4 x 400m Relay","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
-2016,"Athletics","400m","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
+2016,"Athletics","400m","M","RSA","Rio de Janeiro","Athletics","Wayde van Niekerk ","Men","South Africa","ZA","Africa",1,1
 2016,"Athletics","400m","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","400m Hurdles","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","400m Hurdles","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
@@ -4880,7 +4880,7 @@
 2016,"Athletics","800m","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","800m","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","Decathlon","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
-2016,"Athletics","Discus Throw","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
+2016,"Athletics","Discus Throw","M","GER","Rio de Janeiro","Athletics","Christoph Harting","Men","Germany","DE","Europe",1,1
 2016,"Athletics","Discus Throw","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","Hammer Throw","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","Hammer Throw","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
@@ -4889,16 +4889,16 @@
 2016,"Athletics","High Jump","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","Javelin Throw","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","Javelin Throw","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
-2016,"Athletics","Long Jump","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
+2016,"Athletics","Long Jump","M","USA","Rio de Janeiro","Athletics","Jeff Henderson","Men","United States","US","Americas",1,1
 2016,"Athletics","Long Jump","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","Marathon","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
-2016,"Athletics","Marathon","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
+2016,"Athletics","Marathon","W","KEN","Rio de Janeiro","Athletics","Jemima Jelagat Sumgong","Women","Kenya","KE","Africa",1,1
 2016,"Athletics","Pole Vault","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
 2016,"Athletics","Pole Vault","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
 2016,"Athletics","Shot Put","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
-2016,"Athletics","Shot Put","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
+2016,"Athletics","Shot Put","W","USA","Rio de Janeiro","Athletics","Michelle Carter","Women","United States","US","Americas",1,1
 2016,"Athletics","Triple Jump","M","","Rio de Janeiro","Athletics","","Men",,,,1,1
-2016,"Athletics","Triple Jump","W","","Rio de Janeiro","Athletics","","Women",,,,1,1
+2016,"Athletics","Triple Jump","W","COL","Rio de Janeiro","Athletics","Caterine Ibarguen ","Women","Colombia","CO","Americas",1,1
 2016,"BMX","BMX","M","","Rio de Janeiro","Cycling","","Men",,,,1,1
 2016,"BMX","BMX","W","","Rio de Janeiro","Cycling","","Women",,,,1,1
 2016,"Badminton","Doubles","M","","Rio de Janeiro","Badminton","","Men",,,,1,1
@@ -4917,17 +4917,17 @@
 2016,"Boxing","Heavy (91kg)","M","","Rio de Janeiro","Boxing","","Men",,,,1,1
 2016,"Boxing","Light (60kg)","M","","Rio de Janeiro","Boxing","","Men",,,,1,1
 2016,"Boxing","Light 60kg","W","","Rio de Janeiro","Boxing","","Women",,,,1,1
-2016,"Boxing","Light Fly (49kg)","M","","Rio de Janeiro","Boxing","","Men",,,,1,1
+2016,"Boxing","Light Fly (49kg)","M","UZB","Rio de Janeiro","Boxing","Hasanboy Dusmatov","Men","Uzbekistan","UZ","Asia",1,1
 2016,"Boxing","Light Heavy (81kg)","M","","Rio de Janeiro","Boxing","","Men",,,,1,1
 2016,"Boxing","Light Welter (64kg)","M","","Rio de Janeiro","Boxing","","Men",,,,1,1
 2016,"Boxing","Middle (75kg)","M","","Rio de Janeiro","Boxing","","Men",,,,1,1
 2016,"Boxing","Middle (75kg)","W","","Rio de Janeiro","Boxing","","Women",,,,1,1
 2016,"Boxing","Super Heavy (+91kg)","M","","Rio de Janeiro","Boxing","","Men",,,,1,1
 2016,"Boxing","Welter (69kg)","M","","Rio de Janeiro","Boxing","","Men",,,,1,1
-2016,"Canoe Slalom","Canoe Double (C2)","M","","Rio de Janeiro","Canoe / Kayak","","Men",,,,1,1
+2016,"Canoe Slalom","Canoe Double (C2)","M","SVK","Rio de Janeiro","Canoe / Kayak","","Men","Slovakia","SK","Europe",1,1
 2016,"Canoe Slalom","Canoe Single (C1)","M","FRA","Rio de Janeiro","Canoe / Kayak","Denis Garguad Chanut","Men","France","FR","Europe",1,1
 2016,"Canoe Slalom","Kayak (K1)","M","GBR","Rio de Janeiro","Canoe / Kayak","Joseph Clarke","Men","United Kingdom","GB","Europe",1,1
-2016,"Canoe Slalom","Kayak (K1)","W","","Rio de Janeiro","Canoe / Kayak","","Women",,,,1,1
+2016,"Canoe Slalom","Kayak (K1)","W","ESP","Rio de Janeiro","Canoe / Kayak","Maialen Chourraut","Women","Spain","ES","Europe",1,1
 2016,"Canoe Sprint","Canoe Double (C2) 1000m","M","","Rio de Janeiro","Canoe / Kayak","","Men",,,,1,1
 2016,"Canoe Sprint","Canoe Single (C1) 1000m","M","","Rio de Janeiro","Canoe / Kayak","","Men",,,,1,1
 2016,"Canoe Sprint","Canoe Single (C1) 200m","M","","Rio de Janeiro","Canoe / Kayak","","Men",,,,1,1
@@ -4945,26 +4945,26 @@
 2016,"Cycling Road","Road Race","M","BEL","Rio de Janeiro","Cycling","Greg van Avermaet","Men","Belgium","BE","Europe",1,1
 2016,"Cycling Road","Road Race","W","NED","Rio de Janeiro","Cycling","Anna van der Breggen","Women","Netherlands","NL","Europe",1,1
 2016,"Cycling Track","Keirin","M","","Rio de Janeiro","Cycling","","Men",,,,1,1
-2016,"Cycling Track","Keirin","W","","Rio de Janeiro","Cycling","","Women",,,,1,1
+2016,"Cycling Track","Keirin","W","NED","Rio de Janeiro","Cycling","Elis Ligtlee","Women","Netherlands","NL","Europe",1,1
 2016,"Cycling Track","Omnium","M","","Rio de Janeiro","Cycling","","Men",,,,1,1
 2016,"Cycling Track","Omnium","W","","Rio de Janeiro","Cycling","","Women",,,,1,1
-2016,"Cycling Track","Sprint","M","","Rio de Janeiro","Cycling","","Men",,,,1,1
+2016,"Cycling Track","Sprint","M","GBR","Rio de Janeiro","Cycling","Kenny Jason","Men","United Kingdom","GB","Europe",1,1
 2016,"Cycling Track","Sprint","W","","Rio de Janeiro","Cycling","","Women",,,,1,1
-2016,"Cycling Track","Team Pursuit","M","","Rio de Janeiro","Cycling","","Men",,,,1,1
-2016,"Cycling Track","Team Pursuit","W","","Rio de Janeiro","Cycling","","Women",,,,1,1
-2016,"Cycling Track","Team Sprint","M","","Rio de Janeiro","Cycling","","Men",,,,1,1
-2016,"Cycling Track","Team Sprint","W","","Rio de Janeiro","Cycling","","Women",,,,1,1
+2016,"Cycling Track","Team Pursuit","M","GBR","Rio de Janeiro","Cycling","","Men","United Kingdom","GB","Europe",1,1
+2016,"Cycling Track","Team Pursuit","W","GBR","Rio de Janeiro","Cycling","","Women","United Kingdom","GB","Europe",1,1
+2016,"Cycling Track","Team Sprint","M","GBR","Rio de Janeiro","Cycling","","Men","United Kingdom","GB","Europe",1,1
+2016,"Cycling Track","Team Sprint","W","CHN","Rio de Janeiro","Cycling","","Women","China","CN","Asia",1,1
 2016,"Diving","10m Platform","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
 2016,"Diving","10m Platform","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
 2016,"Diving","3m Springboard","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
-2016,"Diving","3m Springboard","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
+2016,"Diving","3m Springboard","W","CHN","Rio de Janeiro","Aquatics","Tingmao Shi","Women","China","CN","Asia",1,1
 2016,"Diving","Synchronised 10m Platform","M","CHN","Rio de Janeiro","Aquatics","","Men","China","CN","Asia",1,1
 2016,"Diving","Synchronised 10m Platform","W","CHN","Rio de Janeiro","Aquatics","","Women","China","CN","Asia",1,1
 2016,"Diving","Synchronised 3m Springboard","M","GBR","Rio de Janeiro","Aquatics","","Men","United Kingdom","GB","Europe",1,1
 2016,"Diving","Synchronised 3m Springboard","W","CHN","Rio de Janeiro","Aquatics","","Women","China","CN","Asia",1,1
 2016,"Dressage","Individual Dressage","X","","Rio de Janeiro","Equestrian","","",,,,1,1
-2016,"Dressage","Team Dressage","X","","Rio de Janeiro","Equestrian","","Men",,,,2,0.5
-2016,"Dressage","Team Dressage","X","","Rio de Janeiro","Equestrian","","Women",,,,2,0.5
+2016,"Dressage","Team Dressage","X","GER","Rio de Janeiro","Equestrian","","Women","Germany","DE","Europe",2,0.5
+2016,"Dressage","Team Dressage","X","GER","Rio de Janeiro","Equestrian","","Men","Germany","DE","Europe",2,0.5
 2016,"Eventing","Individual Eventing","X","GER","Rio de Janeiro","Equestrian","Michael Jung","Men","Germany","DE","Europe",1,1
 2016,"Eventing","Team Eventing","X","FRA","Rio de Janeiro","Equestrian","","Men","France","FR","Europe",1,1
 2016,"Fencing","Individual Epee","M","KOR","Rio de Janeiro","Fencing","Park Sang-young","Men","South Korea","KR","Asia",1,1
@@ -4973,21 +4973,21 @@
 2016,"Fencing","Individual Foil","W","RUS","Rio de Janeiro","Fencing","Inna Deriglazova","Women","Russia","RU","Europe",1,1
 2016,"Fencing","Individual Sabre","M","HUN","Rio de Janeiro","Fencing","Aron Szilagyi","Men","Hungary","HU","Europe",1,1
 2016,"Fencing","Individual Sabre","W","RUS","Rio de Janeiro","Fencing","Yana Egorian","Women","Russia","RU","Europe",1,1
-2016,"Fencing","Team Epee","M","","Rio de Janeiro","Fencing","","Men",,,,1,1
-2016,"Fencing","Team Epee","W","","Rio de Janeiro","Fencing","","Women",,,,1,1
-2016,"Fencing","Team Foil","M","","Rio de Janeiro","Fencing","","Men",,,,1,1
-2016,"Fencing","Team Sabre","W","","Rio de Janeiro","Fencing","","Women",,,,1,1
+2016,"Fencing","Team Epee","M","FRA","Rio de Janeiro","Fencing","","Men","France","FR","Europe",1,1
+2016,"Fencing","Team Epee","W","ROU","Rio de Janeiro","Fencing","","Women","Romania","RO","Europe",1,1
+2016,"Fencing","Team Foil","M","RUS","Rio de Janeiro","Fencing","","Men","Russia","RU","Europe",1,1
+2016,"Fencing","Team Sabre","W","RUS","Rio de Janeiro","Fencing","","Women","Russia","RU","Europe",1,1
 2016,"Football","football","M","","Rio de Janeiro","Football","","Men",,,,1,1
 2016,"Football","football","W","","Rio de Janeiro","Football","","Women",,,,1,1
-2016,"Golf","stroke-play tournament","M","","Rio de Janeiro","Golf","","Men",,,,1,1
+2016,"Golf","stroke-play tournament","M","GBR","Rio de Janeiro","Golf","Justin Rose","Men","United Kingdom","GB","Europe",1,1
 2016,"Golf","stroke-play tournament","W","","Rio de Janeiro","Golf","","Women",,,,1,1
 2016,"Handball","handball","M","","Rio de Janeiro","Handball","","Men",,,,1,1
 2016,"Handball","handball","W","","Rio de Janeiro","Handball","","Women",,,,1,1
 2016,"Hockey","hockey","M","","Rio de Janeiro","Hockey","","Men",,,,1,1
 2016,"Hockey","hockey","W","","Rio de Janeiro","Hockey","","Women",,,,1,1
-2016,"Judo","+100kg","M","","Rio de Janeiro","Judo","","Men",,,,1,1
-2016,"Judo","+78kg","W","","Rio de Janeiro","Judo","","Women",,,,1,1
-2016,"Judo","-100kg","M","","Rio de Janeiro","Judo","","Men",,,,1,1
+2016,"Judo","+100kg","M","FRA","Rio de Janeiro","Judo","Teddy Riner","Men","France","FR","Europe",1,1
+2016,"Judo","+78kg","W","FRA","Rio de Janeiro","Judo","Emilie Andeol","Women","France","FR","Europe",1,1
+2016,"Judo","-100kg","M","CZE","Rio de Janeiro","Judo","Lukas Krpalek","Men","Czech Republic","CZ","Europe",1,1
 2016,"Judo","-48kg","W","ARG","Rio de Janeiro","Judo","Paula Pareto","Women","Argentina","AR","Americas",1,1
 2016,"Judo","-52kg","W","KOS","Rio de Janeiro","Judo","Majlinda Kelmendi","Women","Kosovo","XK","Europe",1,1
 2016,"Judo","-57kg","W","BRA","Rio de Janeiro","Judo","Rafaela Silva","Women","Brazil","BR","Americas",1,1
@@ -4996,7 +4996,7 @@
 2016,"Judo","-66kg","M","ITA","Rio de Janeiro","Judo","Fabio Basile","Men","Italy","IT","Europe",1,1
 2016,"Judo","-70kg","W","JPN","Rio de Janeiro","Judo","Haruka Tachimoto","Women","Japan","JP","Asia",1,1
 2016,"Judo","-73kg","M","JPN","Rio de Janeiro","Judo","Shohei Ono","Men","Japan","JP","Asia",1,1
-2016,"Judo","-78kg","W","","Rio de Janeiro","Judo","","Women",,,,1,1
+2016,"Judo","-78kg","W","USA","Rio de Janeiro","Judo","Kayla Harrison","Women","United States","US","Americas",1,1
 2016,"Judo","-81kg","M","RUS","Rio de Janeiro","Judo","Khasan Khalmurzaev","Men","Russia","RU","Europe",1,1
 2016,"Judo","-90kg","M","JPN","Rio de Janeiro","Judo","Mashu Baker","Men","Japan","JP","Asia",1,1
 2016,"Jumping","Individual Jumping","X","","Rio de Janeiro","Equestrian","","",,,,1,1
@@ -5008,21 +5008,21 @@
 2016,"Mountain Bike","cross-country","W","","Rio de Janeiro","Cycling","","Women",,,,1,1
 2016,"Rhythmic G.","group competition","W","","Rio de Janeiro","Gymnastics","","Women",,,,1,1
 2016,"Rhythmic G.","individual all-round","W","","Rio de Janeiro","Gymnastics","","Women",,,,1,1
-2016,"Rowing","Double Sculls","M","","Rio de Janeiro","Rowing","","Men",,,,1,1
-2016,"Rowing","Double Sculls","W","","Rio de Janeiro","Rowing","","Women",,,,1,1
-2016,"Rowing","Eight","M","","Rio de Janeiro","Rowing","","Men",,,,1,1
-2016,"Rowing","Eight","W","","Rio de Janeiro","Rowing","","Women",,,,1,1
-2016,"Rowing","Four","M","","Rio de Janeiro","Rowing","","Men",,,,1,1
-2016,"Rowing","Lightweight Double Sculls","M","","Rio de Janeiro","Rowing","","Men",,,,1,1
-2016,"Rowing","Lightweight Double Sculls","W","","Rio de Janeiro","Rowing","","Women",,,,1,1
-2016,"Rowing","Lightweight Four","M","","Rio de Janeiro","Rowing","","Men",,,,1,1
-2016,"Rowing","Pair","M","","Rio de Janeiro","Rowing","","Men",,,,1,1
-2016,"Rowing","Pair","W","","Rio de Janeiro","Rowing","","Women",,,,1,1
-2016,"Rowing","Quadruple Sculls","M","","Rio de Janeiro","Rowing","","Men",,,,1,1
-2016,"Rowing","Quadruple Sculls","W","","Rio de Janeiro","Rowing","","Women",,,,1,1
-2016,"Rowing","Single Sculls","M","","Rio de Janeiro","Rowing","","Men",,,,1,1
-2016,"Rowing","Single Sculls","W","","Rio de Janeiro","Rowing","","Women",,,,1,1
-2016,"Rugby Sevens","team","M","","Rio de Janeiro","Rugby","","Men",,,,1,1
+2016,"Rowing","Double Sculls","M","CRO","Rio de Janeiro","Rowing","","Men","Croatia","HR","Europe",1,1
+2016,"Rowing","Double Sculls","W","POL","Rio de Janeiro","Rowing","","Women","Poland","PL","Europe",1,1
+2016,"Rowing","Eight","M","GBR","Rio de Janeiro","Rowing","","Men","United Kingdom","GB","Europe",1,1
+2016,"Rowing","Eight","W","USA","Rio de Janeiro","Rowing","","Women","United States","US","Americas",1,1
+2016,"Rowing","Four","M","GBR","Rio de Janeiro","Rowing","","Men","United Kingdom","GB","Europe",1,1
+2016,"Rowing","Lightweight Double Sculls","M","FRA","Rio de Janeiro","Rowing","","Men","France","FR","Europe",1,1
+2016,"Rowing","Lightweight Double Sculls","W","NED","Rio de Janeiro","Rowing","","Women","Netherlands","NL","Europe",1,1
+2016,"Rowing","Lightweight Four","M","SUI","Rio de Janeiro","Rowing","","Men","Switzerland","CH","Europe",1,1
+2016,"Rowing","Pair","M","NZL","Rio de Janeiro","Rowing","","Men","New Zealand","NZ","Oceania",1,1
+2016,"Rowing","Pair","W","GBR","Rio de Janeiro","Rowing","","Women","United Kingdom","GB","Europe",1,1
+2016,"Rowing","Quadruple Sculls","M","GER","Rio de Janeiro","Rowing","","Men","Germany","DE","Europe",1,1
+2016,"Rowing","Quadruple Sculls","W","GER","Rio de Janeiro","Rowing","","Women","Germany","DE","Europe",1,1
+2016,"Rowing","Single Sculls","M","NZL","Rio de Janeiro","Rowing","Mahe Drysdale","Men","New Zealand","NZ","Oceania",1,1
+2016,"Rowing","Single Sculls","W","AUS","Rio de Janeiro","Rowing","Kim Crow","Women","Australia","AU","Oceania",1,1
+2016,"Rugby Sevens","team","M","FIJ","Rio de Janeiro","Rugby","","Men","Fiji","FJ","Oceania",1,1
 2016,"Rugby Sevens","team","W","AUS","Rio de Janeiro","Rugby","","Women","Australia","AU","Oceania",1,1
 2016,"Sailing","470 - Two Person Dinghy","M","","Rio de Janeiro","Sailing","","Men",,,,1,1
 2016,"Sailing","470 - Two Person Dinghy","W","","Rio de Janeiro","Sailing","","Women",,,,1,1
@@ -5031,45 +5031,46 @@
 2016,"Sailing","Finn - Heavyweight Dinghy","M","","Rio de Janeiro","Sailing","","Men",,,,1,1
 2016,"Sailing","Laser - One Person Dinghy","M","","Rio de Janeiro","Sailing","","Men",,,,1,1
 2016,"Sailing","Laser Radial - One Person Dinghy","W","","Rio de Janeiro","Sailing","","Women",,,,1,1
-2016,"Sailing","Nacra 17 - Multihull","X","","Rio de Janeiro","Sailing","","Men",,,,2,0.5
 2016,"Sailing","Nacra 17 - Multihull","X","","Rio de Janeiro","Sailing","","Women",,,,2,0.5
-2016,"Sailing","RS:X - Windsurfer","M","","Rio de Janeiro","Sailing","","Men",,,,1,1
-2016,"Sailing","RS:X - Windsurfer","W","","Rio de Janeiro","Sailing","","Women",,,,1,1
+2016,"Sailing","Nacra 17 - Multihull","X","","Rio de Janeiro","Sailing","","Men",,,,2,0.5
+2016,"Sailing","RS:X - Windsurfer","M","NED","Rio de Janeiro","Sailing","Dorian van Rijsselberghe","Men","Netherlands","NL","Europe",1,1
+2016,"Sailing","RS:X - Windsurfer","W","FRA","Rio de Janeiro","Sailing","Charline Picon","Women","France","FR","Europe",1,1
 2016,"Shooting","10m Air Pistol","M","VIE","Rio de Janeiro","Shooting","Hoang Xuan Vinh","Men","Vietnam","VN","Asia",1,1
 2016,"Shooting","10m Air Pistol","W","CHN","Rio de Janeiro","Shooting","Mengxue Zhang","Women","China","CN","Asia",1,1
 2016,"Shooting","10m Air Rifle","M","ITA","Rio de Janeiro","Shooting","Niccolo Campriani","Men","Italy","IT","Europe",1,1
 2016,"Shooting","10m Air Rifle","W","USA","Rio de Janeiro","Shooting","Ginny Thrasher","Women","United States","US","Americas",1,1
 2016,"Shooting","25m Pistol","W","GRE","Rio de Janeiro","Shooting","Anna Korakaki","Women","Greece","GR","Europe",1,1
-2016,"Shooting","25m Rapid Fire Pistol","M","","Rio de Janeiro","Shooting","","Men",,,,1,1
+2016,"Shooting","25m Rapid Fire Pistol","M","GER","Rio de Janeiro","Shooting","Christian Reitz","Men","Germany","DE","Europe",1,1
 2016,"Shooting","50m Pistol","M","KOR","Rio de Janeiro","Shooting","Jin Jongoh","Men","South Korea","KR","Asia",1,1
-2016,"Shooting","50m Rifle 3 Positions","M","","Rio de Janeiro","Shooting","","Men",,,,1,1
-2016,"Shooting","50m Rifle 3 Positions","W","","Rio de Janeiro","Shooting","","Women",,,,1,1
-2016,"Shooting","50m Rifle Prone","M","","Rio de Janeiro","Shooting","","Men",,,,1,1
+2016,"Shooting","50m Rifle 3 Positions","M","ITA","Rio de Janeiro","Shooting","Niccolo Campriani ","Men","Italy","IT","Europe",1,1
+2016,"Shooting","50m Rifle 3 Positions","W","GER","Rio de Janeiro","Shooting","Barbara Engleder","Women","Germany","DE","Europe",1,1
+2016,"Shooting","50m Rifle Prone","M","GER","Rio de Janeiro","Shooting","Henri Junghaenel","Men","Germany","DE","Europe",1,1
 2016,"Shooting","Double Trap","M","KUW","Rio de Janeiro","Shooting","Fehaid Aldeehani","Men","Kuwait","KW","Asia",1,1
-2016,"Shooting","Skeet","M","","Rio de Janeiro","Shooting","","Men",,,,1,1
-2016,"Shooting","Skeet","W","","Rio de Janeiro","Shooting","","Women",,,,1,1
+2016,"Shooting","Skeet","M","ITA","Rio de Janeiro","Shooting","Gabriele Rossetti","Men","Italy","IT","Europe",1,1
+2016,"Shooting","Skeet","W","ITA","Rio de Janeiro","Shooting","Diana Bacosi","Women","Italy","IT","Europe",1,1
 2016,"Shooting","Trap","M","CRO","Rio de Janeiro","Shooting","Josip Glasnovic","Men","Croatia","HR","Europe",1,1
 2016,"Shooting","Trap","W","AUS","Rio de Janeiro","Shooting","Catherine Skinner","Women","Australia","AU","Oceania",1,1
 2016,"Swimming","100m Backstroke","M","USA","Rio de Janeiro","Aquatics","Ryan Murphy","Men","United States","US","Americas",1,1
 2016,"Swimming","100m Backstroke","W","HUN","Rio de Janeiro","Aquatics","Katinka Hosszú","Women","Hungary","HU","Europe",1,1
 2016,"Swimming","100m Breaststroke","M","GBR","Rio de Janeiro","Aquatics","Adam Peaty","Men","United Kingdom","GB","Europe",1,1
 2016,"Swimming","100m Breaststroke","W","USA","Rio de Janeiro","Aquatics","Lilly King","Women","United States","US","Americas",1,1
-2016,"Swimming","100m Butterfly","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
+2016,"Swimming","100m Butterfly","M","SIN","Rio de Janeiro","Aquatics","Joseph Schooling","Men","Singapore","SG","Asia",1,1
 2016,"Swimming","100m Butterfly","W","SWE","Rio de Janeiro","Aquatics","Sarah Sjöström","Women","Sweden","SE","Europe",1,1
 2016,"Swimming","100m Freestyle","M","AUS","Rio de Janeiro","Aquatics","Kyle Chalmers","Men","Australia","AU","Oceania",1,1
-2016,"Swimming","100m Freestyle","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
+2016,"Swimming","100m Freestyle","W","USA","Rio de Janeiro","Aquatics","Simone Manuel","Women","United States","US","Americas",2,0.5
+2016,"Swimming","100m Freestyle","W","CAN","Rio de Janeiro","Aquatics","Penny Oleksiak","Women","Canada","CA","Americas",2,0.5
 2016,"Swimming","10km Marathon","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
 2016,"Swimming","10km Marathon","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
-2016,"Swimming","1500m Freestyle","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
-2016,"Swimming","200m Backstroke","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
-2016,"Swimming","200m Backstroke","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
+2016,"Swimming","1500m Freestyle","M","ITA","Rio de Janeiro","Aquatics","Gregorio Paltrinieri","Men","Italy","IT","Europe",1,1
+2016,"Swimming","200m Backstroke","M","USA","Rio de Janeiro","Aquatics","Ryan Murphy","Men","United States","US","Americas",1,1
+2016,"Swimming","200m Backstroke","W","USA","Rio de Janeiro","Aquatics","Maya DiRado","Women","United States","US","Americas",1,1
 2016,"Swimming","200m Breaststroke","M","KAZ","Rio de Janeiro","Aquatics","Dmitriy Balandin","Men","Kazakhstan","KZ","Asia",1,1
-2016,"Swimming","200m Breaststroke","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
+2016,"Swimming","200m Breaststroke","W","JPN","Rio de Janeiro","Aquatics","Rie Kaneto","Women","Japan","JP","Asia",1,1
 2016,"Swimming","200m Butterfly","M","USA","Rio de Janeiro","Aquatics","Michael Phelps","Men","United States","US","Americas",1,1
 2016,"Swimming","200m Butterfly","W","ESP","Rio de Janeiro","Aquatics","Mireia Belmonte Garcia","Women","Spain","ES","Europe",1,1
 2016,"Swimming","200m Freestyle","M","CHN","Rio de Janeiro","Aquatics","Sun Yang","Men","China","CN","Asia",1,1
 2016,"Swimming","200m Freestyle","W","USA","Rio de Janeiro","Aquatics","Katie Ledecky","Women","United States","US","Americas",1,1
-2016,"Swimming","200m Individual Medley","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
+2016,"Swimming","200m Individual Medley","M","USA","Rio de Janeiro","Aquatics","Michael Phelps","Men","United States","US","Americas",1,1
 2016,"Swimming","200m Individual Medley","W","HUN","Rio de Janeiro","Aquatics","Katinka Hosszú","Women","Hungary","HU","Europe",1,1
 2016,"Swimming","400m Freestyle","M","AUS","Rio de Janeiro","Aquatics","Mack Horton","Men","Australia","AU","Oceania",1,1
 2016,"Swimming","400m Freestyle","W","USA","Rio de Janeiro","Aquatics","Katie Ledecky","Women","United States","US","Americas",1,1
@@ -5077,16 +5078,16 @@
 2016,"Swimming","400m Individual Medley","W","HUN","Rio de Janeiro","Aquatics","Katinka Hosszú","Women","Hungary","HU","Europe",1,1
 2016,"Swimming","4x100m Freestyle Relay","M","USA","Rio de Janeiro","Aquatics","","Men","United States","US","Americas",1,1
 2016,"Swimming","4x100m Freestyle Relay","W","AUS","Rio de Janeiro","Aquatics","","Women","Australia","AU","Oceania",1,1
-2016,"Swimming","4x100m Medley Relay","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
-2016,"Swimming","4x100m Medley Relay","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
+2016,"Swimming","4x100m Medley Relay","M","USA","Rio de Janeiro","Aquatics","","Men","United States","US","Americas",1,1
+2016,"Swimming","4x100m Medley Relay","W","USA","Rio de Janeiro","Aquatics","","Women","United States","US","Americas",1,1
 2016,"Swimming","4x200m Freestyle Relay","M","USA","Rio de Janeiro","Aquatics","","Men","United States","US","Americas",1,1
 2016,"Swimming","4x200m Freestyle Relay","W","USA","Rio de Janeiro","Aquatics","","Women","United States","US","Americas",1,1
-2016,"Swimming","50m Freestyle","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
-2016,"Swimming","50m Freestyle","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
-2016,"Swimming","800m Freestyle","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
+2016,"Swimming","50m Freestyle","M","USA","Rio de Janeiro","Aquatics","Anthony Ervin","Men","United States","US","Americas",1,1
+2016,"Swimming","50m Freestyle","W","DEN","Rio de Janeiro","Aquatics","Pernille Blume","Women","Denmark","DK","Europe",1,1
+2016,"Swimming","800m Freestyle","W","USA","Rio de Janeiro","Aquatics","Katie Ledecky","Women","United States","US","Americas",1,1
 2016,"Synchronized S.","Duets","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
 2016,"Synchronized S.","Teams","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
-2016,"Table Tennis","Singles","M","","Rio de Janeiro","Table Tennis","","Men",,,,1,1
+2016,"Table Tennis","Singles","M","CHN","Rio de Janeiro","Table Tennis","Ma Long","Men","China","CN","Asia",1,1
 2016,"Table Tennis","Singles","W","CHN","Rio de Janeiro","Table Tennis","Ding Ning","Women","China","CN","Asia",1,1
 2016,"Table Tennis","Team","M","","Rio de Janeiro","Table Tennis","","Men",,,,1,1
 2016,"Table Tennis","Team","W","","Rio de Janeiro","Table Tennis","","Women",,,,1,1
@@ -5098,14 +5099,14 @@
 2016,"Taekwondo","-67kg","W","","Rio de Janeiro","Taekwondo","","Women",,,,1,1
 2016,"Taekwondo","-68kg","M","","Rio de Janeiro","Taekwondo","","Men",,,,1,1
 2016,"Taekwondo","-80kg","M","","Rio de Janeiro","Taekwondo","","Men",,,,1,1
-2016,"Tennis","Doubles","M","","Rio de Janeiro","Tennis","","Men",,,,1,1
-2016,"Tennis","Doubles","W","","Rio de Janeiro","Tennis","","Women",,,,1,1
-2016,"Tennis","Mixed Doubles","X","","Rio de Janeiro","Tennis","","Men",,,,2,0.5
-2016,"Tennis","Mixed Doubles","X","","Rio de Janeiro","Tennis","","Women",,,,2,0.5
-2016,"Tennis","Singles","M","","Rio de Janeiro","Tennis","","Men",,,,1,1
-2016,"Tennis","Singles","W","","Rio de Janeiro","Tennis","","Women",,,,1,1
-2016,"Trampoline","Trampoline","M","","Rio de Janeiro","Gymnastics","","Men",,,,1,1
-2016,"Trampoline","Trampoline","W","","Rio de Janeiro","Gymnastics","","Women",,,,1,1
+2016,"Tennis","Doubles","M","ESP","Rio de Janeiro","Tennis","","Men","Spain","ES","Europe",1,1
+2016,"Tennis","Doubles","W","RUS","Rio de Janeiro","Tennis","","Women","Russia","RU","Europe",1,1
+2016,"Tennis","Mixed Doubles","X","USA","Rio de Janeiro","Tennis","","Women","United States","US","Americas",2,0.5
+2016,"Tennis","Mixed Doubles","X","USA","Rio de Janeiro","Tennis","","Men","United States","US","Americas",2,0.5
+2016,"Tennis","Singles","M","GBR","Rio de Janeiro","Tennis","Andy Murray","Men","United Kingdom","GB","Europe",1,1
+2016,"Tennis","Singles","W","PUR","Rio de Janeiro","Tennis","Mónica Puig","Women","Puerto Rico","PR","Americas",1,1
+2016,"Trampoline","Trampoline","M","BLR","Rio de Janeiro","Gymnastics","Uladzislau Hancharou","Men","Belarus","BY","Europe",1,1
+2016,"Trampoline","Trampoline","W","CAN","Rio de Janeiro","Gymnastics","Rosannagh MacLennan","Women","Canada","CA","Americas",1,1
 2016,"Triathlon","Triathlon","M","","Rio de Janeiro","Triathlon","","Men",,,,1,1
 2016,"Triathlon","Triathlon","W","","Rio de Janeiro","Triathlon","","Women",,,,1,1
 2016,"Volleyball","volleyball","M","","Rio de Janeiro","Volleyball","","Men",,,,1,1
@@ -5113,7 +5114,7 @@
 2016,"Water polo","water polo","M","","Rio de Janeiro","Aquatics","","Men",,,,1,1
 2016,"Water polo","water polo","W","","Rio de Janeiro","Aquatics","","Women",,,,1,1
 2016,"Weightlifting","+105kg","M","","Rio de Janeiro","Weightlifting","","Men",,,,1,1
-2016,"Weightlifting","+75kg","W","","Rio de Janeiro","Weightlifting","","Women",,,,1,1
+2016,"Weightlifting","+75kg","W","CHN","Rio de Janeiro","Weightlifting","Meng Suping","Women","China","CN","Asia",1,1
 2016,"Weightlifting","105kg","M","","Rio de Janeiro","Weightlifting","","Men",,,,1,1
 2016,"Weightlifting","48kg","W","THA","Rio de Janeiro","Weightlifting","Sopita Tanasan","Women","Thailand","TH","Asia",1,1
 2016,"Weightlifting","53kg","W","TPE","Rio de Janeiro","Weightlifting","Shu-Ching Hsu","Women","Taiwan","TW","Asia",1,1
@@ -5121,12 +5122,12 @@
 2016,"Weightlifting","58kg","W","THA","Rio de Janeiro","Weightlifting","Sukanya Srisurat","Women","Thailand","TH","Asia",1,1
 2016,"Weightlifting","62kg","M","COL","Rio de Janeiro","Weightlifting","Oscar Figueroa","Men","Colombia","CO","Americas",1,1
 2016,"Weightlifting","63kg","W","CHN","Rio de Janeiro","Weightlifting","Deng Wei","Women","China","CN","Asia",1,1
-2016,"Weightlifting","69kg","M","","Rio de Janeiro","Weightlifting","","Men",,,,1,1
+2016,"Weightlifting","69kg","M","CHN","Rio de Janeiro","Weightlifting","Shi Zhiyong","Men","China","CN","Asia",1,1
 2016,"Weightlifting","69kg","W","CHN","Rio de Janeiro","Weightlifting","Xiang Yanmei","Women","China","CN","Asia",1,1
-2016,"Weightlifting","75kg","W","","Rio de Janeiro","Weightlifting","","Women",,,,1,1
+2016,"Weightlifting","75kg","W","PRK","Rio de Janeiro","Weightlifting","Rim Jong Sim","Women","North Korea","KP","Asia",1,1
 2016,"Weightlifting","77kg","M","KAZ","Rio de Janeiro","Weightlifting","Nijat Rahimov","Men","Kazakhstan","KZ","Asia",1,1
-2016,"Weightlifting","85kg","M","","Rio de Janeiro","Weightlifting","","Men",,,,1,1
-2016,"Weightlifting","94kg","M","","Rio de Janeiro","Weightlifting","","Men",,,,1,1
+2016,"Weightlifting","85kg","M","IRI","Rio de Janeiro","Weightlifting","Kianoush Rostami","Men","Iran","IR","Asia",1,1
+2016,"Weightlifting","94kg","M","IRI","Rio de Janeiro","Weightlifting","Sohrab Moradi","Men","Iran","IR","Asia",1,1
 2016,"Wrestling Free.","125kg Freestyle","M","","Rio de Janeiro","Wrestling","","Men",,,,1,1
 2016,"Wrestling Free.","48kg Freestyle","W","","Rio de Janeiro","Wrestling","","Women",,,,1,1
 2016,"Wrestling Free.","53kg Freestyle","W","","Rio de Janeiro","Wrestling","","Women",,,,1,1
@@ -5140,8 +5141,8 @@
 2016,"Wrestling Free.","86kg Freestyle","M","","Rio de Janeiro","Wrestling","","Men",,,,1,1
 2016,"Wrestling Free.","97kg Freestyle","M","","Rio de Janeiro","Wrestling","","Men",,,,1,1
 2016,"Wrestling Gre-R","130kg Greco-Roman","M","","Rio de Janeiro","Wrestling","","Men",,,,1,1
-2016,"Wrestling Gre-R","59kg Greco-Roman","M","","Rio de Janeiro","Wrestling","","Men",,,,1,1
+2016,"Wrestling Gre-R","59kg Greco-Roman","M","CUB","Rio de Janeiro","Wrestling","Ismael Borrero Molina","Men","Cuba","CU","Americas",1,1
 2016,"Wrestling Gre-R","66kg Greco-Roman","M","","Rio de Janeiro","Wrestling","","Men",,,,1,1
-2016,"Wrestling Gre-R","75kg Greco-Roman","M","","Rio de Janeiro","Wrestling","","Men",,,,1,1
+2016,"Wrestling Gre-R","75kg Greco-Roman","M","RUS","Rio de Janeiro","Wrestling","Roman Vlasov","Men","Russia","RU","Europe",1,1
 2016,"Wrestling Gre-R","85kg Greco-Roman","M","","Rio de Janeiro","Wrestling","","Men",,,,1,1
 2016,"Wrestling Gre-R","98kg Greco-Roman","M","","Rio de Janeiro","Wrestling","","Men",,,,1,1
