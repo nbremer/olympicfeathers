@@ -14,7 +14,7 @@ Lilly King	United States of America	USA	Women	Aquatics	Swimming	100m Breaststrok
 Sarah Sjöström	Sweden	SWE	Women	Aquatics	Swimming	100m Butterfly	W
 Penny Oleksiak	Canada	CAN	Women	Aquatics	Swimming	100m Freestyle	W
 Simone Manuel	United States of America	USA	Women	Aquatics	Swimming	100m Freestyle	W
-			Women	Aquatics	Swimming	10km Marathon	W
+Sharon van Rouwendaal	Netherlands	NED	Women	Aquatics	Swimming	10km Marathon	W
 Maya DiRado	United States of America	USA	Women	Aquatics	Swimming	200m Backstroke	W
 	United States of America	USA	Men	Aquatics	Swimming	4x100m Medley Relay	M
 Rie Kaneto	Japan	JPN	Women	Aquatics	Swimming	200m Breaststroke	W
@@ -62,27 +62,27 @@ Usain Bolt	Jamaica	JAM	Men	Athletics	Athletics	100m	M
 			Women	Athletics	Athletics	20km Race Walk	W
 Wang Zhen	China	CHN	Men	Athletics	Athletics	20km Race Walk	M
 			Men	Athletics	Athletics	3000m Steeplechase	M
-			Women	Athletics	Athletics	3000m Steeplechase	W
+Ruth Jebet	Bahrain	BRN	Women	Athletics	Athletics	3000m Steeplechase	W
 			Women	Athletics	Athletics	4 x 100m Relay	W
 			Men	Athletics	Athletics	4 x 100m Relay	M
 			Women	Athletics	Athletics	4 x 400m Relay	W
 			Men	Athletics	Athletics	4 x 400m Relay	M
 Wayde van Niekerk 	South Afrika	RSA	Men	Athletics	Athletics	400m	M
-			Women	Athletics	Athletics	400m	W
+Shaunae Miller	Bahamas	BAH	Women	Athletics	Athletics	400m	W
 			Men	Athletics	Athletics	400m Hurdles	M
 			Women	Athletics	Athletics	400m Hurdles	W
 			Men	Athletics	Athletics	50km Race Walk	M
 			Men	Athletics	Athletics	5000m	M
 			Women	Athletics	Athletics	5000m	W
 			Women	Athletics	Athletics	800m	W
-			Men	Athletics	Athletics	800m	M
+David Lekuta Rudisha	Kenya	KEN	Men	Athletics	Athletics	800m	M
 			Men	Athletics	Athletics	Marathon	M
 			Men	Athletics	Athletics	Decathlon	M
 Christoph Harting	Germany	GER	Men	Athletics	Athletics	Discus Throw	M
 			Women	Athletics	Athletics	Discus Throw	W
 			Men	Athletics	Athletics	Hammer Throw	M
-			Women	Athletics	Athletics	Hammer Throw	W
-			Women	Athletics	Athletics	Heptathlon	W
+Anita Wlodarczyk	Poland	POL	Women	Athletics	Athletics	Hammer Throw	W
+Nafissatou Thiam	Belgium	BEL	Women	Athletics	Athletics	Heptathlon	W
 			Women	Athletics	Athletics	High Jump	W
 			Men	Athletics	Athletics	High Jump	M
 			Men	Athletics	Athletics	Javelin Throw	M
@@ -91,7 +91,7 @@ Christoph Harting	Germany	GER	Men	Athletics	Athletics	Discus Throw	M
 Jeff Henderson	United States of America	USA	Men	Athletics	Athletics	Long Jump	M
 Jemima Jelagat Sumgong	Kenya	KEN	Women	Athletics	Athletics	Marathon	W
 			Women	Athletics	Athletics	Pole Vault	W
-			Men	Athletics	Athletics	Pole Vault	M
+Thiago da Silva	Brazil	BRA	Men	Athletics	Athletics	Pole Vault	M
 Michelle Carter	United States of America	USA	Women	Athletics	Athletics	Shot Put	W
 			Men	Athletics	Athletics	Shot Put	M
 			Men	Athletics	Athletics	Triple Jump	M
@@ -107,7 +107,7 @@ Caterine Ibarguen 	Colombia	COL	Women	Athletics	Athletics	Triple Jump	W
 			Men	Boxing	Boxing	Bantam (56kg)	M
 			Women	Boxing	Boxing	Fly (51kg)	W
 			Men	Boxing	Boxing	Fly (52kg)	M
-			Men	Boxing	Boxing	Heavy (91kg)	M
+Evgeny Tishchenko	Russia	RUS	Men	Boxing	Boxing	Heavy (91kg)	M
 			Men	Boxing	Boxing	Light (60kg)	M
 			Women	Boxing	Boxing	Light 60kg	W
 Hasanboy Dusmatov	Uzbekistan	UZB	Men	Boxing	Boxing	Light Fly (49kg)	M
@@ -141,7 +141,7 @@ Greg van Avermaet	Belgium	BEL	Men	Cycling	Cycling Road	Road Race	M
 Anna van der Breggen	Netherlands	NED	Women	Cycling	Cycling Road	Road Race	W
 			Men	Cycling	Cycling Track	Keirin	M
 Elis Ligtlee	Netherlands	NED	Women	Cycling	Cycling Track	Keirin	W
-			Men	Cycling	Cycling Track	Omnium	M
+Elia Viviani	Italy	ITA	Men	Cycling	Cycling Track	Omnium	M
 			Women	Cycling	Cycling Track	Omnium	W
 			Women	Cycling	Cycling Track	Sprint	W
 Kenny Jason	Great Britain	GBR	Men	Cycling	Cycling Track	Sprint	M
@@ -151,7 +151,7 @@ Kenny Jason	Great Britain	GBR	Men	Cycling	Cycling Track	Sprint	M
 	China	CHN	Women	Cycling	Cycling Track	Team Sprint	W
 			Men	Cycling	Mountain Bike	cross-country	M
 			Women	Cycling	Mountain Bike	cross-country	W
-				Equestrian	Dressage	Individual Dressage	X
+Charlotte Dujardin	Great Britain	GBR	Women	Equestrian	Dressage	Individual Dressage	X
 	Germany	GER	Men	Equestrian	Dressage	Team Dressage	X
 	Germany	GER	Women	Equestrian	Dressage	Team Dressage	X
 				Equestrian	Jumping	Individual Jumping	X
@@ -175,7 +175,7 @@ Yana Egorian	Russia	RUS	Women	Fencing	Fencing	Individual Sabre	W
 			Women	Football	Football	football	W
 Justin Rose	Great Britain	GBR	Men	Golf	Golf	stroke-play tournament	M
 			Women	Golf	Golf	stroke-play tournament	W
-			Women	Gymnastics	Artistic G.	Balance Beam	W
+Sanne Wevers	Netherlands	NED	Women	Gymnastics	Artistic G.	Balance Beam	W
 Max Whitlock	Great Britain	GBR	Men	Gymnastics	Artistic G.	Floor	M
 			Women	Gymnastics	Artistic G.	Floor Exercise	W
 			Men	Gymnastics	Artistic G.	Horizontal Bar	M
@@ -183,11 +183,11 @@ Simone Biles	United States of America	USA	Women	Gymnastics	Artistic G.	Individua
 Kohei Uchimura	Japan	JPN	Men	Gymnastics	Artistic G.	Individual All-Around	M
 			Men	Gymnastics	Artistic G.	Parallel Bars	M
 Max Whitlock	Great Britain	GBR	Men	Gymnastics	Artistic G.	Pommel Horse	M
-			Men	Gymnastics	Artistic G.	Rings	M
+Eleftherios Petrounias	Greece	GRE	Men	Gymnastics	Artistic G.	Rings	M
 	United States of America	USA	Women	Gymnastics	Artistic G.	Team	W
 	Japan	JPN	Men	Gymnastics	Artistic G.	Team	M
 Aliya Mustafina	Russia	RUS	Women	Gymnastics	Artistic G.	uneven bars	W
-			Men	Gymnastics	Artistic G.	Vault	M
+Ri Se Gwang	North Korea	PRK	Men	Gymnastics	Artistic G.	Vault	M
 Simone Biles	United States of America	USA	Women	Gymnastics	Artistic G.	Vault	W
 Uladzislau Hancharou	Belarus	BLR	Men	Gymnastics	Trampoline	Trampoline	M
 Rosannagh MacLennan	Canada	CAN	Women	Gymnastics	Trampoline	Trampoline	W
@@ -281,7 +281,7 @@ Mónica Puig	Puerto Rico	PUR	Women	Tennis	Tennis	Singles	W
 			Men	Weightlifting	Weightlifting	+105kg	M
 Meng Suping	China	CHN	Women	Weightlifting	Weightlifting	+75kg	W
 Kianoush Rostami	Iran	IRI	Men	Weightlifting	Weightlifting	85kg	M
-			Men	Weightlifting	Weightlifting	105kg	M
+Ruslan Nurudinov	Uzbekistan	UZB	Men	Weightlifting	Weightlifting	105kg	M
 Sopita Tanasan	Thailand	THA	Women	Weightlifting	Weightlifting	48kg	W
 Shu-Ching Hsu	Chinese Taipei	TPE	Women	Weightlifting	Weightlifting	53kg	W
 Long Qingquan	China	CHN	Men	Weightlifting	Weightlifting	56kg	M
@@ -305,9 +305,9 @@ Sohrab Moradi	Iran	IRI	Men	Weightlifting	Weightlifting	94kg	M
 			Women	Wrestling	Wrestling Free.	63kg Freestyle	W
 			Women	Wrestling	Wrestling Free.	69kg Freestyle	W
 			Women	Wrestling	Wrestling Free.	75kg Freestyle	W
-			Men	Wrestling	Wrestling Gre-R	130kg Greco-Roman	M
+Mijaín López	Cuba	CUB	Men	Wrestling	Wrestling Gre-R	130kg Greco-Roman	M
 Ismael Borrero Molina	Cuba	CUB	Men	Wrestling	Wrestling Gre-R	59kg Greco-Roman	M
 			Men	Wrestling	Wrestling Gre-R	66kg Greco-Roman	M
 Roman Vlasov	Russia	RUS	Men	Wrestling	Wrestling Gre-R	75kg Greco-Roman	M
-			Men	Wrestling	Wrestling Gre-R	85kg Greco-Roman	M
+Davit Chakvetadze	Russia	RUS	Men	Wrestling	Wrestling Gre-R	85kg Greco-Roman	M
 			Men	Wrestling	Wrestling Gre-R	98kg Greco-Roman	M
