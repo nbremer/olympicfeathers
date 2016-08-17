@@ -10039,7 +10039,7 @@
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 0, "edition": 2012, "athlete": "Hwang Kyung-Seon", "country": "South Korea", "city": "London", "discipline": "Taekwondo", "eventName": "-67kg", "gender": "Women" },
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 1, "edition": 2012, "athlete": "Jingyu Wu", "country": "China", "city": "London", "discipline": "Taekwondo", "eventName": "-49kg", "gender": "Women" },
                     {"continent": "Europe", "medalCount": 1, "startMedalCount": 2, "edition": 2012, "athlete": "Jade Jones", "country": "United Kingdom", "city": "London", "discipline": "Taekwondo", "eventName": "-57kg", "gender": "Women" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 3, "edition": 2012, "athlete": "Milica Mandic", "country": "Serbia", "city": "London", "discipline": "Taekwondo", "eventName": "+67kg", "gender": "Women" }
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 3, "edition": 2012, "athlete": "Milica Mandic", "country": "Serbia and Montenegro", "city": "London", "discipline": "Taekwondo", "eventName": "+67kg", "gender": "Women" }
                   ]
               }]
           },
@@ -10694,11 +10694,11 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "Ismael Borrero Molina", "country": "Cuba", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "59kg Greco-Roman", "gender": "Men" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Mijaín López", "country": "Cuba", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "130kg Greco-Roman", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Davit Chakvetadze", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "85kg Greco-Roman", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Roman Vlasov", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "75kg Greco-Roman", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "Davor Stefanek", "country": "", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "66kg Greco-Roman", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "Davit Chakvetadze", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "85kg Greco-Roman", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Davor Stefanek", "country": "Serbia", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "66kg Greco-Roman", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Roman Vlasov", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "75kg Greco-Roman", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Ismael Borrero Molina", "country": "Cuba", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "59kg Greco-Roman", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "Mijaín López", "country": "Cuba", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "130kg Greco-Roman", "gender": "Men" },
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Artur Aleksanyan", "country": "Armenia", "city": "Rio de Janeiro", "discipline": "Wrestling Gre-R", "eventName": "98kg Greco-Roman", "gender": "Men" }
                   ]
               }]
