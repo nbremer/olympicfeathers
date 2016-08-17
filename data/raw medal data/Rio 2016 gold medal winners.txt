@@ -1,7 +1,7 @@
 Athlete	Country	NOC	Gender	Sport	Discipline	Event	Event_gender
 			Women	Aquatics	Diving	10m Platform	W
 			Men	Aquatics	Diving	10m Platform	M
-			Men	Aquatics	Diving	3m Springboard	M
+Yuan Cao	China	CHN	Men	Aquatics	Diving	3m Springboard	M
 Tingmao Shi	China	CHN	Women	Aquatics	Diving	3m Springboard	W
 	China	CHN	Women	Aquatics	Diving	Synchronised 10m Platform	W
 	China	CHN	Men	Aquatics	Diving	Synchronised 10m Platform	M
@@ -38,11 +38,11 @@ Gregorio Paltrinieri	Italy	ITA	Men	Aquatics	Swimming	1500m Freestyle	M
 Kyle Chalmers	Australia	AUS	Men	Aquatics	Swimming	100m Freestyle	M
 Joseph Schooling	Singapore	SIN	Men	Aquatics	Swimming	100m Butterfly	M
 Adam Peaty	Great Britain	GBR	Men	Aquatics	Swimming	100m Breaststroke	M
-			Men	Aquatics	Swimming	10km Marathon	M
+Ferry Weertman	Netherlands	NED	Men	Aquatics	Swimming	10km Marathon	M
 Ryan Murphy	United States of America	USA	Men	Aquatics	Swimming	100m Backstroke	M
 Pernille Blume	Denmark	DEN	Women	Aquatics	Swimming	50m Freestyle	W
 Katie Ledecky	United States of America	USA	Women	Aquatics	Swimming	800m Freestyle	W
-			Women	Aquatics	Synchronized S.	Duets	W
+	Russia	RUS	Women	Aquatics	Synchronized S.	Duets	W
 			Women	Aquatics	Synchronized S.	Teams	W
 			Women	Aquatics	Water polo	water polo	W
 Chang Hye-jin	South Korea	KOR	Women	Archery	Archery	Individual	W
@@ -54,9 +54,9 @@ Almaz Ayana	Ethiopia	ETH	Women	Athletics	Athletics	10000m	W
 Elaine Thompson	Jamaica	JAM	Women	Athletics	Athletics	100m	W
 Usain Bolt	Jamaica	JAM	Men	Athletics	Athletics	100m	M
 			Women	Athletics	Athletics	100m Hurdles	W
-			Men	Athletics	Athletics	110m Hurdles	M
+Omar McLeod	Jamaica	JAM	Men	Athletics	Athletics	110m Hurdles	M
 			Men	Athletics	Athletics	1500m	M
-			Women	Athletics	Athletics	1500m	W
+Faith Chepngetich Kipyegon	Kenya	KEN	Women	Athletics	Athletics	1500m	W
 			Women	Athletics	Athletics	200m	W
 			Men	Athletics	Athletics	200m	M
 			Women	Athletics	Athletics	20km Race Walk	W
@@ -79,12 +79,12 @@ David Lekuta Rudisha	Kenya	KEN	Men	Athletics	Athletics	800m	M
 			Men	Athletics	Athletics	Marathon	M
 			Men	Athletics	Athletics	Decathlon	M
 Christoph Harting	Germany	GER	Men	Athletics	Athletics	Discus Throw	M
-			Women	Athletics	Athletics	Discus Throw	W
+Sandra Perković	Croatia	CRO	Women	Athletics	Athletics	Discus Throw	W
 			Men	Athletics	Athletics	Hammer Throw	M
 Anita Wlodarczyk	Poland	POL	Women	Athletics	Athletics	Hammer Throw	W
 Nafissatou Thiam	Belgium	BEL	Women	Athletics	Athletics	Heptathlon	W
 			Women	Athletics	Athletics	High Jump	W
-			Men	Athletics	Athletics	High Jump	M
+Derek Drouin	Canada	CAN	Men	Athletics	Athletics	High Jump	M
 			Men	Athletics	Athletics	Javelin Throw	M
 			Women	Athletics	Athletics	Javelin Throw	W
 			Women	Athletics	Athletics	Long Jump	W
@@ -94,7 +94,7 @@ Jemima Jelagat Sumgong	Kenya	KEN	Women	Athletics	Athletics	Marathon	W
 Thiago da Silva	Brazil	BRA	Men	Athletics	Athletics	Pole Vault	M
 Michelle Carter	United States of America	USA	Women	Athletics	Athletics	Shot Put	W
 			Men	Athletics	Athletics	Shot Put	M
-			Men	Athletics	Athletics	Triple Jump	M
+Christian Taylor	United States of America	USA	Men	Athletics	Athletics	Triple Jump	M
 Caterine Ibarguen 	Colombia	COL	Women	Athletics	Athletics	Triple Jump	W
 			Men	Badminton	Badminton	Doubles	M
 			Women	Badminton	Badminton	Doubles	W
@@ -108,7 +108,7 @@ Caterine Ibarguen 	Colombia	COL	Women	Athletics	Athletics	Triple Jump	W
 			Women	Boxing	Boxing	Fly (51kg)	W
 			Men	Boxing	Boxing	Fly (52kg)	M
 Evgeny Tishchenko	Russia	RUS	Men	Boxing	Boxing	Heavy (91kg)	M
-			Men	Boxing	Boxing	Light (60kg)	M
+Robson Conceicao	Brazil	BRA	Men	Boxing	Boxing	Light (60kg)	M
 			Women	Boxing	Boxing	Light 60kg	W
 Hasanboy Dusmatov	Uzbekistan	UZB	Men	Boxing	Boxing	Light Fly (49kg)	M
 			Men	Boxing	Boxing	Light Heavy (81kg)	M
@@ -123,15 +123,15 @@ Joseph Clarke	Great Britain	GBR	Men	Canoe / Kayak	Canoe Slalom	Kayak (K1)	M
 Maialen Chourraut	Spain	ESP	Women	Canoe / Kayak	Canoe Slalom	Kayak (K1)	W
 			Men	Canoe / Kayak	Canoe Sprint	Canoe Single (C1) 200m	M
 			Men	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 200m	M
-			Women	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 200m	W
+Lisa Carrington	New Zealand	NZL	Women	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 200m	W
 			Men	Canoe / Kayak	Canoe Sprint	Kayak Double (K2) 200m	M
 			Men	Canoe / Kayak	Canoe Sprint	Canoe Double (C2) 1000m	M
-			Men	Canoe / Kayak	Canoe Sprint	Canoe Single (C1) 1000m	M
+Sebastian Brendel	Germany	GER	Men	Canoe / Kayak	Canoe Sprint	Canoe Single (C1) 1000m	M
 			Men	Canoe / Kayak	Canoe Sprint	Kayak Double (K2) 1000m	M
-			Women	Canoe / Kayak	Canoe Sprint	Kayak Double (K2) 500m	W
+	Hungary	HUN	Women	Canoe / Kayak	Canoe Sprint	Kayak Double (K2) 500m	W
 			Men	Canoe / Kayak	Canoe Sprint	Kayak Four (K4) 1000m	M
 			Women	Canoe / Kayak	Canoe Sprint	Kayak Four (K4) 500m	W
-			Men	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 1000m	M
+Marcus Walz	Spain	ESP	Men	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 1000m	M
 			Women	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 500m	W
 			Women	Cycling	BMX	BMX	W
 			Men	Cycling	BMX	BMX	M
@@ -139,11 +139,11 @@ Fabian Cancellara	Switzerland	SUI	Men	Cycling	Cycling Road	Individual Time Trial
 Kristin Armstrong	United States of America	USA	Women	Cycling	Cycling Road	Individual Time Trial	W
 Greg van Avermaet	Belgium	BEL	Men	Cycling	Cycling Road	Road Race	M
 Anna van der Breggen	Netherlands	NED	Women	Cycling	Cycling Road	Road Race	W
-			Men	Cycling	Cycling Track	Keirin	M
+Jason Kenny	Great Britain	GBR	Men	Cycling	Cycling Track	Keirin	M
 Elis Ligtlee	Netherlands	NED	Women	Cycling	Cycling Track	Keirin	W
 Elia Viviani	Italy	ITA	Men	Cycling	Cycling Track	Omnium	M
-			Women	Cycling	Cycling Track	Omnium	W
-			Women	Cycling	Cycling Track	Sprint	W
+Laura Trott	Great Britain	GBR	Women	Cycling	Cycling Track	Omnium	W
+Kristina Vogel	Germany	GER	Women	Cycling	Cycling Track	Sprint	W
 Kenny Jason	Great Britain	GBR	Men	Cycling	Cycling Track	Sprint	M
 	Great Britain	GBR	Women	Cycling	Cycling Track	Team Pursuit	W
 	Great Britain	GBR	Men	Cycling	Cycling Track	Team Pursuit	M
@@ -177,16 +177,16 @@ Justin Rose	Great Britain	GBR	Men	Golf	Golf	stroke-play tournament	M
 			Women	Golf	Golf	stroke-play tournament	W
 Sanne Wevers	Netherlands	NED	Women	Gymnastics	Artistic G.	Balance Beam	W
 Max Whitlock	Great Britain	GBR	Men	Gymnastics	Artistic G.	Floor	M
-			Women	Gymnastics	Artistic G.	Floor Exercise	W
-			Men	Gymnastics	Artistic G.	Horizontal Bar	M
+Simone Biles	United States of America	USA	Women	Gymnastics	Artistic G.	Floor Exercise	W
+Fabian Hambuechen	Germany	GER	Men	Gymnastics	Artistic G.	Horizontal Bar	M
 Simone Biles	United States of America	USA	Women	Gymnastics	Artistic G.	Individual All-Around	W
 Kohei Uchimura	Japan	JPN	Men	Gymnastics	Artistic G.	Individual All-Around	M
-			Men	Gymnastics	Artistic G.	Parallel Bars	M
+Oleg Verniaiev	Ukraine	UKR	Men	Gymnastics	Artistic G.	Parallel Bars	M
 Max Whitlock	Great Britain	GBR	Men	Gymnastics	Artistic G.	Pommel Horse	M
 Eleftherios Petrounias	Greece	GRE	Men	Gymnastics	Artistic G.	Rings	M
 	United States of America	USA	Women	Gymnastics	Artistic G.	Team	W
 	Japan	JPN	Men	Gymnastics	Artistic G.	Team	M
-Aliya Mustafina	Russia	RUS	Women	Gymnastics	Artistic G.	uneven bars	W
+Aliya Mustafina	Russia	RUS	Women	Gymnastics	Artistic G.	Uneven bars	W
 Ri Se Gwang	North Korea	PRK	Men	Gymnastics	Artistic G.	Vault	M
 Simone Biles	United States of America	USA	Women	Gymnastics	Artistic G.	Vault	W
 Uladzislau Hancharou	Belarus	BLR	Men	Gymnastics	Trampoline	Trampoline	M
@@ -231,13 +231,13 @@ Kim Crow	Australia	AUS	Women	Rowing	Rowing	Single Sculls	W
 			Women	Sailing	Sailing	470 - Two Person Dinghy	W
 			Men	Sailing	Sailing	49er - Skiff	M
 			Women	Sailing	Sailing	49erFX - Skiff	W
-			Men	Sailing	Sailing	Finn - Heavyweight Dinghy	M
-			Men	Sailing	Sailing	Laser - One Person Dinghy	M
-			Women	Sailing	Sailing	Laser Radial - One Person Dinghy	W
+Giles Scott	Great Britain	GBR	Men	Sailing	Sailing	Finn - Heavyweight Dinghy	M
+Tom Burton	Australia	AUS	Men	Sailing	Sailing	Laser - One Person Dinghy	M
+Marit Bouwmeester	Netherlands	NED	Women	Sailing	Sailing	Laser Radial - One Person Dinghy	W
 Dorian van Rijsselberghe	Netherlands	NED	Men	Sailing	Sailing	RS:X - Windsurfer	M
 Charline Picon	France	FRA	Women	Sailing	Sailing	RS:X - Windsurfer	W
-			Men	Sailing	Sailing	Nacra 17 - Multihull	X
-			Women	Sailing	Sailing	Nacra 17 - Multihull	X
+	New Zealand	NZL	Men	Sailing	Sailing	Nacra 17 - Multihull	X
+	New Zealand	NZL	Women	Sailing	Sailing	Nacra 17 - Multihull	X
 Hoang Xuan Vinh	Vietnam	VIE	Men	Shooting	Shooting	10m Air Pistol	M
 Mengxue Zhang	China	CHN	Women	Shooting	Shooting	10m Air Pistol	W
 Niccolo Campriani	Italy	ITA	Men	Shooting	Shooting	10m Air Rifle	M
@@ -256,7 +256,7 @@ Catherine Skinner	Australia	AUS	Women	Shooting	Shooting	Trap	W
 Ma Long	China	CHN	Men	Table Tennis	Table Tennis	Singles	M
 Ding Ning	China	CHN	Women	Table Tennis	Table Tennis	Singles	W
 			Men	Table Tennis	Table Tennis	Team	M
-			Women	Table Tennis	Table Tennis	Team	W
+	China	CHN	Women	Table Tennis	Table Tennis	Team	W
 			Women	Taekwondo	Taekwondo	-49kg	W
 			Women	Taekwondo	Taekwondo	-57kg	W
 			Women	Taekwondo	Taekwondo	-67kg	W
@@ -278,7 +278,7 @@ Mónica Puig	Puerto Rico	PUR	Women	Tennis	Tennis	Singles	W
 			Men	Volleyball	Volleyball	volleyball	M
 			Women	Volleyball	Volleyball	volleyball	W
 			Men	Aquatics	Water polo	water polo	M
-			Men	Weightlifting	Weightlifting	+105kg	M
+Lasha Talakhadze	Georgia	GEO	Men	Weightlifting	Weightlifting	+105kg	M
 Meng Suping	China	CHN	Women	Weightlifting	Weightlifting	+75kg	W
 Kianoush Rostami	Iran	IRI	Men	Weightlifting	Weightlifting	85kg	M
 Ruslan Nurudinov	Uzbekistan	UZB	Men	Weightlifting	Weightlifting	105kg	M
@@ -307,7 +307,7 @@ Sohrab Moradi	Iran	IRI	Men	Weightlifting	Weightlifting	94kg	M
 			Women	Wrestling	Wrestling Free.	75kg Freestyle	W
 Mijaín López	Cuba	CUB	Men	Wrestling	Wrestling Gre-R	130kg Greco-Roman	M
 Ismael Borrero Molina	Cuba	CUB	Men	Wrestling	Wrestling Gre-R	59kg Greco-Roman	M
-			Men	Wrestling	Wrestling Gre-R	66kg Greco-Roman	M
+Davor Stefanek	Serbia	SRB	Men	Wrestling	Wrestling Gre-R	66kg Greco-Roman	M
 Roman Vlasov	Russia	RUS	Men	Wrestling	Wrestling Gre-R	75kg Greco-Roman	M
 Davit Chakvetadze	Russia	RUS	Men	Wrestling	Wrestling Gre-R	85kg Greco-Roman	M
-			Men	Wrestling	Wrestling Gre-R	98kg Greco-Roman	M
+Artur Aleksanyan	Armenia	ARM	Men	Wrestling	Wrestling Gre-R	98kg Greco-Roman	M
