@@ -1,5 +1,5 @@
 Athlete	Country	NOC	Gender	Sport	Discipline	Event	Event_gender
-			Women	Aquatics	Diving	10m Platform	W
+Ren Qian	China	CHN	Women	Aquatics	Diving	10m Platform	W
 			Men	Aquatics	Diving	10m Platform	M
 Yuan Cao	China	CHN	Men	Aquatics	Diving	3m Springboard	M
 Tingmao Shi	China	CHN	Women	Aquatics	Diving	3m Springboard	W
@@ -53,15 +53,15 @@ Mohamed Farah	Great Britain	GBR	Men	Athletics	Athletics	10000m	M
 Almaz Ayana	Ethiopia	ETH	Women	Athletics	Athletics	10000m	W
 Elaine Thompson	Jamaica	JAM	Women	Athletics	Athletics	100m	W
 Usain Bolt	Jamaica	JAM	Men	Athletics	Athletics	100m	M
-			Women	Athletics	Athletics	100m Hurdles	W
+Brianna Rollins	United States of America	USA	Women	Athletics	Athletics	100m Hurdles	W
 Omar McLeod	Jamaica	JAM	Men	Athletics	Athletics	110m Hurdles	M
 			Men	Athletics	Athletics	1500m	M
 Faith Chepngetich Kipyegon	Kenya	KEN	Women	Athletics	Athletics	1500m	W
-			Women	Athletics	Athletics	200m	W
-			Men	Athletics	Athletics	200m	M
+Elaine Thompson	Jamaica	JAM	Women	Athletics	Athletics	200m	W
+Usain Bolt	Jamaica	JAM	Men	Athletics	Athletics	200m	M
 			Women	Athletics	Athletics	20km Race Walk	W
 Wang Zhen	China	CHN	Men	Athletics	Athletics	20km Race Walk	M
-			Men	Athletics	Athletics	3000m Steeplechase	M
+Conseslus Kipruto	Kenya	KEN	Men	Athletics	Athletics	3000m Steeplechase	M
 Ruth Jebet	Bahrain	BRN	Women	Athletics	Athletics	3000m Steeplechase	W
 			Women	Athletics	Athletics	4 x 100m Relay	W
 			Men	Athletics	Athletics	4 x 100m Relay	M
@@ -69,15 +69,15 @@ Ruth Jebet	Bahrain	BRN	Women	Athletics	Athletics	3000m Steeplechase	W
 			Men	Athletics	Athletics	4 x 400m Relay	M
 Wayde van Niekerk 	South Afrika	RSA	Men	Athletics	Athletics	400m	M
 Shaunae Miller	Bahamas	BAH	Women	Athletics	Athletics	400m	W
-			Men	Athletics	Athletics	400m Hurdles	M
-			Women	Athletics	Athletics	400m Hurdles	W
+Kerron Clement	United States of America	USA	Men	Athletics	Athletics	400m Hurdles	M
+Dalilah Muhammad	United States of America	USA	Women	Athletics	Athletics	400m Hurdles	W
 			Men	Athletics	Athletics	50km Race Walk	M
 			Men	Athletics	Athletics	5000m	M
 			Women	Athletics	Athletics	5000m	W
 			Women	Athletics	Athletics	800m	W
 David Lekuta Rudisha	Kenya	KEN	Men	Athletics	Athletics	800m	M
 			Men	Athletics	Athletics	Marathon	M
-			Men	Athletics	Athletics	Decathlon	M
+Ashton Eaton	United States of America	USA	Men	Athletics	Athletics	Decathlon	M
 Christoph Harting	Germany	GER	Men	Athletics	Athletics	Discus Throw	M
 Sandra Perković	Croatia	CRO	Women	Athletics	Athletics	Discus Throw	W
 			Men	Athletics	Athletics	Hammer Throw	M
@@ -86,20 +86,20 @@ Nafissatou Thiam	Belgium	BEL	Women	Athletics	Athletics	Heptathlon	W
 			Women	Athletics	Athletics	High Jump	W
 Derek Drouin	Canada	CAN	Men	Athletics	Athletics	High Jump	M
 			Men	Athletics	Athletics	Javelin Throw	M
-			Women	Athletics	Athletics	Javelin Throw	W
-			Women	Athletics	Athletics	Long Jump	W
+Sara Kolak	Croatia	CRO	Women	Athletics	Athletics	Javelin Throw	W
+Tianna Bartoletta	United States of America	USA	Women	Athletics	Athletics	Long Jump	W
 Jeff Henderson	United States of America	USA	Men	Athletics	Athletics	Long Jump	M
 Jemima Jelagat Sumgong	Kenya	KEN	Women	Athletics	Athletics	Marathon	W
 			Women	Athletics	Athletics	Pole Vault	W
 Thiago da Silva	Brazil	BRA	Men	Athletics	Athletics	Pole Vault	M
 Michelle Carter	United States of America	USA	Women	Athletics	Athletics	Shot Put	W
-			Men	Athletics	Athletics	Shot Put	M
+Ryan Crouser	United States of America	USA	Men	Athletics	Athletics	Shot Put	M
 Christian Taylor	United States of America	USA	Men	Athletics	Athletics	Triple Jump	M
 Caterine Ibarguen 	Colombia	COL	Women	Athletics	Athletics	Triple Jump	W
 			Men	Badminton	Badminton	Doubles	M
-			Women	Badminton	Badminton	Doubles	W
-			Men	Badminton	Badminton	Mixed Doubles	X
-			Women	Badminton	Badminton	Mixed Doubles	X
+	Japan	JPN	Women	Badminton	Badminton	Doubles	W
+	Indonesia	INA	Men	Badminton	Badminton	Mixed Doubles	X
+	Indonesia	INA	Women	Badminton	Badminton	Mixed Doubles	X
 			Men	Badminton	Badminton	Singles	M
 			Women	Badminton	Badminton	Singles	W
 			Men	Basketball	Basketball	basketball	M
@@ -111,28 +111,28 @@ Evgeny Tishchenko	Russia	RUS	Men	Boxing	Boxing	Heavy (91kg)	M
 Robson Conceicao	Brazil	BRA	Men	Boxing	Boxing	Light (60kg)	M
 			Women	Boxing	Boxing	Light 60kg	W
 Hasanboy Dusmatov	Uzbekistan	UZB	Men	Boxing	Boxing	Light Fly (49kg)	M
-			Men	Boxing	Boxing	Light Heavy (81kg)	M
+Julio Cesar La Cruz	Cuba	CUB	Men	Boxing	Boxing	Light Heavy (81kg)	M
 			Men	Boxing	Boxing	Light Welter (64kg)	M
 			Women	Boxing	Boxing	Middle (75kg)	W
 			Men	Boxing	Boxing	Middle (75kg)	M
 			Men	Boxing	Boxing	Super Heavy (+91kg)	M
-			Men	Boxing	Boxing	Welter (69kg)	M
+Daniyar Yeleussinov	Kazakhstan	KAZ	Men	Boxing	Boxing	Welter (69kg)	M
 	Slovakia	SVK	Men	Canoe / Kayak	Canoe Slalom	Canoe Double (C2)	M
 Denis Garguad Chanut	France	FRA	Men	Canoe / Kayak	Canoe Slalom	Canoe Single (C1)	M
 Joseph Clarke	Great Britain	GBR	Men	Canoe / Kayak	Canoe Slalom	Kayak (K1)	M
 Maialen Chourraut	Spain	ESP	Women	Canoe / Kayak	Canoe Slalom	Kayak (K1)	W
-			Men	Canoe / Kayak	Canoe Sprint	Canoe Single (C1) 200m	M
+Yuri Cheban	Ukraine	UKR	Men	Canoe / Kayak	Canoe Sprint	Canoe Single (C1) 200m	M
 			Men	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 200m	M
 Lisa Carrington	New Zealand	NZL	Women	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 200m	W
-			Men	Canoe / Kayak	Canoe Sprint	Kayak Double (K2) 200m	M
+	Spain	ESP	Men	Canoe / Kayak	Canoe Sprint	Kayak Double (K2) 200m	M
 			Men	Canoe / Kayak	Canoe Sprint	Canoe Double (C2) 1000m	M
 Sebastian Brendel	Germany	GER	Men	Canoe / Kayak	Canoe Sprint	Canoe Single (C1) 1000m	M
-			Men	Canoe / Kayak	Canoe Sprint	Kayak Double (K2) 1000m	M
+	Germany	GER	Men	Canoe / Kayak	Canoe Sprint	Kayak Double (K2) 1000m	M
 	Hungary	HUN	Women	Canoe / Kayak	Canoe Sprint	Kayak Double (K2) 500m	W
 			Men	Canoe / Kayak	Canoe Sprint	Kayak Four (K4) 1000m	M
 			Women	Canoe / Kayak	Canoe Sprint	Kayak Four (K4) 500m	W
 Marcus Walz	Spain	ESP	Men	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 1000m	M
-			Women	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 500m	W
+Danuta Kozak	Hungary	HUN	Women	Canoe / Kayak	Canoe Sprint	Kayak Single (K1) 500m	W
 			Women	Cycling	BMX	BMX	W
 			Men	Cycling	BMX	BMX	M
 Fabian Cancellara	Switzerland	SUI	Men	Cycling	Cycling Road	Individual Time Trial	M
@@ -157,8 +157,8 @@ Charlotte Dujardin	Great Britain	GBR	Women	Equestrian	Dressage	Individual Dressa
 				Equestrian	Jumping	Individual Jumping	X
 	France	FRA	Men	Equestrian	Eventing	Team Eventing	X
 Michael Jung	Germany	GER	Men	Equestrian	Eventing	Individual Eventing	X
-			Men	Equestrian	Jumping	Team Jumping	X
-			Women	Equestrian	Jumping	Team Jumping	X
+	France	FRA	Men	Equestrian	Jumping	Team Jumping	X
+	France	FRA	Women	Equestrian	Jumping	Team Jumping	X
 Park Sang-young	South Korea	KOR	Men	Fencing	Fencing	Individual Epee	M
 Emese Szasz	Hungary	HUN	Women	Fencing	Fencing	Individual Epee	W
 Daniele Garozzo	Italy	ITA	Men	Fencing	Fencing	Individual Foil	M
@@ -169,7 +169,7 @@ Yana Egorian	Russia	RUS	Women	Fencing	Fencing	Individual Sabre	W
 	Russia	RUS	Men	Fencing	Fencing	Team Foil	M
 	Russia	RUS	Women	Fencing	Fencing	Team Sabre	W
 	France	FRA	Men	Fencing	Fencing	Team Epee	M
-			Men	Hockey	Hockey	hockey	M
+	Argentina	ARG	Men	Hockey	Hockey	hockey	M
 			Women	Hockey	Hockey	hockey	W
 			Men	Football	Football	football	M
 			Women	Football	Football	football	W
@@ -227,10 +227,10 @@ Mahe Drysdale	New Zealand	NZL	Men	Rowing	Rowing	Single Sculls	M
 Kim Crow	Australia	AUS	Women	Rowing	Rowing	Single Sculls	W
 	Fiji	FIJ	Men	Rugby	Rugby Sevens	team	M
 	Australia	AUS	Women	Rugby	Rugby Sevens	team	W
-			Men	Sailing	Sailing	470 - Two Person Dinghy	M
-			Women	Sailing	Sailing	470 - Two Person Dinghy	W
-			Men	Sailing	Sailing	49er - Skiff	M
-			Women	Sailing	Sailing	49erFX - Skiff	W
+	Croatia	CRO	Men	Sailing	Sailing	470 - Two Person Dinghy	M
+	Great Britain	GBR	Women	Sailing	Sailing	470 - Two Person Dinghy	W
+	New Zealand	NZL	Men	Sailing	Sailing	49er - Skiff	M
+	Brazil	BRA	Women	Sailing	Sailing	49erFX - Skiff	W
 Giles Scott	Great Britain	GBR	Men	Sailing	Sailing	Finn - Heavyweight Dinghy	M
 Tom Burton	Australia	AUS	Men	Sailing	Sailing	Laser - One Person Dinghy	M
 Marit Bouwmeester	Netherlands	NED	Women	Sailing	Sailing	Laser Radial - One Person Dinghy	W
@@ -255,26 +255,26 @@ Josip Glasnovic	Croatia	CRO	Men	Shooting	Shooting	Trap	M
 Catherine Skinner	Australia	AUS	Women	Shooting	Shooting	Trap	W
 Ma Long	China	CHN	Men	Table Tennis	Table Tennis	Singles	M
 Ding Ning	China	CHN	Women	Table Tennis	Table Tennis	Singles	W
-			Men	Table Tennis	Table Tennis	Team	M
+	China	CHN	Men	Table Tennis	Table Tennis	Team	M
 	China	CHN	Women	Table Tennis	Table Tennis	Team	W
-			Women	Taekwondo	Taekwondo	-49kg	W
-			Women	Taekwondo	Taekwondo	-57kg	W
+Sohui Kim	South Korea	KOR	Women	Taekwondo	Taekwondo	-49kg	W
+Jade Jones	Great Britain	GBR	Women	Taekwondo	Taekwondo	-57kg	W
 			Women	Taekwondo	Taekwondo	-67kg	W
 			Women	Taekwondo	Taekwondo	+67kg	W
 			Men	Taekwondo	Taekwondo	+80kg	M
 			Men	Taekwondo	Taekwondo	-80kg	M
-			Men	Taekwondo	Taekwondo	-58kg	M
-			Men	Taekwondo	Taekwondo	-68kg	M
+Zhao Shuai	China	CHN	Men	Taekwondo	Taekwondo	-58kg	M
+Ahmad Abughaush	Jordan	JOR	Men	Taekwondo	Taekwondo	-68kg	M
 	Spain	ESP	Men	Tennis	Tennis	Doubles	M
 	Russia	RUS	Women	Tennis	Tennis	Doubles	W
 	United States of America	USA	Men	Tennis	Tennis	Mixed Doubles	X
 	United States of America	USA	Women	Tennis	Tennis	Mixed Doubles	X
 Andy Murray	Great Britain	GBR	Men	Tennis	Tennis	Singles	M
 Mónica Puig	Puerto Rico	PUR	Women	Tennis	Tennis	Singles	W
-			Men	Triathlon	Triathlon	Triathlon	M
+Alistair Brownlee	Great Britain	GBR	Men	Triathlon	Triathlon	Triathlon	M
 			Women	Triathlon	Triathlon	Triathlon	W
-			Men	Volleyball	Beach volley.	beach volleyball	M
-			Women	Volleyball	Beach volley.	beach volleyball	W
+	Brazil	BRA	Men	Volleyball	Beach volley.	beach volleyball	M
+	Germany	GER	Women	Volleyball	Beach volley.	beach volleyball	W
 			Men	Volleyball	Volleyball	volleyball	M
 			Women	Volleyball	Volleyball	volleyball	W
 			Men	Aquatics	Water polo	water polo	M
@@ -299,12 +299,12 @@ Sohrab Moradi	Iran	IRI	Men	Weightlifting	Weightlifting	94kg	M
 			Men	Wrestling	Wrestling Free.	86kg Freestyle	M
 			Men	Wrestling	Wrestling Free.	97kg Freestyle	M
 			Men	Wrestling	Wrestling Free.	125kg Freestyle	M
-			Women	Wrestling	Wrestling Free.	48kg Freestyle	W
-			Women	Wrestling	Wrestling Free.	53kg Freestyle	W
-			Women	Wrestling	Wrestling Free.	58kg Freestyle	W
-			Women	Wrestling	Wrestling Free.	63kg Freestyle	W
-			Women	Wrestling	Wrestling Free.	69kg Freestyle	W
-			Women	Wrestling	Wrestling Free.	75kg Freestyle	W
+Eri Tosaka	Japan	JPN	Women	Wrestling	Wrestling Free.	48kg Freestyle	W
+Helen Maroulis	United States of America	USA	Women	Wrestling	Wrestling Free.	53kg Freestyle	W
+Kaori Icho	Japan	JPN	Women	Wrestling	Wrestling Free.	58kg Freestyle	W
+Risako Kawai	Japan	JPN	Women	Wrestling	Wrestling Free.	63kg Freestyle	W
+Sara Dosho	Japan	JPN	Women	Wrestling	Wrestling Free.	69kg Freestyle	W
+Erica Elizabeth Wiebe	Canada	CAN	Women	Wrestling	Wrestling Free.	75kg Freestyle	W
 Mijaín López	Cuba	CUB	Men	Wrestling	Wrestling Gre-R	130kg Greco-Roman	M
 Ismael Borrero Molina	Cuba	CUB	Men	Wrestling	Wrestling Gre-R	59kg Greco-Roman	M
 Davor Stefanek	Serbia	SRB	Men	Wrestling	Wrestling Gre-R	66kg Greco-Roman	M

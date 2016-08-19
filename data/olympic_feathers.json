@@ -1976,24 +1976,24 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "1500m", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "200m", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "4 x 100m Relay", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "4 x 400m Relay", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "400m Hurdles", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "5000m", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "50km Race Walk", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Decathlon", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 8, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Hammer Throw", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 9, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Javelin Throw", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 10, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Marathon", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 11, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Shot Put", "gender": "Men" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 12, "edition": 2016, "athlete": "Christian Taylor", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Triple Jump", "gender": "Men" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 13, "edition": 2016, "athlete": "Derek Drouin", "country": "Canada", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "High Jump", "gender": "Men" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 14, "edition": 2016, "athlete": "Jeff Henderson", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Long Jump", "gender": "Men" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 15, "edition": 2016, "athlete": "Omar McLeod", "country": "Jamaica", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "110m Hurdles", "gender": "Men" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 16, "edition": 2016, "athlete": "Thiago da Silva", "country": "Brazil", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Pole Vault", "gender": "Men" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 17, "edition": 2016, "athlete": "Usain Bolt", "country": "Jamaica", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "100m", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "Ashton Eaton", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Decathlon", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Christian Taylor", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Triple Jump", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Derek Drouin", "country": "Canada", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "High Jump", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Jeff Henderson", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Long Jump", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "Kerron Clement", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "400m Hurdles", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Omar McLeod", "country": "Jamaica", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "110m Hurdles", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "Ryan Crouser", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Shot Put", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "Thiago da Silva", "country": "Brazil", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Pole Vault", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 8, "edition": 2016, "athlete": "Usain Bolt", "country": "Jamaica", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "100m", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 9, "edition": 2016, "athlete": "Usain Bolt", "country": "Jamaica", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "200m", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 10, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "1500m", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 11, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "4 x 100m Relay", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 12, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "4 x 400m Relay", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 13, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "5000m", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 14, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "50km Race Walk", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 15, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Hammer Throw", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 16, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Javelin Throw", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 17, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Marathon", "gender": "Men" },
                     {"continent": "Africa", "medalCount": 1, "startMedalCount": 18, "edition": 2016, "athlete": "Conseslus Kipruto", "country": "Kenya", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "3000m Steeplechase", "gender": "Men" },
                     {"continent": "Africa", "medalCount": 1, "startMedalCount": 19, "edition": 2016, "athlete": "David Lekuta Rudisha", "country": "Kenya", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "800m", "gender": "Men" },
                     {"continent": "Africa", "medalCount": 1, "startMedalCount": 20, "edition": 2016, "athlete": "Wayde van Niekerk ", "country": "South Africa", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "400m", "gender": "Men" },
@@ -2004,28 +2004,28 @@
               },
                { "gender": "Women",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "20km Race Walk", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "4 x 100m Relay", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "4 x 400m Relay", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "400m Hurdles", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "5000m", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "800m", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "High Jump", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Javelin Throw", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 8, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Pole Vault", "gender": "Women" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 9, "edition": 2016, "athlete": "Brianna Rollins", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "100m Hurdles", "gender": "Women" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 10, "edition": 2016, "athlete": "Caterine Ibarguen ", "country": "Colombia", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Triple Jump", "gender": "Women" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 11, "edition": 2016, "athlete": "Elaine Thompson", "country": "Jamaica", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "100m", "gender": "Women" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 12, "edition": 2016, "athlete": "Elaine Thompson", "country": "Jamaica", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "200m", "gender": "Women" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 13, "edition": 2016, "athlete": "Michelle Carter", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Shot Put", "gender": "Women" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 14, "edition": 2016, "athlete": "Shaunae Miller", "country": "Bahamas", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "400m", "gender": "Women" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 15, "edition": 2016, "athlete": "Tianna Bartoletta", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Long Jump", "gender": "Women" },
-                    {"continent": "Africa", "medalCount": 1, "startMedalCount": 16, "edition": 2016, "athlete": "Almaz Ayana", "country": "Ethiopia", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "10000m", "gender": "Women" },
-                    {"continent": "Africa", "medalCount": 1, "startMedalCount": 17, "edition": 2016, "athlete": "Faith Chepngetich Kipyegon", "country": "Kenya", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "1500m", "gender": "Women" },
-                    {"continent": "Africa", "medalCount": 1, "startMedalCount": 18, "edition": 2016, "athlete": "Jemima Jelagat Sumgong", "country": "Kenya", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Marathon", "gender": "Women" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 19, "edition": 2016, "athlete": "Anita Wlodarczyk", "country": "Poland", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Hammer Throw", "gender": "Women" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 20, "edition": 2016, "athlete": "Nafissatou Thiam", "country": "Belgium", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Heptathlon", "gender": "Women" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 21, "edition": 2016, "athlete": "Sandra Perković", "country": "Croatia", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Discus Throw", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "Brianna Rollins", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "100m Hurdles", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Caterine Ibarguen ", "country": "Colombia", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Triple Jump", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Dalilah Muhammad", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "400m Hurdles", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Elaine Thompson", "country": "Jamaica", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "100m", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "Elaine Thompson", "country": "Jamaica", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "200m", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Michelle Carter", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Shot Put", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "Shaunae Miller", "country": "Bahamas", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "400m", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "Tianna Bartoletta", "country": "United States", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Long Jump", "gender": "Women" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 8, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "20km Race Walk", "gender": "Women" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 9, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "4 x 100m Relay", "gender": "Women" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 10, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "4 x 400m Relay", "gender": "Women" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 11, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "5000m", "gender": "Women" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 12, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "800m", "gender": "Women" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 13, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "High Jump", "gender": "Women" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 14, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Pole Vault", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 15, "edition": 2016, "athlete": "Anita Wlodarczyk", "country": "Poland", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Hammer Throw", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 16, "edition": 2016, "athlete": "Nafissatou Thiam", "country": "Belgium", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Heptathlon", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 17, "edition": 2016, "athlete": "Sandra Perković", "country": "Croatia", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Discus Throw", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 18, "edition": 2016, "athlete": "Sara Kolak", "country": "Croatia", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Javelin Throw", "gender": "Women" },
+                    {"continent": "Africa", "medalCount": 1, "startMedalCount": 19, "edition": 2016, "athlete": "Almaz Ayana", "country": "Ethiopia", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "10000m", "gender": "Women" },
+                    {"continent": "Africa", "medalCount": 1, "startMedalCount": 20, "edition": 2016, "athlete": "Faith Chepngetich Kipyegon", "country": "Kenya", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "1500m", "gender": "Women" },
+                    {"continent": "Africa", "medalCount": 1, "startMedalCount": 21, "edition": 2016, "athlete": "Jemima Jelagat Sumgong", "country": "Kenya", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Marathon", "gender": "Women" },
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 22, "edition": 2016, "athlete": "Ruth Jebet", "country": "Bahrain", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "3000m Steeplechase", "gender": "Women" }
                   ]
               }]
@@ -2091,7 +2091,7 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Triathlon", "eventName": "Triathlon", "gender": "Men" }
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "Alistair Brownlee", "country": "United Kingdom", "city": "Rio de Janeiro", "discipline": "Triathlon", "eventName": "Triathlon", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
@@ -3428,8 +3428,8 @@
                  "continents": [
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "China", "city": "Rio de Janeiro", "discipline": "Diving", "eventName": "Synchronised 10m Platform", "gender": "Women" },
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "China", "city": "Rio de Janeiro", "discipline": "Diving", "eventName": "Synchronised 3m Springboard", "gender": "Women" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Tingmao Shi", "country": "China", "city": "Rio de Janeiro", "discipline": "Diving", "eventName": "3m Springboard", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Diving", "eventName": "10m Platform", "gender": "Women" }
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Ren Qian", "country": "China", "city": "Rio de Janeiro", "discipline": "Diving", "eventName": "10m Platform", "gender": "Women" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Tingmao Shi", "country": "China", "city": "Rio de Janeiro", "discipline": "Diving", "eventName": "3m Springboard", "gender": "Women" }
                   ]
               }]
           }]
@@ -3784,9 +3784,9 @@
               },
                { "gender": "Women",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Badminton", "eventName": "Doubles", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Badminton", "eventName": "Singles", "gender": "Women" },
-                    {"continent": "Asia", "medalCount": 0.5, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "Indonesia", "city": "Rio de Janeiro", "discipline": "Badminton", "eventName": "Mixed Doubles", "gender": "Women" }
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "Japan", "city": "Rio de Janeiro", "discipline": "Badminton", "eventName": "Doubles", "gender": "Women" },
+                    {"continent": "Asia", "medalCount": 0.5, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "Indonesia", "city": "Rio de Janeiro", "discipline": "Badminton", "eventName": "Mixed Doubles", "gender": "Women" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 1.5, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Badminton", "eventName": "Singles", "gender": "Women" }
                   ]
               }]
           }]
@@ -4176,7 +4176,7 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Beach volley.", "eventName": "beach volleyball", "gender": "Men" }
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "Brazil", "city": "Rio de Janeiro", "discipline": "Beach volley.", "eventName": "beach volleyball", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
@@ -5084,7 +5084,7 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Hockey", "eventName": "hockey", "gender": "Men" }
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "Argentina", "city": "Rio de Janeiro", "discipline": "Hockey", "eventName": "hockey", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
@@ -7676,8 +7676,8 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "Europe", "medalCount": 0.5, "startMedalCount": 0, "edition": 1900, "athlete": "", "country": "Germany", "city": "Paris", "discipline": "Rowing", "eventName": "four-oared shell with coxswain (4-)", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 0.5, "startMedalCount": 0.5, "edition": 1900, "athlete": "", "country": "France", "city": "Paris", "discipline": "Rowing", "eventName": "four-oared shell with coxswain (4-)", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 0.5, "startMedalCount": 0, "edition": 1900, "athlete": "", "country": "France", "city": "Paris", "discipline": "Rowing", "eventName": "four-oared shell with coxswain (4-)", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 0.5, "startMedalCount": 0.5, "edition": 1900, "athlete": "", "country": "Germany", "city": "Paris", "discipline": "Rowing", "eventName": "four-oared shell with coxswain (4-)", "gender": "Men" },
                     {"continent": "Europe", "medalCount": 1, "startMedalCount": 1, "edition": 1900, "athlete": "BARRELET, Henri", "country": "France", "city": "Paris", "discipline": "Rowing", "eventName": "single sculls (1x)", "gender": "Men" },
                     {"continent": "Americas", "medalCount": 1, "startMedalCount": 2, "edition": 1900, "athlete": "", "country": "United States", "city": "Paris", "discipline": "Rowing", "eventName": "eight with coxswain (8+)", "gender": "Men" },
                     {"continent": "Mixed", "medalCount": 1, "startMedalCount": 3, "edition": 1900, "athlete": "", "country": "Mixed team", "city": "Paris", "discipline": "Rowing", "eventName": "pair-oared shell with coxswain (2+)", "gender": "Men" }
@@ -8557,20 +8557,20 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "470 - Two Person Dinghy", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "49er - Skiff", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Dorian van Rijsselberghe", "country": "Netherlands", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "RS:X - Windsurfer", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Giles Scott", "country": "United Kingdom", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "Finn - Heavyweight Dinghy", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "Croatia", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "470 - Two Person Dinghy", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Dorian van Rijsselberghe", "country": "Netherlands", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "RS:X - Windsurfer", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Giles Scott", "country": "United Kingdom", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "Finn - Heavyweight Dinghy", "gender": "Men" },
+                    {"continent": "Oceania", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "", "country": "New Zealand", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "49er - Skiff", "gender": "Men" },
                     {"continent": "Oceania", "medalCount": 0.5, "startMedalCount": 4, "edition": 2016, "athlete": "", "country": "New Zealand", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "Nacra 17 - Multihull", "gender": "Men" },
                     {"continent": "Oceania", "medalCount": 1, "startMedalCount": 4.5, "edition": 2016, "athlete": "Tom Burton", "country": "Australia", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "Laser - One Person Dinghy", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "470 - Two Person Dinghy", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "49erFX - Skiff", "gender": "Women" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Charline Picon", "country": "France", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "RS:X - Windsurfer", "gender": "Women" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Marit Bouwmeester", "country": "Netherlands", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "Laser Radial - One Person Dinghy", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "United Kingdom", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "470 - Two Person Dinghy", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Charline Picon", "country": "France", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "RS:X - Windsurfer", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Marit Bouwmeester", "country": "Netherlands", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "Laser Radial - One Person Dinghy", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "", "country": "Brazil", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "49erFX - Skiff", "gender": "Women" },
                     {"continent": "Oceania", "medalCount": 0.5, "startMedalCount": 4, "edition": 2016, "athlete": "", "country": "New Zealand", "city": "Rio de Janeiro", "discipline": "Sailing", "eventName": "Nacra 17 - Multihull", "gender": "Women" }
                   ]
               }]
@@ -9814,21 +9814,21 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Canoe Double (C2) 1000m", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Canoe Single (C1) 200m", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Double (K2) 1000m", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Double (K2) 200m", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Four (K4) 1000m", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Joseph Clarke", "country": "United Kingdom", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Single (K1) 200m", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "Marcus Walz", "country": "Spain", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Single (K1) 1000m", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "Sebastian Brendel", "country": "Germany", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Canoe Single (C1) 1000m", "gender": "Men" }
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "Germany", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Double (K2) 1000m", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "Spain", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Double (K2) 200m", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Marcus Walz", "country": "Spain", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Single (K1) 1000m", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Sebastian Brendel", "country": "Germany", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Canoe Single (C1) 1000m", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "Yuri Cheban", "country": "Ukraine", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Canoe Single (C1) 200m", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Canoe Double (C2) 1000m", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Four (K4) 1000m", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Single (K1) 200m", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Four (K4) 500m", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Single (K1) 500m", "gender": "Women" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "Hungary", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Double (K2) 500m", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "Hungary", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Double (K2) 500m", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Danuta Kozak", "country": "Hungary", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Single (K1) 500m", "gender": "Women" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Four (K4) 500m", "gender": "Women" },
                     {"continent": "Oceania", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Lisa Carrington", "country": "New Zealand", "city": "Rio de Janeiro", "discipline": "Canoe Sprint", "eventName": "Kayak Single (K1) 200m", "gender": "Women" }
                   ]
               }]
@@ -10048,17 +10048,17 @@
                { "gender": "Men",
                  "continents": [
                     {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "+80kg", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-68kg", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-80kg", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-80kg", "gender": "Men" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Ahmad Abughaush", "country": "Jordan", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-68kg", "gender": "Men" },
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Zhao Shuai", "country": "China", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-58kg", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
                  "continents": [
                     {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "+67kg", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-57kg", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-67kg", "gender": "Women" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Sohui Kim", "country": "South Korea", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-49kg", "gender": "Women" }
+                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-67kg", "gender": "Women" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Sohui Kim", "country": "South Korea", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-49kg", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Jade Jones", "country": "United Kingdom", "city": "Rio de Janeiro", "discipline": "Taekwondo", "eventName": "-57kg", "gender": "Women" }
                   ]
               }]
           }]
@@ -11106,12 +11106,12 @@
               },
                { "gender": "Women",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "53kg Freestyle", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "63kg Freestyle", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "75kg Freestyle", "gender": "Women" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Eri Tosaka", "country": "Japan", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "48kg Freestyle", "gender": "Women" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "Kaori Icho", "country": "Japan", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "58kg Freestyle", "gender": "Women" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Sara Dosho", "country": "Japan", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "69kg Freestyle", "gender": "Women" }
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "Eri Tosaka", "country": "Japan", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "48kg Freestyle", "gender": "Women" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Kaori Icho", "country": "Japan", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "58kg Freestyle", "gender": "Women" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Risako Kawai", "country": "Japan", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "63kg Freestyle", "gender": "Women" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Sara Dosho", "country": "Japan", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "69kg Freestyle", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "Erica Elizabeth Wiebe", "country": "Canada", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "75kg Freestyle", "gender": "Women" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Helen Maroulis", "country": "United States", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "53kg Freestyle", "gender": "Women" }
                   ]
               }]
           }]
@@ -11537,13 +11537,13 @@
                  "continents": [
                     {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Bantam (56kg)", "gender": "Men" },
                     {"continent": "", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Fly (52kg)", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Heavy (81kg)", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Welter (64kg)", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Middle (75kg)", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Super Heavy (+91kg)", "gender": "Men" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "Daniyar Yeleussinov", "country": "Kazakhstan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Welter (69kg)", "gender": "Men" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "Hasanboy Dusmatov", "country": "Uzbekistan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Fly (49kg)", "gender": "Men" },
-                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 8, "edition": 2016, "athlete": "Robson Conceicao", "country": "Brazil", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light (60kg)", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Welter (64kg)", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Middle (75kg)", "gender": "Men" },
+                    {"continent": "", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Super Heavy (+91kg)", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Julio Cesar La Cruz", "country": "Cuba", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Heavy (81kg)", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "Robson Conceicao", "country": "Brazil", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light (60kg)", "gender": "Men" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "Daniyar Yeleussinov", "country": "Kazakhstan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Welter (69kg)", "gender": "Men" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 8, "edition": 2016, "athlete": "Hasanboy Dusmatov", "country": "Uzbekistan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Fly (49kg)", "gender": "Men" },
                     {"continent": "Europe", "medalCount": 1, "startMedalCount": 9, "edition": 2016, "athlete": "Evgeny Tishchenko", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Heavy (91kg)", "gender": "Men" }
                   ]
               },
