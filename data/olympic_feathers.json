@@ -149,7 +149,7 @@
              "genders": [
                { "gender": "Women",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Rhythmic G.", "eventName": "group competition", "gender": "Women" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Rhythmic G.", "eventName": "group competition", "gender": "Women" },
                     {"continent": "Europe", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Margarita Mamun", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Rhythmic G.", "eventName": "individual all-round", "gender": "Women" }
                   ]
               }]
@@ -1996,10 +1996,10 @@
                     {"continent": "Europe", "medalCount": 1, "startMedalCount": 17, "edition": 2016, "athlete": "Thomas Rohler", "country": "Germany", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Javelin Throw", "gender": "Men" },
                     {"continent": "Africa", "medalCount": 1, "startMedalCount": 18, "edition": 2016, "athlete": "Conseslus Kipruto", "country": "Kenya", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "3000m Steeplechase", "gender": "Men" },
                     {"continent": "Africa", "medalCount": 1, "startMedalCount": 19, "edition": 2016, "athlete": "David Lekuta Rudisha", "country": "Kenya", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "800m", "gender": "Men" },
-                    {"continent": "Africa", "medalCount": 1, "startMedalCount": 20, "edition": 2016, "athlete": "Wayde van Niekerk ", "country": "South Africa", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "400m", "gender": "Men" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 21, "edition": 2016, "athlete": "Dilshod Nazarov", "country": "Tajikistan", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Hammer Throw", "gender": "Men" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 22, "edition": 2016, "athlete": "Wang Zhen", "country": "China", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "20km Race Walk", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 23, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Marathon", "gender": "Men" }
+                    {"continent": "Africa", "medalCount": 1, "startMedalCount": 20, "edition": 2016, "athlete": "Eliud Kipchoge", "country": "Kenya", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Marathon", "gender": "Men" },
+                    {"continent": "Africa", "medalCount": 1, "startMedalCount": 21, "edition": 2016, "athlete": "Wayde van Niekerk ", "country": "South Africa", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "400m", "gender": "Men" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 22, "edition": 2016, "athlete": "Dilshod Nazarov", "country": "Tajikistan", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "Hammer Throw", "gender": "Men" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 23, "edition": 2016, "athlete": "Wang Zhen", "country": "China", "city": "Rio de Janeiro", "discipline": "Athletics", "eventName": "20km Race Walk", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
@@ -2267,7 +2267,7 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Mountain Bike", "eventName": "cross-country", "gender": "Men" }
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "Nino Schurter", "country": "Switzerland", "city": "Rio de Janeiro", "discipline": "Mountain Bike", "eventName": "cross-country", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
@@ -4093,7 +4093,7 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Volleyball", "eventName": "volleyball", "gender": "Men" }
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "Brazil", "city": "Rio de Janeiro", "discipline": "Volleyball", "eventName": "volleyball", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
@@ -4388,7 +4388,7 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Basketball", "eventName": "basketball", "gender": "Men" }
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "United States", "city": "Rio de Janeiro", "discipline": "Basketball", "eventName": "basketball", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
@@ -4552,7 +4552,7 @@
              "genders": [
                { "gender": "Men",
                  "continents": [
-                    {"continent": "", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Handball", "eventName": "handball", "gender": "Men" }
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "", "country": "Denmark", "city": "Rio de Janeiro", "discipline": "Handball", "eventName": "handball", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
@@ -11100,9 +11100,9 @@
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "Hassan Aliazam Yazdanicharati", "country": "Iran", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "74kg Freestyle", "gender": "Men" },
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Taha Akgul", "country": "Turkey", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "125kg Freestyle", "gender": "Men" },
                     {"continent": "Asia", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Vladimer Khinchegashvili ", "country": "Georgia", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "57kg Freestyle", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "65kg Freestyle", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "97kg Freestyle", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Abdulrashid Sadulaev", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "86kg Freestyle", "gender": "Men" }
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Abdulrashid Sadulaev", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "86kg Freestyle", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "Soslan Ramonov", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "65kg Freestyle", "gender": "Men" },
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Kyle Snyder", "country": "United States", "city": "Rio de Janeiro", "discipline": "Wrestling Free.", "eventName": "97kg Freestyle", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
@@ -11540,19 +11540,19 @@
                     {"continent": "Americas", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Julio Cesar La Cruz", "country": "Cuba", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Heavy (81kg)", "gender": "Men" },
                     {"continent": "Americas", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Robeisy Ramirez", "country": "Cuba", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Bantam (56kg)", "gender": "Men" },
                     {"continent": "Americas", "medalCount": 1, "startMedalCount": 3, "edition": 2016, "athlete": "Robson Conceicao", "country": "Brazil", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light (60kg)", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Fly (52kg)", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Welter (64kg)", "gender": "Men" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Super Heavy (+91kg)", "gender": "Men" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "Daniyar Yeleussinov", "country": "Kazakhstan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Welter (69kg)", "gender": "Men" },
-                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 8, "edition": 2016, "athlete": "Hasanboy Dusmatov", "country": "Uzbekistan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Fly (49kg)", "gender": "Men" },
-                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 9, "edition": 2016, "athlete": "Evgeny Tishchenko", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Heavy (91kg)", "gender": "Men" }
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 4, "edition": 2016, "athlete": "Daniyar Yeleussinov", "country": "Kazakhstan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Welter (69kg)", "gender": "Men" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 5, "edition": 2016, "athlete": "Fazliddin Gaibnazarov", "country": "Uzbekistan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Welter (64kg)", "gender": "Men" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 6, "edition": 2016, "athlete": "Hasanboy Dusmatov", "country": "Uzbekistan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light Fly (49kg)", "gender": "Men" },
+                    {"continent": "Asia", "medalCount": 1, "startMedalCount": 7, "edition": 2016, "athlete": "Shakhobidin Zoirov", "country": "Uzbekistan", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Fly (52kg)", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 8, "edition": 2016, "athlete": "Evgeny Tishchenko", "country": "Russia", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Heavy (91kg)", "gender": "Men" },
+                    {"continent": "Europe", "medalCount": 1, "startMedalCount": 9, "edition": 2016, "athlete": "Tony Victor James Yoka", "country": "France", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Super Heavy (+91kg)", "gender": "Men" }
                   ]
               },
                { "gender": "Women",
                  "continents": [
                     {"continent": "Europe", "medalCount": 1, "startMedalCount": 0, "edition": 2016, "athlete": "Estelle Mossely", "country": "France", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Light 60kg", "gender": "Women" },
                     {"continent": "Europe", "medalCount": 1, "startMedalCount": 1, "edition": 2016, "athlete": "Nicola Adams", "country": "United Kingdom", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Fly (51kg)", "gender": "Women" },
-                    {"continent": "", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "", "country": "", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Middle (75kg)", "gender": "Women" }
+                    {"continent": "Americas", "medalCount": 1, "startMedalCount": 2, "edition": 2016, "athlete": "Claressa Shields", "country": "United States", "city": "Rio de Janeiro", "discipline": "Boxing", "eventName": "Middle (75kg)", "gender": "Women" }
                   ]
               }]
           }]
