@@ -35,8 +35,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 	var svg = d3.select("#olympic-chart").append("svg")
 	    .attr("width", width + margin.left + margin.right)
 	    .attr("height", height + margin.top + margin.bottom)
-	    .on("click", function() {
-	    	if (d3.event.defaultPrevented) return;
+	    .on("mouseover", function() {
 	    	hideTooltipEdition();
 	    	hideTooltip();
 	    })
@@ -283,6 +282,8 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 	    		.endAngle( cityEndAngle )(d);
 		})
 		.on("mouseover",function(d) {
+			d3.event.stopPropagation();
+			
 			//Highlight the medals of the hovered over edition
 			d3.selectAll(".edition")
 				.style("opacity", function(m) {
@@ -431,6 +432,8 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
     	.attr("d", arc)
 		.style("stroke-width", 2*chartScale)
     	.on("mouseover", function(d) { 
+			d3.event.stopPropagation();
+			
 			//Highlight the hovered over medal
 			//Append it on top so it lies over all the axis lines
 			d3.select(this.parentNode.parentNode.parentNode).append("path")
