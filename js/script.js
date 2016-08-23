@@ -284,7 +284,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 		})
 		.on("mouseover",function(d) {
 			//Highlight the medals of the hovered over edition
-			d3.selectAll(".medal")
+			d3.selectAll(".edition")
 				.style("opacity", function(m) {
 					return m.edition === d.edition ? 1 : 0.15;
 				});
@@ -304,7 +304,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 		})
 		.on("mouseout",function(d) {
 			//Make all medals the same
-			d3.selectAll(".medal")
+			d3.selectAll(".edition")
 				.style("opacity", 1);
 
 			//Hide the year arc
