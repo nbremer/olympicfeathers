@@ -35,8 +35,59 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 	var svg = d3.select("#olympic-chart").append("svg")
 	    .attr("width", width + margin.left + margin.right)
 	    .attr("height", height + margin.top + margin.bottom)
+	    .on("click", function() {
+	    	if (d3.event.defaultPrevented) return;
+	    	hideTooltipEdition();
+	    	hideTooltip();
+	    })
 	    .append("g")
 	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	////////////////////////////////////////////////////////////
+	//////////////////////// Editions //////////////////////////
+	////////////////////////////////////////////////////////////
+
+	var olympicEditions = [
+	    {"edition": 1896, "city": "Athens", "cityContinent": "Europe"},
+	    {"edition": 1900, "city": "Paris", "cityContinent": "Europe"},
+	    {"edition": 1904, "city": "St. Louis", "cityContinent": "Americas"},
+	    {"edition": 1908, "city": "London", "cityContinent": "Europe"},
+	    {"edition": 1912, "city": "Stockholm", "cityContinent": "Europe"},
+	    {"edition": 1916, "city": "none", "cityContinent": "none"},
+	    {"edition": 1920, "city": "Antwerp", "cityContinent": "Europe"},
+	    {"edition": 1924, "city": "Paris", "cityContinent": "Europe"},
+	    {"edition": 1928, "city": "Amsterdam", "cityContinent": "Europe"},
+	    {"edition": 1932, "city": "Los Angeles", "cityContinent": "Americas"},
+	    {"edition": 1936, "city": "Berlin", "cityContinent": "Europe"},
+	    {"edition": 1940, "city": "none", "cityContinent": "none"},
+	    {"edition": 1944, "city": "none", "cityContinent": "none"},
+	    {"edition": 1948, "city": "London", "cityContinent": "Europe"},
+	    {"edition": 1952, "city": "Helsinki", "cityContinent": "Europe"},
+	    {"edition": 1956, "city": "Melbourne", "cityContinent": "Oceania"},
+	    {"edition": 1960, "city": "Rome", "cityContinent": "Europe"},
+	    {"edition": 1964, "city": "Tokyo", "cityContinent": "Asia"},
+	    {"edition": 1968, "city": "Mexico City", "cityContinent": "Americas"},
+	    {"edition": 1972, "city": "Munich", "cityContinent": "Europe"},
+	    {"edition": 1976, "city": "Montreal", "cityContinent": "Americas"},
+	    {"edition": 1980, "city": "Moscow", "cityContinent": "Europe"},
+	    {"edition": 1984, "city": "Los Angeles", "cityContinent": "Americas"},
+	    {"edition": 1988, "city": "Seoul", "cityContinent": "Asia"},
+	    {"edition": 1992, "city": "Barcelona", "cityContinent": "Europe"},
+	    {"edition": 1996, "city": "Atlanta", "cityContinent": "Americas"},
+	    {"edition": 2000, "city": "Sydney", "cityContinent": "Oceania"},
+	    {"edition": 2004, "city": "Athens", "cityContinent": "Europe"},
+	    {"edition": 2008, "city": "Beijing", "cityContinent": "Asia"},
+	    {"edition": 2012, "city": "London", "cityContinent": "Europe"},
+	    {"edition": 2016, "city": "Rio de Janeiro", "cityContinent": "Americas"}
+	];
+
+	var tickEditions = [
+	    {"edition": 1916, "city": "none", "cityContinent": "none"},
+	    {"edition": 1936, "city": "Berlin", "cityContinent": "Europe"},
+	    {"edition": 1956, "city": "Melbourne / Stockholm", "cityContinent": "Oceania"},
+	    {"edition": 1976, "city": "Montreal", "cityContinent": "Americas"},
+	    {"edition": 1996, "city": "Atlanta", "cityContinent": "Americas"}
+	];
 
 	////////////////////////////////////////////////////////////
 	//////////////////// Colors & Scales ///////////////////////
@@ -62,6 +113,10 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
     var timeScale = d3.scaleLinear()
     	.domain([startYear, endYear])
     	.range([innerRadius, outerRadius]);
+
+	var dotScale = d3.scaleSqrt()
+		.domain([startYear, endYear])
+		.range([0.4,1]);
 
 	////////////////////////////////////////////////////////////
 	///////////////////////// Gradients ////////////////////////
@@ -206,6 +261,65 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 		});
 
 	////////////////////////////////////////////////////////////
+	//////////////////// Create city arcs //////////////////////
+	////////////////////////////////////////////////////////////
+
+	var cityArcs = tails.append("g")
+		.attr("class", "city-arcs")
+		.attr("transform", function(d,i) { return "rotate(" + -d.circleRotation + ")"; });
+
+	cityArcs.selectAll(".city-arc")
+		.data(olympicEditions)
+		.enter().append("path")
+		.attr("class", "city-arc")
+		.attr("d", function(d) {
+			var cityStartAngle = -(this.parentNode.__data__.circleRotation - 180) * Math.PI/180 + Math.PI; 
+			var cityEndAngle = (this.parentNode.__data__.circleRotation - 180) * Math.PI/180 + Math.PI; 
+
+			return d3.arc()
+	    		.outerRadius(function(d) { return timeScale(d.edition) + arcHeight; })
+	    		.innerRadius(function(d) { return timeScale(d.edition); })
+	    		.startAngle( cityStartAngle )
+	    		.endAngle( cityEndAngle )(d);
+		})
+		.on("mouseover",function(d) {
+			//Highlight the medals of the hovered over edition
+			d3.selectAll(".medal")
+				.style("opacity", function(m) {
+					return m.edition === d.edition ? 1 : 0.15;
+				});
+
+			//Make the arc a bit more apperant
+			d3.selectAll(".city-arc")
+				.style("opacity", function(m) {
+					return m.edition === d.edition ? 0.75 : 0;
+				});
+			//d3.select(this).style("opacity", 0.5);
+
+			//Hide gender arcs a bit
+			d3.selectAll(".gender-arc")
+				.style("opacity", 0.5);
+
+			showTooltipEdition(d, color); 
+		})
+		.on("mouseout",function(d) {
+			//Make all medals the same
+			d3.selectAll(".medal")
+				.style("opacity", 1);
+
+			//Hide the year arc
+			//d3.select(this).style("opacity", null);
+			d3.selectAll(".city-arc")
+				.style("opacity", null);
+
+			//Gender gradients back to normal
+			d3.selectAll(".gender-arc")
+				.style("opacity", null);
+
+			hideTooltipEdition();
+		});
+
+	////////////////////////////////////////////////////////////
 	//////////////////// Create time axes //////////////////////
 	////////////////////////////////////////////////////////////
 
@@ -248,14 +362,14 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 
 	//Create the small years within the axis
 	timeAxes.selectAll(".time-axis-small-year")
-		.data(groupYears)
+		.data(tickEditions)
 		.enter().append("text")
 		.attr("class", "time-axis-small-year")
 		.attr("x", 0)
-		.attr("y", function(d) { return timeScale(d) + arcHeight/2; })
+		.attr("y", function(d) { return timeScale(d.edition) + arcHeight/2; })
 		.attr("dy", "0.35em")
 		.style("font-size", 8*chartScale + "px")
-		.text(function(d) { return d; });
+		.text(function(d) { return d.edition; });
 
 	////////////////////////////////////////////////////////////
 	///////////////////// Create feathers //////////////////////
@@ -307,10 +421,10 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 		.attr("class", function(d,i) { return "gender " + d.gender; });
 
 	//Finally append the paths
-	genders.selectAll(".continent")
+	var medalArcs = genders.selectAll(".medal")
     	.data(function(d) { return d.continents; })
     	.enter().append("path")
-    	.attr("class", function(d,i) { return "continent " + d.continent; })
+    	.attr("class", function(d,i) { return "medal " + d.continent; })
     	.style("fill", function(d) { 
     		return d.continent === "Mixed" ? "url(#mixed-gradient-" + d.edition + ")" : color(d.continent); 
     	})
@@ -342,6 +456,17 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 			//Hide the tooltip
 			hideTooltip()
 		});
+
+    //Add Olympic record circles
+	var olympicRecords = genders.selectAll(".record")
+    	.data(function(d) { return d.continents.filter(function(r) { return r.OR !== ""; }) ; })
+    	.enter().append("circle")
+    	.attr("class", function(d,i) { return "record " + d.ORtype + "-record"; })
+    	.style("fill", function(d) { return "white"; })
+    	.attr("cx", function(d) { return arc.centroid(d)[0]; })
+    	.attr("cy", function(d) { return arc.centroid(d)[1]; })
+    	.attr("r", function(d) { return dotScale(d.edition) * arcHeight/2*0.8; })
+    	.style("pointer-events", "none");
 
 	////////////////////////////////////////////////////////////
 	//////////////////// Append Grid Lines /////////////////////
@@ -399,7 +524,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 });//d3.csv
 
 ////////////////////////////////////////////////////////////
-///////////////////// Extra functions //////////////////////
+////////////////////// Medal tooltips //////////////////////
 ////////////////////////////////////////////////////////////
 
 //Show the tooltip on hover
@@ -427,6 +552,21 @@ function showTooltip(d, color) {
 	}//else
 	d3.select("#tooltip-athlete").text(athlete);
 
+	//Set record
+	if(d.OR !== "") {
+		if(d.ORtype === "OR") { var ORtype = "Olympic record"; }
+		else if(d.ORtype === "OB") { var ORtype = "Olympic best"; }
+		else if(d.ORtype === "WR") { var ORtype = "Word record"; }
+		var record = ORtype + " - " + d.OR;
+		d3.select("#tooltip-record")
+			.style("display", null)
+			.style("margin-bottom", athlete === "" ? null : "5px")
+			.text(record);
+	} else {
+		d3.select("#tooltip-record")
+			.style("display", "none");
+	}//else
+
 	//Set country
 	if( d.country === "") {
 		var country = "";
@@ -440,7 +580,8 @@ function showTooltip(d, color) {
 		.text(country);
 
 	//Set edition
-	d3.select("#tooltip-edition").text(d.city + " - " + d.edition);
+	d3.select("#tooltip-edition")
+		.html('<span><span style="color: ' + color(d.cityContinent) + ';">' + d.city + "</span> - " + d.edition + "</span>");
 
 	//Set the tooltip in the right location and have it appear
 	d3.select("#tooltip")
@@ -456,6 +597,58 @@ function hideTooltip() {
 		.transition().duration(100)
 		.style("opacity", 0);	
 }//hideTooltip
+
+////////////////////////////////////////////////////////////
+//////////////////// Edition tooltips //////////////////////
+////////////////////////////////////////////////////////////
+
+function showTooltipEdition(d, color) {
+		
+	//Find location of mouse on page
+	var xpos =  d3.event.pageX - 10;
+	var ypos =  d3.event.pageY + 80;
+
+	//Set the title and discipline
+	d3.select("#tooltip-edition-wrapper #tooltip-edition-edition").text(d.edition);
+	
+	//Set city and continent
+	if(d.city === "none" && d.edition === 1916) {
+		var city = "No Olympics - WW I";
+		var continent = "-";
+		var contColor = "#d2d2d2";
+	} else if (d.city === "none") {
+		var city = "No Olympics - WW II";
+		var continent = "-";
+		var contColor = "#d2d2d2";
+	} else {
+		var city = d.city;
+		var continent = d.cityContinent;
+		var contColor = color(continent);
+	}//else
+
+	d3.select("#tooltip-edition-wrapper #tooltip-edition-city").text(city);
+	d3.select("#tooltip-edition-wrapper #tooltip-edition-continent")
+		.style("color", contColor)
+		.text(continent);
+
+	//Set the tooltip in the right location and have it appear
+	d3.select("#tooltip-edition-wrapper")
+		.style("top", ypos + "px")
+		.style("left", xpos + "px")
+		.transition().duration(0)
+		.style("opacity", 1);
+}//showTooltipEdition
+
+//Hide the tooltip
+function hideTooltipEdition() {		
+	d3.select("#tooltip-edition-wrapper")
+		.transition().duration(100)
+		.style("opacity", 0);	
+}//hideTooltipEdition
+
+////////////////////////////////////////////////////////////
+///////////////////// Extra functions //////////////////////
+////////////////////////////////////////////////////////////
 
 //Replaces spaces, - and & for use in classes
 function removeSpace(str) {

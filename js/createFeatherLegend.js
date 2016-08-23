@@ -15,7 +15,7 @@ function createFeatherLegend(innerRadius, outerRadius, arcHeight, medalDegree, s
     	.domain([startYear, endYear])
     	.range([innerRadius, outerRadius]);
 
-	var margin = {top: 40, right: 10, bottom: 50, left: 10},
+	var margin = {top: 40, right: 10, bottom: 80, left: 10},
 		legendW = outerRadius * 1.35,
 		legendH = 2 * (timeScale(2028) * Math.sin(legendWidth * medalDegree * Math.PI/180)); 
 
@@ -40,7 +40,7 @@ function createFeatherLegend(innerRadius, outerRadius, arcHeight, medalDegree, s
     		//Towards the left for women and right for men
     		var isMen = this.parentNode.__data__ === "Men"; 
     		var sign = isMen ? 1 : -1;
-    		var numMedals = isMen ? 1 : Math.round( Math.random() * (legendWidth-2) );
+    		var numMedals = isMen ? 1 : Math.ceil( Math.random() * (legendWidth-2) );
     		return sign * numMedals * medalDegree * Math.PI/180;
     	});
 
@@ -102,6 +102,34 @@ function createFeatherLegend(innerRadius, outerRadius, arcHeight, medalDegree, s
     	.attr("class", "continent")
     	.style("fill", function(d) { return arcColors[ Math.floor( Math.random() * arcColors.length) ]; })
     	.attr("d", legendArc);
+
+	////////////////////////////////////////////////////////////
+	////////////// Create an Olympic Record dot ////////////////
+	////////////////////////////////////////////////////////////
+
+	var olympicRecord = svgLegend.append("g").attr("class", "olympic-record-wrapper");
+	var legendRecordYear = 1964;
+
+	olympicRecord.append("circle")
+		.attr("class", "record")
+		.style("fill", function(d) { return "white"; })
+    	.attr("cx", (timeScale(legendRecordYear) + arcHeight/2) * Math.cos( -medalDegree/2 * Math.PI/180 ) )
+    	.attr("cy", (timeScale(legendRecordYear) + arcHeight/2) * Math.sin( -medalDegree/2 * Math.PI/180 ) )
+    	.attr("r", arcHeight/2*0.7 );
+
+    olympicRecord.append("line")
+    	.attr("class", "record-legend-line")
+    	.attr("x1", timeScale(legendRecordYear) + arcHeight/2)
+    	.attr("y1", -12)
+    	.attr("x2", timeScale(legendRecordYear) + arcHeight/2)
+    	.attr("y2", -65);
+
+    olympicRecord.append("text")
+    	.attr("class", "record-legend-text")
+    	.attr("y", -57)
+    	.attr("x", timeScale(legendRecordYear) + arcHeight/2 - 3)
+    	.text("Olympic / World record")
+
 
 	////////////////////////////////////////////////////////////
 	/////////////// Create axes inside feather /////////////////

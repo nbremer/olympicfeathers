@@ -42,7 +42,7 @@
 				<div id="olympic-introduction">
 				<p class="bold-start">More than 5000 Olympic events have had a winner, rewarded with a gold medal from 1904 onwards, in the Summer Olympics since the first games of 1896. Investigate the visuals below to see how each of these medals has been won in the 56 different sporting disciplines that have competed at the games, of which 41 are still held at Rio 2016.</p>
 				<p>Most of the Olympic sports started out being a men only event. Thankfully this started to change during the 2nd half of the last century. Even the number of medals that can be won for one discipline is slowly becoming the same for both genders. Today at Rio there are 3 disciplines left in which only one gender can compete; the Greco-Roman wrestling, already at the games since the very first edition, is done solely by men. Rhythmic gymnastics & synchronized swimming on the other hand, both at the Olympics since 1984, are only performed by women.</p>
-				<p>Although Rio could have been celebrating the 31st Olympic Games, 3 editions have been cancelled, due to WW I in 1916 and WW II in 1940 & 1944. And yes, Tug of war has truly been part of 5 Olympic Games, from 1900 to 1920. Hover over the medals to see the winning athlete or team and find your own interesting stories.</p>
+				<p>Although Rio could have been celebrating the 31st Olympic Games, 3 editions have been canceled, due to WW I in 1916 and WW II in 1940 & 1944. And yes, Tug of war has truly been part of 5 Olympic Games, from 1900 to 1920. Hover over the medals to see the winning athlete or team or hover over the time-line in the bottom of each circle to find your own interesting stories.</p>
 				<p class="visual-note">Instead of a medal being represented by a specific width, in these visuals 1 medal always has the same arc length. This makes sure that the more recent the edition of the games, the more emphasis it gets due to the increasing size of the ring.</p>
 				</div>
 			</div>
@@ -59,8 +59,9 @@
 					<p class="bold-start">Each circle represents a grouping of several different (but approximately) similar themed sports, such as water or ball sports. Within a circle we find slices. Let's call each slice a feather to make it easier to distinguish as a whole. Each feather represents one discipline.</p>
 					<p>A feather is split up into 31 sections, radiating outward. Starting from the first Olympic Games in 1896 at the center to the current Olympic Games in Rio in 2016 at the other end. Each discipline is twice as wide as the maximum number of medals that could ever be won during one edition for a gender (men and women get the same width).</p>
 					<p>The next split is by gender. For the example feather to the right, the small bars going upward on the light red background are gold medals won by women. The bars going towards the bottom, with the light blue background are gold medals won by men.</p>
-					<p>All the medals have the same arc length and you can see in the bottom (men) section of the example feather to the right how wide 1 medal is for each edition of the Olympics (for medals won by a men&woman team each gender gets 0.5 medal assigned). The bars are colored according to the continent in which the country of the winning athlete or team lies.</p>
-					<p>Finally, for each Olympic edition and gender, the bars are stacked from the continent that won the most medals to the continent that won the least.</p>
+					<p>All the medals have the same arc length and you can see in the bottom (men) section of the example feather to the right how wide 1 medal is for each edition of the Olympics. For medals won by a men & woman team or two gold medals in the same event each person gets 0.5 medal assigned. The medal bars are colored according to the continent in which the country of the winning athlete or team lies. Furthermore, for each edition and gender, the bars are stacked from the continent that won the most medals to the least.</p>
+					<p>Finally, some sport disciplines have Olympic records, such as athletics and swimming. As an extra level of detail, the events in which the gold medalist reached a currently standing Olympic record (after Rio 2016) are marked with a white dot. You can see the record when you hover over the medal.</p>
+					<p></p>
 				</div>
 			</div>
 			<div id="olympic-legend-visual-wrapper">
@@ -71,7 +72,7 @@
 			
 			<!-- Credits & Data -->
 			<div id="credits">
-				<div class="credit-bold">Design concept with pen & (digital) paper, data wrangling in R, & coding with d3.v4.js by <a href="https://twitter.com/NadiehBremer">Nadieh Bremer</a> <span class="credit-divider">|</span> <a href="http://www.visualcinnamon.com/">VisualCinnamon.com</a></div>			<div class="credit-note">With valuable design advice from Jeroen de Lange <span class="credit-divider">|</span> Read all about the raw data, data preparation and preproccesing for the visualization <a href="https://github.com/nbremer/olympicfeathers/tree/gh-pages/data">here</a></div>
+				<div class="credit-bold">Design concept with pen & (digital) paper, data wrangling in R, & coding with d3.v4.js by <a href="https://twitter.com/NadiehBremer">Nadieh Bremer</a> <span class="credit-divider">|</span> <a href="http://www.visualcinnamon.com/">VisualCinnamon.com</a></div>			<div class="credit-note">With valuable design advice from Jeroen de Lange <span class="credit-divider">|</span> Read all about the raw data, data preparation and preprocessing for the visualization <a href="https://github.com/nbremer/olympicfeathers/tree/gh-pages/data">here</a></div>
 			</div>
 
 		</div>
@@ -84,8 +85,18 @@
 				<div class="tooltip-discipline"></div>
 				
 				<div id="tooltip-athlete"></div>
+				<div id="tooltip-record"></div>
 				<div id="tooltip-country"></div>
 				<div id="tooltip-edition"></div>
+			</div>
+		</div>
+
+		<!-- Tooltip - Edition -->
+		<div id="tooltip-edition-wrapper">
+			<div id="tooltip-edition-container">				
+				<div id="tooltip-edition-edition"></div>
+				<div id="tooltip-edition-city"></div>
+				<div id="tooltip-edition-continent"></div>
 			</div>
 		</div>
 		
