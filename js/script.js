@@ -553,7 +553,7 @@ function showTooltip(d, color) {
 	d3.select("#tooltip-athlete").text(athlete);
 
 	//Set record
-	if(d.OR !== "") {
+	if(d.OR !== "" && typeof d.OR !== "undefined") {
 		if(d.ORtype === "OR") { var ORtype = "Olympic record"; }
 		else if(d.ORtype === "OB") { var ORtype = "Olympic best"; }
 		else if(d.ORtype === "WR") { var ORtype = "Word record"; }
