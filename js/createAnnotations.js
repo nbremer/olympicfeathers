@@ -370,7 +370,7 @@ function createAnnotations(annotationGroup, timeScale, color, circleLocations, c
 		.style("text-anchor", "end")
 		.style("font-size", fontsizeText + "px")
 		.text("Henry Pearce stopped halfway through his quarter-final race to give way to a family of ducks passing in " + 
-			  "front of his boat in 1928. Nevertheless, Pearch magaged to win gold in the end.")
+			  "front of his boat in 1928. Nevertheless, Pearce magaged to win gold in the end.")
 		.call(wrap, 175*chartScaleFont, lineHeight);
 
 	////////////////////////////////////////////////////////////
