@@ -1,33 +1,33 @@
-#Data collection
+# Data collection
 Before I even started searching online I already had an idea in my head about the data that I wanted to play with this month; all medal winners since the very first Olympic Games in 1896. Thankfully the Guardian had created exactly [this dataset](https://www.theguardian.com/sport/datablog/2012/jun/25/olympic-medal-winner-list-data) right before the 2012 Olympics in London, because there wasn't any other place that had the data as nicely structured as the one from the Guardian (The Olympic site itself is quite a hassle where you have to select the edition, sport and event before you see any results).
 Then I "only" needed to add the results for 2012 and create a dummy start for all of the events at 2016 that I could then start filling in while the games are being held. Again the Guardian helped out by supplying [a dataset](https://www.theguardian.com/sport/datablog/2012/aug/10/olympics-2012-list-medal-winners) with all of the medallists from 2012.
 
-##Raw data preparation
+## Raw data preparation
 
-####Missing medals in the 2012 dataset
+### Missing medals in the 2012 dataset
 Thinking I had two nice datasets I started by combining them. I decided to make 2 choices to downsize the data to something more manageable; only look at the gold medal winners, and for teams (such as basketball) to lose the separate team members' names. In essence to make it unique on each Olympic edition - sporting discipline - gender - event - winner. While working through the 2012 dataset I started to notice that it did not contain all the medal winners, many team games such as hockey were missing, but also many diving medals weren't in there. These descrepancies forced me to check each and every of the 41 disciplines to see if my dataset contained the same number of medals as the number of events held at London (I used the [wiki page](https://en.wikipedia.org/wiki/List_of_2012_Summer_Olympics_medal_winners)). Due to the number of missing medals, I decided to strip the Guardian data down to the gold medal winners and add missing athlete names / teams and countries, not focusing on the silver or bronze medals. 
 
-####Checking the 1896 - 2008 dataset
+### Checking the 1896 - 2008 dataset
 This heavy discrepancy made me worry quite a bit about that other dataset that I took from the Guardian, the one with all medallists between 1896 and 2008. I therefore aggregated the dataset to see how many unique gold medals it contained and in how many unique sports and disciplines these were won per edition. I then went through [the wiki pages on each Olympic edition](https://en.wikipedia.org/wiki/2012_Summer_Olympics#Sports) to see if the numbers matched those from my file. Of course this wasn't always the case, but there was a good reason to be found for each. In several years the names of horses were included in the file, for example. And in some events no gold medal was rewarded due to differing circumstances. Happy that it appeared that I had a winner for each event since 1896 in my file I went on to the next step. (You can see these results in the file [extra data/Number of events per Olympic game.xlsx](extra\ data/Number\ of\ events per\ Olympic\ game.xlsx))
 
-####Preparing a 2016 medal file
+### Preparing a 2016 medal file
 Using the events from 2012 and a very useful [site from the Olympics](https://www.olympic.org/news/discover-the-changes-in-the-sports-programme-for-rio) that outlined the differences between the 2012 and 2016 Olympics I could prepare a file for 2016. That way I could take all of the eventual medals into account, even though for 2016 I didn't know who won them. I then started filling in the 2016 winners at the start of each day manually, took about 15 minutes per day and I mostly relied on these two websites: [Guardian](http://www.theguardian.com/sport/ng-interactive/2016/aug/05/rio-olympics-2016-full-events-schedule) & [Yahoo Sports](http://sports.yahoo.com/photos/2016-rio-gold-medal-winners-174324246/).
 
-####Medal value
+### Medal value
 Although most events are contested by one gender, there are a few events in which both can compete. This can either happen as a couple/team, in tennis doubles for example. But in dressage the individual events there is one winner, but this can be a man or a women. In this last instance I assigned the medal to the winning gender. However in the double instances that wasn't an option. I therefore split the medal in half and counted a half towards each gender.
 
-####Olympic Records
+### Olympic Records
 After the Rio 2016 had ended I wanted to try and add one more level of data to the visual; the current Olympic Records (or even World Records). I thought it would be interesting to see which records have been standing for quite some Olympic Games and which were beaten in Rio. Again, here I missed one important aspect, that records can be achieved in heats prior to the medal event and thus also by other people than the eventual gold medal winner. In the end I decided that I would only show the records when they were achieved by the gold medalist. I couldn't find one nice overview of all the Olympic record holders, so I found my way to subsets of records from various sources, such as the [Wiki pages](https://en.wikipedia.org/wiki/Olympic_record) and a very useful overview from [CBC Canada](http://olympics.cbc.ca/sports/). This did mean that I had to manually add these records to the data. But that was only about 2-3 hours of work, so not too bad. BTW, I did have some trouble getting my head around the archery and shooting records. For these I tried to find even more pages that showed the records to compare for consistency. Especially the shooting records seem to have gone through some rule changes so I only recorded the records set in the newest system and from the finals only. Practically all records in athletics and swimming are set by the gold medalists, but in rowing and archery this was less often the case.
 
 
-##Visualization data preparation
+## Visualization data preparation
 
-####Mapping to continents
+### Mapping to continents
 In R there's a useful package called [countrycode](https://github.com/vincentarelbundock/countrycode) that can convert between ISO codes and regions / continents. Most people think of the 5 colors in the Olympic symbol as 5 continents, so it made sense to recode all of the NOC (Olympic) country codes to ISO codes and on to continents. A handful of countries that no longer exist had to be manually mapped to their current counterpart (note, I only really needed a correct continent for the colors, not exact country).
 
-####Data grouping
+### Data grouping
 With 56 different disciplines and thousands of medals I knew that I could never fit it in one circle. With the Olympic symbol 5 circles seemed the next logical choice. I looked up the maximum number of medals that were ever won for one gender for each discipline. This would tell me how wide each discipline would have to get. I could then combine the sporting disciplines in such a way to get the same number of "maximum medals" in each ring.
 This turned out to be quite a challenge, but eventually the grouping became something alongthe lines of: athletics & gymnastics, shooting & horse, wrestling & fighting, cycling & ball sports & water sports. I did have to move diving and synchronized swimming to the cycling & ball sports because it was just too much for the water ring. 
 
-####Nesting the data
+### Nesting the data
 Due to the set-up of the chart I created a very specific json from R, trying to do as many calculations in R and not in JavaScript (because I find it much much easier and straightforward to do in R). Nesting the data first on the 5 groups while figuring out how far each ring should be rotated to have the opening for the time axis right down center. Next the disciplines and how many degrees after the previous discipline it should be rotated. Within each discipline we get the editions (the years) radiating outward. The two genders then each make up a radial stacked bar. And then finally, within this nest we get the medals themselves. For this last step I also precalculated the order of each medal and where along the arc it should start.
