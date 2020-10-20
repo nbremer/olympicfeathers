@@ -1,28 +1,50 @@
 <!DOCTYPE html>
 	<head>
-	    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    	<meta name="viewport" content="user-scalable = yes">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="user-scalable = yes">
 
-		<!-- Open Graph data -->
-		<meta property="og:title" content="Olympic Feathers" />
-		<meta property="og:type" content="article" />
-		<meta property="og:url" content="https://nbremer.github.io/olympicfeathers/" />
-		<meta property="og:description" content="Olympics Feathers - All ±5000 gold medallists visualized" />
+        <title>Olympic Feathers</title>
+        <meta name="author" content="Nadieh Bremer - Visual Cinnamon">
+        <meta name="title" content="Olympic Feathers">
+        <meta name="description" content="Visualizing all ±5000 gold medallists since the first Olympic Games in 1896">
+        <meta name="keywords" content="data, visualization, visualisation, data visualization, data visualisation, information, information visualization, information visualisation, dataviz, datavis, infoviz, infovis, collaboration, data art">
+        <meta name="theme-color" content="#17a554">
+        
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+        
+        <!-- Social media -->
+        <meta property="og:title" content="Olympic Feathers">
+        <meta property="og:site_name" content="Olympic Feathers">
+        <meta property="og:url" content="https://olympicfeathers.visualcinnamon.com">
+        <meta property="og:description" content="Visualizing all ±5000 gold medallists since the first Olympic Games in 1896">
+        <meta property="og:type" content="article">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:image" content="https://olympicfeathers.visualcinnamon.com/img/olympicfeathers_feature.png">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="800">
+        
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@NadiehBremer">
+        <meta name="twitter:creator" content="@NadiehBremer">
+        <meta name="twitter:title" content="Olympic Feathers">
+        <meta name="twitter:description" content="Visualizing all ±5000 gold medallists since the first Olympic Games in 1896">
+        <meta name="twitter:image:src" content="https://olympicfeathers.visualcinnamon.com/img/olympicfeathers_feature.png">
 
-		<title>Olympic Feathers</title>
-		<meta name="author" content="Nadieh Bremer">
-		<meta name="description" content="Olympics Feathers - All ±5000 gold medallists visualized">
-		<meta name="keywords" content="data, visualization, visualisation, data visualization, data visualisation, information, information visualization, information visualisation, dataviz, datavis, infoviz, infovis, collaboration, data art">
-		
 		<!-- Google fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500" rel="stylesheet">
 
 		<!-- Styling -->
 		<link href="css/style.css" rel="stylesheet">
 		
-		<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
-		<script src="js/d3.v4.min.js"></script>
+		<!-- JS -->
+        <script src="plugins/d3.min.js"></script>
+        <!-- Custom Scripts -->
 		<script src="js/createOtherSportsChart.js"></script>
 		<script src="js/createAnnotations.js"></script>
 		<script src="js/createFeatherLegend.js"></script>
@@ -72,7 +94,8 @@
 			
 			<!-- Credits & Data -->
 			<div id="credits">
-				<div class="credit-bold">Design concept with pen & (digital) paper, data wrangling in R, & coding with d3.v4.js by <a href="https://twitter.com/NadiehBremer">Nadieh Bremer</a> <span class="credit-divider">|</span> <a href="http://www.visualcinnamon.com/">VisualCinnamon.com</a></div>			<div class="credit-note">With valuable design advice from Jeroen de Lange <span class="credit-divider">|</span> Read all about the raw data, data preparation and preprocessing for the visualization <a href="https://github.com/nbremer/olympicfeathers/tree/gh-pages/data">here</a></div>
+				<div class="credit-bold">Design concept with pen & (digital) paper, data wrangling in R, & coding with d3.js by <a href="https://twitter.com/NadiehBremer">Nadieh Bremer</a> <span class="credit-divider">|</span> <a href="https://www.visualcinnamon.com/">VisualCinnamon.com</a></div>
+				<div class="credit-note">With valuable design advice from Jeroen de Lange <span class="credit-divider">|</span> Read all about the data preparation and creation of the visualization <a href="http://www.datasketch.es/august">here</a></div>
 			</div>
 
 		</div>
@@ -100,7 +123,6 @@
 			</div>
 		</div>
 		
-		<script src="js/script.js"></script>
-		
+        <script src="js/script.js"></script>
 	</body>
 </html>

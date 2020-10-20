@@ -433,7 +433,6 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 		.style("stroke-width", 2*chartScale)
     	.on("mouseover", function(d) { 
 			d3.event.stopPropagation();
-			
 			//Highlight the hovered over medal
 			//Append it on top so it lies over all the axis lines
 			d3.select(this.parentNode.parentNode.parentNode).append("path")
@@ -482,7 +481,7 @@ d3.json('data/olympic_feathers_min.json', function (error, data) {
 		.attr("y2", -timeScale(endYear) - arcHeight)
 		.style("stroke-width", 2*chartScale);
 
-	//Create small rings to siginify 20 years
+	//Create small rings to signify 20 years
 	feathers.selectAll(".year-outline")
 		.data(groupYears)
 		.enter().append("path")

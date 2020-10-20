@@ -67,8 +67,8 @@ function createAnnotations(annotationGroup, timeScale, color, circleLocations, c
 		.attr("y", boycottLength + annotationTitlePadding)
 		.attr("dy", "1em")
 		.style("font-size", fontsizeText + "px")
-		.text("The boycott of the Sovjet Union and 15 other nations in the Los Angleles 1984 games is most notable in Gymnastics, " + 
-			  "which was dominated by the Sovjet Union during those years. Japan and China took the place of Russia in winning most of the women's events. " +
+		.text("The boycott of the Soviet Union and 15 other nations in the Los Angeles 1984 games is most notable in Gymnastics, " + 
+			  "which was dominated by the Soviet Union during those years. Japan and China took the place of Russia in winning most of the women's events. " +
 			  "This was not the only boycott that happened during the Olympics' history.")
 		.call(wrap, 200*chartScaleFont, lineHeight);
 
@@ -238,7 +238,7 @@ function createAnnotations(annotationGroup, timeScale, color, circleLocations, c
 		.attr("dy", "1em")
 		.style("font-size", fontsizeText + "px")
 		.text("Wrestling is the last Olympic sport where the athletes still need to have an amateur " + 
-			  "status, for the safety of the participants. Boxing also required an amateur status until, Rio 2016.")
+			  "status for the safety of the participants. Boxing also required an amateur status until Rio 2016.")
 		.call(wrap, 200*chartScaleFont, lineHeight);
 
 	////////////////////////////////////////////////////////////
@@ -370,7 +370,7 @@ function createAnnotations(annotationGroup, timeScale, color, circleLocations, c
 		.style("text-anchor", "end")
 		.style("font-size", fontsizeText + "px")
 		.text("Henry Pearce stopped halfway through his quarter-final race to give way to a family of ducks passing in " + 
-			  "front of his boat in 1928. Nevertheless, Pearce magaged to win gold in the end.")
+			  "front of his boat in 1928. Nevertheless, Pearce managed to win gold in the end.")
 		.call(wrap, 175*chartScaleFont, lineHeight);
 
 	////////////////////////////////////////////////////////////
@@ -415,7 +415,7 @@ function createAnnotations(annotationGroup, timeScale, color, circleLocations, c
 		.style("text-anchor", "end")
 		.style("font-size", fontsizeText + "px")
 		.text("Michael Phelps' first gold medal was won in the 400-meter individual medley in Athens, 2004. " + 
-			  "Out of the 16 men's swimming events during those games, Phelp's took home 6 gold medals, of which 4 from individual races.")
+			  "Out of the 16 men's swimming events during those games, Phelps took home 6 gold medals, with 4 from individual races.")
 		.call(wrap, 185*chartScaleFont, lineHeight);
 
 }//createAnnotations
